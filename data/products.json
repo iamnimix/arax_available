@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmvrway5w",
+   "name": "دورس یقه سفید california",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1898000,
+   "stock": 2,
+   "material": "دورس سه نخ پنبه خارخورده",
+   "colors": "7",
+   "pack": "7",
+   "desc": "سایزبندی : فری سایز(۳۸ تا ۴۴)",
+   "images": [
+    "images/products/pmvrway5w-in68yn.jpg",
+    "images/products/pmvrway5w-7w6c89.jpg",
+    "images/products/pmvrway5w-r9grf5.jpg",
+    "images/products/pmvrway5w-c0dv4y.jpg",
+    "images/products/pmvrway5w-00kzs2.jpg",
+    "images/products/pmvrway5w-4kqfam.jpg",
+    "images/products/pmvrway5w-8jmhiu.jpg"
+   ],
+   "updated": "2026-10-28T09:11:59.217Z"
+  },
+  {
    "id": "pmvrw8w1w",
    "name": "دورس باکسی چاپی",
    "category": "دورس و هودی",
