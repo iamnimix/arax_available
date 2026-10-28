@@ -12,6 +12,24 @@
  ],
  "products": [
   {
+   "id": "pmvrv9f81",
+   "name": "ترنچ کت رادانو کلاهدار",
+   "category": "بامبر و ترنچ کت",
+   "price": 2588000,
+   "stock": 2,
+   "material": "کتان زارا آستر دار درجه یک",
+   "colors": "4",
+   "pack": "4",
+   "desc": "سایز: فری سایز ۳۶ تا ۴۶\nقد کار ۵۵",
+   "images": [
+    "images/products/pmvrv9f81-9p7z7r.jpg",
+    "images/products/pmvrv9f81-wsma1t.jpg",
+    "images/products/pmvrv9f81-ev8lxl.jpg",
+    "images/products/pmvrv9f81-18uwj3.jpg"
+   ],
+   "updated": "2026-10-28T08:42:44.515Z"
+  },
+  {
    "id": "pmvrv5d6l",
    "name": "اورکت هوگو",
    "category": "محصولات جین",
