@@ -7,6 +7,24 @@
  ],
  "products": [
   {
+   "id": "pmvrtv862",
+   "name": "وست جین نوژا",
+   "category": "محصولات جین",
+   "price": 1950000,
+   "stock": 3,
+   "material": "جین شست رفته",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvrtv862-qq2x4u.jpg",
+    "images/products/pmvrtv862-zhlocl.jpg",
+    "images/products/pmvrtv862-2ix269.jpg",
+    "images/products/pmvrtv862-q5mite.jpg"
+   ],
+   "updated": "2026-10-28T08:03:43.953Z"
+  },
+  {
    "id": "pmvrsnau7",
    "name": "کت جین پارمیلا",
    "category": "محصولات جین",
