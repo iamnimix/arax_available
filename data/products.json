@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvrwe6lb",
+   "name": "ترنچ کت ستاره",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 2898000,
+   "stock": 2,
+   "material": "جین براش درجه ۱",
+   "colors": "1",
+   "pack": "4",
+   "desc": "سایز: فری‌سایز (۳۶ تا ۴4)\nقد ۷۵",
+   "images": [
+    "images/products/pmvrwe6lb-qy858r.jpg",
+    "images/products/pmvrwe6lb-0rhl7f.jpg",
+    "images/products/pmvrwe6lb-2zqa7d.jpg",
+    "images/products/pmvrwe6lb-6wbspj.jpg"
+   ],
+   "updated": "2026-10-28T09:14:26.056Z"
+  },
+  {
    "id": "pmvrwcyos",
    "name": "بامبر جکت کژال",
    "category": "بامبر و ترنچ کت",
