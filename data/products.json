@@ -14,6 +14,31 @@
  ],
  "products": [
   {
+   "id": "pmvrx1lon",
+   "name": "بافت اکریل خشتی🔶",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1150000,
+   "stock": 2,
+   "material": "اکریل اعلا",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز: فری‌سایز (۳۶ تا ۴۴)",
+   "images": [
+    "images/products/pmvrx1lon-5a6py0.jpg",
+    "images/products/pmvrx1lon-4zyybm.jpg",
+    "images/products/pmvrx1lon-0qkx2q.jpg",
+    "images/products/pmvrx1lon-lbjzvh.jpg",
+    "images/products/pmvrx1lon-sy9k0y.jpg",
+    "images/products/pmvrx1lon-jlsuis.jpg",
+    "images/products/pmvrx1lon-2y00gj.jpg",
+    "images/products/pmvrx1lon-rcjxgz.jpg",
+    "images/products/pmvrx1lon-4p2xs8.jpg",
+    "images/products/pmvrx1lon-sgrdje.jpg"
+   ],
+   "updated": "2026-10-28T09:32:50.088Z"
+  },
+  {
    "id": "pmvrwnrmx",
    "name": "کت جین بایکر",
    "category": "محصولات جین",
