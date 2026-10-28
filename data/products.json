@@ -12,6 +12,21 @@
  ],
  "products": [
   {
+   "id": "pmvrvdsdf",
+   "name": "دورس تک RED LABLE",
+   "category": "دورس و هودی",
+   "price": 1998000,
+   "stock": 2,
+   "material": "دورس پنبه سه نخ سفارشی مغزی دوزی شده",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز: فری‌سایز (۳۸ تا ۴۴)\nقد کار ۶۰",
+   "images": [
+    "images/products/pmvrvdsdf-vr6z0b.jpg"
+   ],
+   "updated": "2026-10-28T08:46:03.133Z"
+  },
+  {
    "id": "pmvrv9f81",
    "name": "ترنچ کت رادانو کلاهدار",
    "category": "بامبر و ترنچ کت",
