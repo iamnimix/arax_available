@@ -10,6 +10,24 @@
  ],
  "products": [
   {
+   "id": "pmvruszu8",
+   "name": "ست سوییشرت شلوار آلبالو",
+   "category": "محصولات ست",
+   "price": 1998000,
+   "stock": 3,
+   "material": "دورس داخل کرک اسپان با کیفیت",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmvruszu8-krtaqj.jpg",
+    "images/products/pmvruszu8-q266x4.jpg",
+    "images/products/pmvruszu8-gvt6aw.jpg",
+    "images/products/pmvruszu8-upo7cp.jpg"
+   ],
+   "updated": "2026-10-28T08:30:03.479Z"
+  },
+  {
    "id": "pmvruiadk",
    "name": "جاگر دو کاره پنبه ۲ نخ",
    "category": "محصولات شلوار",
