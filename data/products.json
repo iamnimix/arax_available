@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvrwgwcq",
+   "name": "دورس پنبه بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1050000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه سفارشی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز:فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvrwgwcq-gmctxl.jpg",
+    "images/products/pmvrwgwcq-r6bxnr.jpg",
+    "images/products/pmvrwgwcq-sdmpmx.jpg",
+    "images/products/pmvrwgwcq-y0ehsy.jpg"
+   ],
+   "updated": "2026-10-28T09:16:32.440Z"
+  },
+  {
    "id": "pmvrwe6lb",
    "name": "ترنچ کت ستاره",
    "category": "محصولات جین",
