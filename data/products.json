@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvrywsl7",
+   "name": "ست دورس شلوار پلو",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 3250000,
+   "stock": 2,
+   "material": "دورس سه نخ پنبه",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvrywsl7-qd6p3e.jpg",
+    "images/products/pmvrywsl7-r334ri.jpg",
+    "images/products/pmvrywsl7-b3z8gn.jpg",
+    "images/products/pmvrywsl7-tow3jn.jpg"
+   ],
+   "updated": "2026-10-28T10:24:54.116Z"
+  },
+  {
    "id": "pmvryugzn",
    "name": "ست بامبر شلوار بگ زارا",
    "category": "محصولات ست",
