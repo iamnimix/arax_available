@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvrxiz2r",
+   "name": "بافت ترند راه راه",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1150000,
+   "stock": 1,
+   "material": "آکریل",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "سایزبندی : فری سایز(۳۶ تا ۴۴)",
+   "images": [
+    "images/products/pmvrxiz2r-2whwc9.jpg",
+    "images/products/pmvrxiz2r-plh2vx.jpg",
+    "images/products/pmvrxiz2r-o9trka.jpg",
+    "images/products/pmvrxiz2r-6ybs4x.jpg"
+   ],
+   "updated": "2026-10-28T09:46:09.966Z"
+  },
+  {
    "id": "pmvrxejyj",
    "name": "جاگر دو کاره",
    "category": "محصولات شلوار",
