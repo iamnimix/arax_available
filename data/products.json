@@ -11,6 +11,24 @@
  ],
  "products": [
   {
+   "id": "pmvrv1d5t",
+   "name": "دورس چاپ پفکی ستاره",
+   "category": "دورس و هودی",
+   "price": 1098000,
+   "stock": 2,
+   "material": "دورس سه نخ پنبه",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز: فری سایز ۳۶ تا ۴۶\nقد کار ۶۵\nدورسینه ۱۱۴",
+   "images": [
+    "images/products/pmvrv1d5t-9qhi53.jpg",
+    "images/products/pmvrv1d5t-vwb5jy.jpg",
+    "images/products/pmvrv1d5t-quhtqp.jpg",
+    "images/products/pmvrv1d5t-6a882m.jpg"
+   ],
+   "updated": "2026-10-28T08:36:27.876Z"
+  },
+  {
    "id": "pmvruwcjf",
    "name": "دورس چاپی",
    "category": "دورس و هودی",
