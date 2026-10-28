@@ -13,6 +13,24 @@
  ],
  "products": [
   {
+   "id": "pmvrvn10x",
+   "name": "جاگر دوکمر CK",
+   "category": "محصولات شلوار",
+   "price": 1198000,
+   "stock": 2,
+   "material": "دورس اسپان داخل کرک",
+   "colors": "۵",
+   "pack": "۴",
+   "desc": "سایز: فری سایز ۳۶ تا ۴۶\n\n📌 بسته : ۵ عددی ۴ رنگ \nمشکی دوبل",
+   "images": [
+    "images/products/pmvrvn10x-9l680f.jpg",
+    "images/products/pmvrvn10x-ft61b9.jpg",
+    "images/products/pmvrvn10x-zdkb0e.jpg",
+    "images/products/pmvrvn10x-w0i991.jpg"
+   ],
+   "updated": "2026-10-28T08:53:18.695Z"
+  },
+  {
    "id": "pmvrvj4t8",
    "name": "ست دورس یقه دار و‌ شلوار بگ",
    "category": "محصولات ست",
