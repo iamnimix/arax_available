@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvrwcyos",
+   "name": "بامبر جکت کژال",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "price": 2980000,
+   "stock": 2,
+   "material": "فوتر کش  داخل کار آستر کار شده   🧶دگمه زاماک ترک     🧶 جیب کاربردی",
+   "colors": "5",
+   "pack": "4",
+   "desc": "سایز:فری سایز ۳۸ تا ۴۴\n\n📌 بسته :۵ عددی ۴ رنگ\nسورمه ایی ، قهوه ایی ، استخوانی ، مشکی دوبل",
+   "images": [
+    "images/products/pmvrwcyos-lvruh4.jpg",
+    "images/products/pmvrwcyos-jfp7lx.jpg"
+   ],
+   "updated": "2026-10-28T09:13:25.247Z"
+  },
+  {
    "id": "pmvrway5w",
    "name": "دورس یقه سفید california",
    "category": "دورس و هودی",
