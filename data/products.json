@@ -9,6 +9,24 @@
  ],
  "products": [
   {
+   "id": "pmvruiadk",
+   "name": "جاگر دو کاره پنبه ۲ نخ",
+   "category": "محصولات شلوار",
+   "price": 1250000,
+   "stock": 0,
+   "material": "دورس دو نخ پنبه",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvruiadk-e9lu03.jpg",
+    "images/products/pmvruiadk-flx9j4.jpg",
+    "images/products/pmvruiadk-sjlitj.jpg",
+    "images/products/pmvruiadk-43u5un.jpg"
+   ],
+   "updated": "2026-10-28T08:21:46.605Z"
+  },
+  {
    "id": "pmvru5kzh",
    "name": "کت جین دکمه صدفی",
    "category": "محصولات جین",
