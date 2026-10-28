@@ -2,7 +2,9 @@
  "settings": {
   "gc": "arax"
  },
- "categories": [],
+ "categories": [
+  "محصولات جین"
+ ],
  "products": [
   {
    "id": "pmvrsnau7",
