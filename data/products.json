@@ -11,6 +11,22 @@
  ],
  "products": [
   {
+   "id": "pmvrv5d6l",
+   "name": "اورکت هوگو",
+   "category": "محصولات جین",
+   "price": 2198000,
+   "stock": 2,
+   "material": "جین براش درجه یک",
+   "colors": "6",
+   "pack": "1",
+   "desc": "سایز: فری سایز ۳۶ تا ۴۶\nقد کار ۱۲۵",
+   "images": [
+    "images/products/pmvrv5d6l-b0o29a.jpg",
+    "images/products/pmvrv5d6l-c3015s.jpg"
+   ],
+   "updated": "2026-10-28T08:39:31.135Z"
+  },
+  {
    "id": "pmvrv3hrp",
    "name": "دورس رینگی",
    "category": "دورس و هودی",
