@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmvrwjgkm",
+   "name": "دورس پنبه چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1080000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه سفارشی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "هر طرح ۶ رنگبندی قابل سفارش\nسایز:فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvrwjgkm-m1tubs.jpg",
+    "images/products/pmvrwjgkm-ycmkwz.jpg",
+    "images/products/pmvrwjgkm-o7aho6.jpg",
+    "images/products/pmvrwjgkm-8g3x28.jpg",
+    "images/products/pmvrwjgkm-fuzsle.jpg",
+    "images/products/pmvrwjgkm-w2xu5u.jpg"
+   ],
+   "updated": "2026-10-28T09:18:35.519Z"
+  },
+  {
    "id": "pmvrwgwcq",
    "name": "دورس پنبه بیسیک",
    "category": "دورس و هودی",
