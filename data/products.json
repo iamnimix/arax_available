@@ -11,6 +11,24 @@
  ],
  "products": [
   {
+   "id": "pmvruwcjf",
+   "name": "دورس چاپی",
+   "category": "دورس و هودی",
+   "price": 1098000,
+   "stock": 2,
+   "material": "دورس سه نخ پنبه",
+   "colors": "۵",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmvruwcjf-5b8mp3.jpg",
+    "images/products/pmvruwcjf-7v1pki.jpg",
+    "images/products/pmvruwcjf-uhjgcg.jpg",
+    "images/products/pmvruwcjf-hfouws.jpg"
+   ],
+   "updated": "2026-10-28T08:32:35.984Z"
+  },
+  {
    "id": "pmvruszu8",
    "name": "ست سوییشرت شلوار آلبالو",
    "category": "محصولات ست",
