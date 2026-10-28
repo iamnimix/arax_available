@@ -11,6 +11,21 @@
  ],
  "products": [
   {
+   "id": "pmvrv3hrp",
+   "name": "دورس رینگی",
+   "category": "دورس و هودی",
+   "price": 850000,
+   "stock": 2,
+   "material": "دورس دو نخ پنبه",
+   "colors": "8",
+   "pack": "8",
+   "desc": "سایز: فری سایز ۳۶ تا ۴۶\nقد کار ۶۵\nدورسینه ۱۱۰",
+   "images": [
+    "images/products/pmvrv3hrp-e3nwkq.jpg"
+   ],
+   "updated": "2026-10-28T08:38:02.574Z"
+  },
+  {
    "id": "pmvrv1d5t",
    "name": "دورس چاپ پفکی ستاره",
    "category": "دورس و هودی",
