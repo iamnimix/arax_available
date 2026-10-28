@@ -14,6 +14,29 @@
  ],
  "products": [
   {
+   "id": "pmvrxan8u",
+   "name": "ست وست و جاگر",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 2598000,
+   "stock": 2,
+   "material": "دورس اسپان داخل کرک",
+   "colors": "4",
+   "pack": "4",
+   "desc": "سایز: فری‌سایز  ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvrxan8u-3brlhd.jpg",
+    "images/products/pmvrxan8u-6fu0pr.jpg",
+    "images/products/pmvrxan8u-1uiana.jpg",
+    "images/products/pmvrxan8u-ope94v.jpg",
+    "images/products/pmvrxan8u-lv5d3p.jpg",
+    "images/products/pmvrxan8u-9rwb40.jpg",
+    "images/products/pmvrxan8u-28rdr8.jpg",
+    "images/products/pmvrxan8u-000h1c.jpg"
+   ],
+   "updated": "2026-10-28T09:39:47.346Z"
+  },
+  {
    "id": "pmvrx8i4y",
    "name": "جکت جین کایا",
    "category": "محصولات جین",
