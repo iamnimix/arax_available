@@ -133,6 +133,7 @@ function openForm(p){
   say('#fmsg','');drawSlots();$('#fm').classList.add('on');
 }
 $('#newBtn').onclick=()=>openForm(null);
+$('#multiBtn').onclick=()=>$('#file').click();
 $('#search').oninput=renderList;
 $('#fclose').onclick=()=>$('#fm').classList.remove('on');
 function drawSlots(){
@@ -150,10 +151,11 @@ $('#slots').onclick=e=>{
 };
 $('#file').onchange=async e=>{
   const files=[...e.target.files];e.target.value='';
-  for(const f of files){
-    if(imgs.length>=10){say('#fmsg','حداکثر ۱۰ عکس مجاز است',true);break}
-    try{imgs.push({dataUrl:await shrink(f)});drawSlots()}catch(err){say('#fmsg',err.message,true)}
-  }
+  const room=10-imgs.length;
+  if(files.length>room)say('#fmsg',`فقط ${room} عکس دیگر جا دارد؛ بقیه نادیده گرفته شد`,true);
+  const res=await Promise.allSettled(files.slice(0,room).map(f=>shrink(f)));
+  res.forEach(r=>{if(r.status==='fulfilled')imgs.push({dataUrl:r.value})});
+  drawSlots();
 };
 function shrink(file,max=1200){
   return new Promise((res,rej)=>{

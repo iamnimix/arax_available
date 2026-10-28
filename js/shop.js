@@ -31,7 +31,7 @@ function render(){
   $('#empty').classList.toggle('hide',list.length>0);
   $('#grid').innerHTML=list.map(p=>`
     <div class="card" data-id="${esc(p.id)}">
-      <span class="tag ${p.stock>0?'':'out'}">${p.stock>0?'موجود':'ناموجود'}</span>
+      ${p.pinned?'<span class="pinbadge">📌 ویژه</span>':''}<span class="tag ${p.stock>0?'':'out'}">${p.stock>0?'موجود':'ناموجود'}</span>
       <div class="im" style="background-image:url('${esc(p.images?.[0]||'')}')"></div>
       <div class="in"><h3>${esc(p.name)}</h3><div class="price">${fa(p.price)} تومان</div></div>
       <button class="more">جزئیات</button>
@@ -45,7 +45,7 @@ function open_(id){
     <div><div class="main-img" id="mi" style="background-image:url('${esc(imgs[0]||'')}')"></div>
       <div class="thumbs">${imgs.map((s,i)=>`<div class="${i?'':'on'}" data-src="${esc(s)}" style="background-image:url('${esc(s)}')"></div>`).join('')}</div></div>
     <div>
-      <h2>${esc(p.name)}</h2>
+      ${p.pinned?'<span class="pinbadge static">📌 پیشنهاد ویژه</span>':''}<h2>${esc(p.name)}</h2>
       ${p.category?`<div class="cat">دسته: ${esc(p.category)}</div>`:''}
       <div class="price" style="font-size:20px">${fa(p.price)} تومان</div>
       <ul class="specs">
