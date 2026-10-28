@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvrxejyj",
+   "name": "جاگر دو کاره",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "price": 1250000,
+   "stock": 5,
+   "material": "دورس دو نخ پنبه تضمینی",
+   "colors": "2",
+   "pack": "4",
+   "desc": "رنگ تعداد دلخواه بالای ۴ عدد",
+   "images": [
+    "images/products/pmvrxejyj-xjwwa2.jpg",
+    "images/products/pmvrxejyj-2pdhfb.jpg"
+   ],
+   "updated": "2026-10-28T09:42:39.169Z"
+  },
+  {
    "id": "pmvrxan8u",
    "name": "ست وست و جاگر",
    "category": "محصولات ست",
