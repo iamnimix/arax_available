@@ -8,6 +8,24 @@
  ],
  "products": [
   {
+   "id": "pmvru5kzh",
+   "name": "کت جین دکمه صدفی",
+   "category": "محصولات جین",
+   "price": 2598000,
+   "stock": 0,
+   "material": "جین براش شست رفته",
+   "colors": "۱",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvru5kzh-qw06bk.jpg",
+    "images/products/pmvru5kzh-huxz6x.jpg",
+    "images/products/pmvru5kzh-xyhwis.jpg",
+    "images/products/pmvru5kzh-ioqhm6.jpg"
+   ],
+   "updated": "2026-10-28T08:11:46.268Z"
+  },
+  {
    "id": "pmvrtyj4f",
    "name": "وست چرم ROMA",
    "category": "محصولات چرم",
