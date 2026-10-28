@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmvrwluu4",
+   "name": "وست مارین MARIN",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "جین براش درجه یک",
+   "colors": "1",
+   "pack": "5",
+   "desc": "سایز:فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvrwluu4-89uvno.jpg",
+    "images/products/pmvrwluu4-38pbqw.jpg",
+    "images/products/pmvrwluu4-71xxcb.jpg",
+    "images/products/pmvrwluu4-pbzdfx.jpg",
+    "images/products/pmvrwluu4-au117n.jpg"
+   ],
+   "updated": "2026-10-28T09:20:25.184Z"
+  },
+  {
    "id": "pmvrwjgkm",
    "name": "دورس پنبه چاپی",
    "category": "دورس و هودی",
