@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmvrw3533",
+   "name": "بافت فندقی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1150000,
+   "stock": 2,
+   "material": "بافت آکریل اعلا",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایزبندی : فری سایز(۳۸ تا ۴۴)",
+   "images": [
+    "images/products/pmvrw3533-finupx.jpg",
+    "images/products/pmvrw3533-uajnhd.jpg",
+    "images/products/pmvrw3533-xi1w72.jpg",
+    "images/products/pmvrw3533-39jj3o.jpg",
+    "images/products/pmvrw3533-s77swk.jpg",
+    "images/products/pmvrw3533-916heg.jpg"
+   ],
+   "updated": "2026-10-28T09:05:56.326Z"
+  },
+  {
    "id": "pmvrvn10x",
    "name": "جاگر دوکمر CK",
    "category": "محصولات شلوار",
