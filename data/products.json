@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmvrwnrmx",
+   "name": "کت جین بایکر",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 3198000,
+   "stock": 2,
+   "material": "جین براش",
+   "colors": "1",
+   "pack": "6",
+   "desc": "سایز: دو سایزه\n✅سایز ۱ : (۳۸ تا ۴۰)\n✅سایز۲ : (۴۲ تا ۴۴)",
+   "images": [
+    "images/products/pmvrwnrmx-pj5wu9.jpg",
+    "images/products/pmvrwnrmx-yei16c.jpg",
+    "images/products/pmvrwnrmx-o3lo73.jpg",
+    "images/products/pmvrwnrmx-u7r5pp.jpg",
+    "images/products/pmvrwnrmx-61acsp.jpg"
+   ],
+   "updated": "2026-10-28T09:21:55.708Z"
+  },
+  {
    "id": "pmvrwluu4",
    "name": "وست مارین MARIN",
    "category": "محصولات جین",
