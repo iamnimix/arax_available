@@ -13,6 +13,24 @@
  ],
  "products": [
   {
+   "id": "pmvrvgvbv",
+   "name": "وست های کلاه دار چاپی",
+   "category": "وست",
+   "price": 930000,
+   "stock": 2,
+   "material": "دورس دو نخ پنبه",
+   "colors": "6",
+   "pack": "6",
+   "desc": "هر طرح رنگبندی قابل سفارش\nسایز: فری‌سایز (۳۶ تا ۴۴)",
+   "images": [
+    "images/products/pmvrvgvbv-56allm.jpg",
+    "images/products/pmvrvgvbv-7gwhwu.jpg",
+    "images/products/pmvrvgvbv-h6wkh2.jpg",
+    "images/products/pmvrvgvbv-0cr1xn.jpg"
+   ],
+   "updated": "2026-10-28T08:48:31.982Z"
+  },
+  {
    "id": "pmvrvdsdf",
    "name": "دورس تک RED LABLE",
    "category": "دورس و هودی",
