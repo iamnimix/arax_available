@@ -45,6 +45,7 @@
       <h2>محصولات</h2>
       <div><button class="btn ghost sm" id="backup">دانلود پشتیبان</button> <button class="btn" id="newBtn">+ محصول جدید</button></div>
     </div>
+    <input id="search" placeholder="🔍 جستجوی محصول در پنل..." style="margin-bottom:10px">
     <div id="list"></div>
     <div id="gmsg"></div>
   </section>
@@ -65,9 +66,9 @@
     <div class="field"><label>تعداد در پک</label><input id="f_pack"></div>
   </div>
   <div class="field"><label>توضیحات (اختیاری)</label><textarea id="f_desc" rows="2"></textarea></div>
-  <div class="field"><label>عکس‌ها (حداکثر ۴ عدد؛ عکس اول، تصویر اصلی است)</label>
+  <div class="field"><label>عکس‌ها (حداکثر ۱۰ عدد؛ عکس اول، تصویر اصلی است)</label>
     <div class="slots" id="slots"></div>
-    <input type="file" id="file" accept="image/*" class="hide">
+    <input type="file" id="file" accept="image/*" multiple class="hide">
   </div>
   <div id="fmsg"></div>
   <button class="btn" id="saveBtn">ذخیره</button>

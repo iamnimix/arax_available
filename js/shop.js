@@ -26,13 +26,15 @@ function render(){
   $('#chips').innerHTML=used.length?
     [''].concat(used).map(c=>`<button class="chip ${c===cat?'on':''}" data-cat="${esc(c)}">${c?esc(c):'همه'}</button>`).join(''):'';
   const q=$('#q').value.trim().toLowerCase();
-  const list=db.products.filter(p=>(!cat||p.category===cat)&&(!q||(p.name+' '+(p.material||'')).toLowerCase().includes(q)));
+  const all=db.products.filter(p=>(!cat||p.category===cat)&&(!q||(p.name+' '+(p.material||'')).toLowerCase().includes(q)));
+  const list=[...all.filter(p=>p.pinned),...all.filter(p=>!p.pinned)];
   $('#empty').classList.toggle('hide',list.length>0);
   $('#grid').innerHTML=list.map(p=>`
     <div class="card" data-id="${esc(p.id)}">
       <span class="tag ${p.stock>0?'':'out'}">${p.stock>0?'موجود':'ناموجود'}</span>
       <div class="im" style="background-image:url('${esc(p.images?.[0]||'')}')"></div>
       <div class="in"><h3>${esc(p.name)}</h3><div class="price">${fa(p.price)} تومان</div></div>
+      <button class="more">جزئیات</button>
     </div>`).join('');
 }
 function open_(id){

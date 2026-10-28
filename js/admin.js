@@ -84,15 +84,26 @@ $('#catList').onclick=async e=>{
 
 /* لیست محصولات */
 function renderList(){
-  $('#list').innerHTML=db.products.length?db.products.map(p=>`
-   <div class="item"><div class="th" style="background-image:url('${esc(src(p.images?.[0]||''))}')"></div>
+  const q=($('#search').value||'').trim().toLowerCase();
+  const f=db.products.filter(p=>!q||(p.name+' '+(p.category||'')+' '+(p.material||'')).toLowerCase().includes(q));
+  const arr=[...f.filter(p=>p.pinned),...f.filter(p=>!p.pinned)];
+  $('#list').innerHTML=arr.length?arr.map(p=>`
+   <div class="item ${p.pinned?'pinned':''}"><div class="th" style="background-image:url('${esc(src(p.images?.[0]||''))}')"></div>
     <div class="nm"><b>${esc(p.name)}</b><br><small>${p.category?esc(p.category)+' — ':''}${fa(p.price)} تومان — موجودی: ${fa(p.stock)} پک</small></div>
+    <button class="pin ${p.pinned?'on':''}" data-pn="${esc(p.id)}" title="${p.pinned?'برداشتن سنجاق':'سنجاق به بالا'}">${p.pinned?'📌':'📍'}</button>
     <button class="btn ghost sm" data-e="${esc(p.id)}">ویرایش</button>
     <button class="btn danger sm" data-d="${esc(p.id)}">حذف</button></div>`).join('')
-   :'<div class="empty">هنوز محصولی اضافه نشده.</div>';
+   :`<div class="empty">${q?'محصولی پیدا نشد.':'هنوز محصولی اضافه نشده.'}</div>`;
 }
 $('#list').onclick=async e=>{
-  const ed=e.target.dataset.e, dl=e.target.dataset.d;
+  const ed=e.target.dataset.e, dl=e.target.dataset.d, pn=e.target.dataset.pn;
+  if(pn){
+    try{
+      await saveDB({...db,products:db.products.map(x=>x.id===pn?{...x,pinned:!x.pinned}:x)},'pin toggle');
+      renderList();
+    }catch(err){say('#gmsg','خطا: '+err.message,true)}
+    return;
+  }
   if(ed)openForm(db.products.find(p=>p.id===ed));
   if(dl){
     const p=db.products.find(x=>x.id===dl);
@@ -122,10 +133,11 @@ function openForm(p){
   say('#fmsg','');drawSlots();$('#fm').classList.add('on');
 }
 $('#newBtn').onclick=()=>openForm(null);
+$('#search').oninput=renderList;
 $('#fclose').onclick=()=>$('#fm').classList.remove('on');
 function drawSlots(){
   let h='';
-  for(let i=0;i<4;i++){
+  for(let i=0;i<10;i++){
     const im=imgs[i];
     h+=im?`<div class="slot" style="background-image:url('${im.dataUrl||src(im.path)}')"><button class="rm" data-rm="${i}">×</button></div>`
          :`<div class="slot" data-add="${i}">+</div>`;
@@ -137,8 +149,11 @@ $('#slots').onclick=e=>{
   if(e.target.dataset.add!==undefined)$('#file').click();
 };
 $('#file').onchange=async e=>{
-  const f=e.target.files[0];e.target.value='';if(!f||imgs.length>=4)return;
-  try{imgs.push({dataUrl:await shrink(f)});drawSlots()}catch(err){say('#fmsg',err.message,true)}
+  const files=[...e.target.files];e.target.value='';
+  for(const f of files){
+    if(imgs.length>=10){say('#fmsg','حداکثر ۱۰ عکس مجاز است',true);break}
+    try{imgs.push({dataUrl:await shrink(f)});drawSlots()}catch(err){say('#fmsg',err.message,true)}
+  }
 };
 function shrink(file,max=1200){
   return new Promise((res,rej)=>{
@@ -165,7 +180,7 @@ $('#saveBtn').onclick=async()=>{
       await putFile(path,im.dataUrl.split(',')[1],'add image');
       preview[path]=im.dataUrl;paths.push(path);
     }
-    const p={id,name,category:$('#f_category').value,price:+$('#f_price').value||0,stock:+$('#f_stock').value||0,
+    const p={id,name,category:$('#f_category').value,pinned:!!editing?.pinned,price:+$('#f_price').value||0,stock:+$('#f_stock').value||0,
       material:$('#f_material').value.trim(),colors:$('#f_colors').value.trim(),pack:$('#f_pack').value.trim(),
       desc:$('#f_desc').value.trim(),images:paths,updated:new Date().toISOString()};
     const products=editing?db.products.map(x=>x.id===id?p:x):[p,...db.products];
