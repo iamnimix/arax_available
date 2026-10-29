@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvtc35eb",
+   "name": "دورس پنبه TEDDY",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1080000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvtc35eb-hsqg91.jpg",
+    "images/products/pmvtc35eb-h2ocky.jpg",
+    "images/products/pmvtc35eb-nb3pke.jpg",
+    "images/products/pmvtc35eb-moi7lf.jpg"
+   ],
+   "updated": "2026-10-29T09:21:33.651Z"
+  },
+  {
    "id": "pmvtc1iuw",
    "name": "دورس پنبه Karl",
    "category": "دورس و هودی",
