@@ -14,24 +14,24 @@
  ],
  "products": [
   {
-   "id": "pmvtb0ys2",
-   "name": "کت جین کارمن",
-   "category": "محصولات جین",
+   "id": "pmvtb2ugt",
+   "name": "جاگر دوکاره CK",
+   "category": "محصولات شلوار",
    "pinned": false,
-   "price": 2980000,
-   "stock": 1,
-   "material": "جین براش شست رفته",
-   "colors": "۱",
-   "pack": "۴",
-   "desc": "",
+   "price": 1098000,
+   "stock": 2,
+   "material": "دورس اسپان داخل کرک",
+   "colors": "3",
+   "pack": "6",
+   "desc": "دمپا گتر، فول بگ، پارچه اضافه زیر کمر جهت اتصال کش طرحدار به کمر\n3 رنگ (طوسی و مشکی و سرمه ای) 💙",
    "images": [
-    "images/products/pmvtb0ys2-g2lpvo.jpg",
-    "images/products/pmvtb0ys2-1phbu8.jpg",
-    "images/products/pmvtb0ys2-3z8psf.jpg",
-    "images/products/pmvtb0ys2-p0aom9.jpg",
-    "images/products/pmvtb0ys2-moegji.jpg"
+    "images/products/pmvtb2ugt-yrbmog.jpg",
+    "images/products/pmvtb2ugt-u8so3l.jpg",
+    "images/products/pmvtb2ugt-yl01xb.jpg",
+    "images/products/pmvtb2ugt-zbb2wx.jpg",
+    "images/products/pmvtb2ugt-dvj7vf.jpg"
    ],
-   "updated": "2026-10-29T08:51:53.028Z"
+   "updated": "2026-10-29T08:53:19.758Z"
   },
   {
    "id": "pmvrywsl7",
