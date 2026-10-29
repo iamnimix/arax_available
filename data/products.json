@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvtc8wg2",
+   "name": "دورس کراپ Western",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "دورس دو نخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmvtc8wg2-r7ptjv.jpg",
+    "images/products/pmvtc8wg2-ds33id.jpg",
+    "images/products/pmvtc8wg2-870d95.jpg",
+    "images/products/pmvtc8wg2-hyns8w.jpg"
+   ],
+   "updated": "2026-10-29T09:26:06.267Z"
+  },
+  {
    "id": "pmvtc4q8d",
    "name": "دورس پنبه Autumn",
    "category": "دورس و هودی",
