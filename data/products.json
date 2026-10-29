@@ -479,17 +479,18 @@
    "id": "pmvrv5d6l",
    "name": "اورکت هوگو",
    "category": "محصولات جین",
+   "pinned": false,
    "price": 2198000,
    "stock": 2,
    "material": "جین براش درجه یک",
-   "colors": "6",
-   "pack": "1",
+   "colors": "1",
+   "pack": "6",
    "desc": "سایز: فری سایز ۳۶ تا ۴۶\nقد کار ۱۲۵",
    "images": [
     "images/products/pmvrv5d6l-b0o29a.jpg",
     "images/products/pmvrv5d6l-c3015s.jpg"
    ],
-   "updated": "2026-10-28T08:39:31.135Z"
+   "updated": "2026-10-29T06:53:09.914Z"
   },
   {
    "id": "pmvrv3hrp",
