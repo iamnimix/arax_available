@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmvtcvfgl",
+   "name": "دورس کراپ دو رنگی بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 950000,
+   "stock": 5,
+   "material": "دورس دونخ پنبه",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "۴ عددی ۲ رنگ سفید و مشکی\nفری سایز ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmvtcvfgl-rzpjmg.jpg",
+    "images/products/pmvtcvfgl-u1l144.jpg",
+    "images/products/pmvtcvfgl-6d55fk.jpg",
+    "images/products/pmvtcvfgl-2hcgic.jpg",
+    "images/products/pmvtcvfgl-c77du1.jpg"
+   ],
+   "updated": "2026-10-29T09:43:32.871Z"
+  },
+  {
    "id": "pmvtcq5b5",
    "name": "دورس کراپ ۶ طرحی",
    "category": "دورس و هودی",
