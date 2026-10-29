@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmvtbttlb",
+   "name": "ترنچ کت بلند پارمیلا",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 3080000,
+   "stock": 2,
+   "material": "جین ترک سنگشور شده",
+   "colors": "۱",
+   "pack": "۴",
+   "desc": "سایز: فری‌سایز  ۳۸ تا ۴۴\nقد کار ۱۱۵",
+   "images": [
+    "images/products/pmvtbttlb-zflljq.jpg",
+    "images/products/pmvtbttlb-smzqmn.jpg",
+    "images/products/pmvtbttlb-89l6vk.jpg",
+    "images/products/pmvtbttlb-fdv0fh.jpg",
+    "images/products/pmvtbttlb-i2plah.jpg",
+    "images/products/pmvtbttlb-wwg1b2.jpg"
+   ],
+   "updated": "2026-10-29T09:14:23.590Z"
+  },
+  {
    "id": "pmvtb2ugt",
    "name": "جاگر دوکاره CK",
    "category": "محصولات شلوار",
