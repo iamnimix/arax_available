@@ -407,7 +407,7 @@
    "id": "pmvrxiz2r",
    "name": "بافت ترند راه راه",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "price": 1150000,
    "stock": 1,
    "material": "آکریل",
