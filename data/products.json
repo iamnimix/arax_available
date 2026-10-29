@@ -14,6 +14,24 @@
  ],
  "products": [
   {
+   "id": "pmvtco0ne",
+   "name": "دورس باکسی Ready",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "اسپان داخل کرک",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "فری سایز ۳۴ تا ۴۴",
+   "images": [
+    "images/products/pmvtco0ne-dpw868.jpg",
+    "images/products/pmvtco0ne-r3lcph.jpg",
+    "images/products/pmvtco0ne-or499h.jpg"
+   ],
+   "updated": "2026-10-29T09:37:43.972Z"
+  },
+  {
    "id": "pmvtcmrrb",
    "name": "دورس باکسی London",
    "category": "دورس و هودی",
