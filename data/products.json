@@ -14,6 +14,24 @@
  ],
  "products": [
   {
+   "id": "pmvtcc04t",
+   "name": "دورس کراپ چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmvtcc04t-rkqlkt.jpg",
+    "images/products/pmvtcc04t-ogwfub.jpg",
+    "images/products/pmvtcc04t-8d9au5.jpg"
+   ],
+   "updated": "2026-10-29T09:28:31.189Z"
+  },
+  {
    "id": "pmvtcac8v",
    "name": "دورس کراپ تدی",
    "category": "دورس و هودی",
