@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvtceygh",
+   "name": "دورس کراپ Travel",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmvtceygh-gj8loq.jpg",
+    "images/products/pmvtceygh-r4ox7b.jpg",
+    "images/products/pmvtceygh-lb5z4u.jpg",
+    "images/products/pmvtceygh-1v2r5v.jpg"
+   ],
+   "updated": "2026-10-29T09:30:45.179Z"
+  },
+  {
    "id": "pmvtcc04t",
    "name": "دورس کراپ چاپی",
    "category": "دورس و هودی",
