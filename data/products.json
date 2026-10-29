@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmvtcq5b5",
+   "name": "دورس کراپ ۶ طرحی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmvtcq5b5-9r6b1w.jpg",
+    "images/products/pmvtcq5b5-2uyrm8.jpg",
+    "images/products/pmvtcq5b5-0xb07n.jpg",
+    "images/products/pmvtcq5b5-fb5ssl.jpg",
+    "images/products/pmvtcq5b5-1lj9o5.jpg",
+    "images/products/pmvtcq5b5-z5vldl.jpg"
+   ],
+   "updated": "2026-10-29T09:39:28.928Z"
+  },
+  {
    "id": "pmvtco0ne",
    "name": "دورس باکسی Ready",
    "category": "دورس و هودی",
