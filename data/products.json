@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvtfqef0",
+   "name": "بافت پلو سنتی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2100000,
+   "stock": 3,
+   "material": "اکریل ترک",
+   "colors": "۲",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmvtfqef0-ljh1l3.jpg",
+    "images/products/pmvtfqef0-05n0yn.jpg",
+    "images/products/pmvtfqef0-o7sb49.jpg",
+    "images/products/pmvtfqef0-xqktwf.jpg"
+   ],
+   "updated": "2026-10-29T11:03:48.219Z"
+  },
+  {
    "id": "pmvtcvfgl",
    "name": "دورس کراپ دو رنگی بیسیک",
    "category": "دورس و هودی",
