@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvtc4q8d",
+   "name": "دورس پنبه Autumn",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1080000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvtc4q8d-2753zx.jpg",
+    "images/products/pmvtc4q8d-d2udr7.jpg",
+    "images/products/pmvtc4q8d-qp0z7f.jpg",
+    "images/products/pmvtc4q8d-txhh0w.jpg"
+   ],
+   "updated": "2026-10-29T09:22:46.486Z"
+  },
+  {
    "id": "pmvtc35eb",
    "name": "دورس پنبه TEDDY",
    "category": "دورس و هودی",
