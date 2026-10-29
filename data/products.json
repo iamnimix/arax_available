@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmvtb0ys2",
+   "name": "کت جین کارمن",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 2980000,
+   "stock": 1,
+   "material": "جین براش شست رفته",
+   "colors": "۱",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvtb0ys2-g2lpvo.jpg",
+    "images/products/pmvtb0ys2-1phbu8.jpg",
+    "images/products/pmvtb0ys2-3z8psf.jpg",
+    "images/products/pmvtb0ys2-p0aom9.jpg",
+    "images/products/pmvtb0ys2-moegji.jpg"
+   ],
+   "updated": "2026-10-29T08:51:53.028Z"
+  },
+  {
    "id": "pmvrywsl7",
    "name": "ست دورس شلوار پلو",
    "category": "محصولات ست",
