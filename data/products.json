@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvtckihm",
+   "name": "دورس باکسی Christmas",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "اسپان داخل کرک",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "فری سایز ۳۴ تا ۴۴",
+   "images": [
+    "images/products/pmvtckihm-lyp5lw.jpg",
+    "images/products/pmvtckihm-pd2txc.jpg"
+   ],
+   "updated": "2026-10-29T09:34:58.539Z"
+  },
+  {
    "id": "pmvtch0a8",
    "name": "دورس باکسی چاپی",
    "category": "دورس و هودی",
