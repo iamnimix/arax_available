@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvtch0a8",
+   "name": "دورس باکسی چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 980000,
+   "stock": 2,
+   "material": "اسپان داخل کرک",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "فری سایز ۳۴ تا ۴۴",
+   "images": [
+    "images/products/pmvtch0a8-ot82pt.jpg",
+    "images/products/pmvtch0a8-ftne52.jpg"
+   ],
+   "updated": "2026-10-29T09:32:15.890Z"
+  },
+  {
    "id": "pmvtceygh",
    "name": "دورس کراپ Travel",
    "category": "دورس و هودی",
