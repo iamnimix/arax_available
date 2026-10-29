@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvtc1iuw",
+   "name": "دورس پنبه Karl",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1080000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmvtc1iuw-92iv0g.jpg",
+    "images/products/pmvtc1iuw-u4h32a.jpg",
+    "images/products/pmvtc1iuw-pdqj0e.jpg",
+    "images/products/pmvtc1iuw-2tqp3r.jpg"
+   ],
+   "updated": "2026-10-29T09:20:16.688Z"
+  },
+  {
    "id": "pmvtbttlb",
    "name": "ترنچ کت بلند پارمیلا",
    "category": "محصولات جین",
