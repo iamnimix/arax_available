@@ -14,6 +14,30 @@
  ],
  "products": [
   {
+   "id": "pmvv36uqg",
+   "name": "دورس چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 998000,
+   "stock": 2,
+   "material": "دورس اسپان با کیفیت داخل کرک",
+   "colors": "۸",
+   "pack": "۸",
+   "desc": "",
+   "images": [
+    "images/products/pmvv36uqg-s0ye8i.jpg",
+    "images/products/pmvv36uqg-eapyna.jpg",
+    "images/products/pmvv36uqg-slekey.jpg",
+    "images/products/pmvv36uqg-ybj1ih.jpg",
+    "images/products/pmvv36uqg-nwedu6.jpg",
+    "images/products/pmvv36uqg-5vwqca.jpg",
+    "images/products/pmvv36uqg-ir8kw1.jpg",
+    "images/products/pmvv36uqg-a769mp.jpg",
+    "images/products/pmvv36uqg-4s5b4c.jpg"
+   ],
+   "updated": "2026-10-30T14:48:38.708Z"
+  },
+  {
    "id": "pmvv34hwy",
    "name": "دورس چاپی",
    "category": "دورس و هودی",
