@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvv3oqac",
+   "name": "ست دورس شلوار",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 2198000,
+   "stock": 10,
+   "material": "دورس اسپان داخل کرک با کیفیت",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvv3oqac-rq38fk.jpg",
+    "images/products/pmvv3oqac-kskmrh.jpg",
+    "images/products/pmvv3oqac-ac9nf7.jpg",
+    "images/products/pmvv3oqac-fktgwr.jpg"
+   ],
+   "updated": "2026-10-30T15:01:54.583Z"
+  },
+  {
    "id": "pmvv3npac",
    "name": "دورس پنبه",
    "category": "دورس و هودی",
