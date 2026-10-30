@@ -14,6 +14,30 @@
  ],
  "products": [
   {
+   "id": "pmvv34hwy",
+   "name": "دورس چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 998000,
+   "stock": 2,
+   "material": "دورس اسپان باکیفیت",
+   "colors": "۸",
+   "pack": "۸",
+   "desc": "",
+   "images": [
+    "images/products/pmvv34hwy-seg6pz.jpg",
+    "images/products/pmvv34hwy-zdhykb.jpg",
+    "images/products/pmvv34hwy-9yl8qw.jpg",
+    "images/products/pmvv34hwy-g5tjl3.jpg",
+    "images/products/pmvv34hwy-cye24p.jpg",
+    "images/products/pmvv34hwy-izqmkw.jpg",
+    "images/products/pmvv34hwy-56ccuh.jpg",
+    "images/products/pmvv34hwy-b2jxnz.jpg",
+    "images/products/pmvv34hwy-ghxbru.jpg"
+   ],
+   "updated": "2026-10-30T14:46:20.594Z"
+  },
+  {
    "id": "pmvtfqef0",
    "name": "بافت پلو سنتی",
    "category": "بافت",
