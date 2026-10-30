@@ -14,6 +14,22 @@
  ],
  "products": [
   {
+   "id": "pmvv3npac",
+   "name": "دورس پنبه",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1100000,
+   "stock": 5,
+   "material": "دورس دو نخ پنبه",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmvv3npac-xiy76r.jpg"
+   ],
+   "updated": "2026-10-30T15:01:01.804Z"
+  },
+  {
    "id": "pmvv3mslu",
    "name": "دورس پنبه",
    "category": "دورس و هودی",
