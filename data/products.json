@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmvwcp37q",
+   "name": "وست سه نخ",
+   "category": "وست",
+   "pinned": false,
+   "price": 2298000,
+   "stock": 2,
+   "material": "دورس سه نخ پنبه گرم بالا",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۸",
+   "images": [
+    "images/products/pmvwcp37q-33ip9l.jpg",
+    "images/products/pmvwcp37q-20x46r.jpg",
+    "images/products/pmvwcp37q-sy10lo.jpg",
+    "images/products/pmvwcp37q-qqyjkh.jpg",
+    "images/products/pmvwcp37q-8e4kmr.jpg",
+    "images/products/pmvwcp37q-itvz9k.jpg"
+   ],
+   "updated": "2026-10-31T12:01:57.050Z"
+  },
+  {
    "id": "pmvwcli99",
    "name": "وست NORA",
    "category": "محصولات جین",
