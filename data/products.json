@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvw7zbwl",
+   "name": "بامبر گلدوزی هرمس",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "price": 2100000,
+   "stock": 2,
+   "material": "🎗آستر دار  🧵نوع پارچه:کتان شست شده درجه یک",
+   "colors": "2",
+   "pack": "6",
+   "desc": "🎀قد کار 60\n\n💃سایزبندی :فری سایز(36تا46)\n\n🌈رنگ بندی: (2رنگ ژورنال )",
+   "images": [
+    "images/products/pmvw7zbwl-1urd8z.jpg",
+    "images/products/pmvw7zbwl-paw9bk.jpg",
+    "images/products/pmvw7zbwl-d1fqd8.jpg",
+    "images/products/pmvw7zbwl-z58qo3.jpg"
+   ],
+   "updated": "2026-10-31T09:49:52.685Z"
+  },
+  {
    "id": "pmvw7ttq1",
    "name": "ست سویی ساعت شنی",
    "category": "محصولات ست",
