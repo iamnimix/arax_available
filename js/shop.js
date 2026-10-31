@@ -29,13 +29,19 @@ function render(){
   const all=db.products.filter(p=>(!cat||p.category===cat)&&(!q||(p.name+' '+(p.material||'')).toLowerCase().includes(q)));
   const list=[...all.filter(p=>p.pinned),...all.filter(p=>!p.pinned)];
   $('#empty').classList.toggle('hide',list.length>0);
-  $('#grid').innerHTML=list.map(p=>`
-    <div class="card" data-id="${esc(p.id)}">
-      ${p.pinned?'<span class="pinbadge">📌 ویژه</span>':''}<span class="tag ${p.stock>0?'':'out'}">${p.stock>0?'موجود':'ناموجود'}</span>
-      <div class="im" style="background-image:url('${esc(p.images?.[0]||'')}')"></div>
-      <div class="in"><h3>${esc(p.name)}</h3><div class="price">${fa(p.price)} تومان</div></div>
-      <button class="more">جزئیات</button>
-    </div>`).join('');
+  $('#grid').innerHTML=list.map(p=>{
+    const meta=[p.material,p.colors?p.colors+' رنگ':'',p.pack?p.pack+' در پک':''].filter(Boolean).join(' · ');
+    return `
+    <div class="card ${p.pinned?'pin':''}" data-id="${esc(p.id)}">
+      <div class="im" style="background-image:url('${esc(p.images?.[0]||'')}')">
+        <span class="tag ${p.stock>0?'':'out'}">${p.stock>0?'موجود':'ناموجود'}</span>
+        ${p.pinned?'<span class="pinbadge">📌 ویژه</span>':''}
+      </div>
+      <div class="in"><h3>${esc(p.name)}</h3>
+        <div class="meta">${esc(meta)||'&nbsp;'}</div>
+        <div class="prow"><span class="price">${fa(p.price)} <small>تومان</small></span><span class="more">جزئیات</span></div>
+      </div>
+    </div>`}).join('');
 }
 function open_(id){
   const p=db.products.find(x=>x.id===id); if(!p)return;
@@ -55,8 +61,8 @@ function open_(id){
         <li><span>موجودی</span><b>${p.stock>0?fa(p.stock)+' پک':'ناموجود'}</b></li>
       </ul>
       ${p.desc?`<p style="font-size:14px">${esc(p.desc)}</p>`:''}
-      <div class="order">ثبت سفارش از طریق لینک زیر:<br><a href="https://t.me/arax_mood" target="_blank" rel="noopener">https://t.me/arax_mood</a>
-        <span class="tel">📞 شماره تماس: <a href="tel:09193127255"><b>۰۹۱۹۳۱۲۷۲۵۵</b></a></span></div>
+      <div class="order">ثبت سفارش از طریق لینک زیر:<a class="go" href="https://t.me/arax_mood" target="_blank" rel="noopener">https://t.me/arax_mood</a>
+        <div class="tel">📞 شماره تماس: <a href="tel:09193127255"><b>۰۹۱۹۳۱۲۷۲۵۵</b></a></div></div>
     </div>
   </div>`;
   $('#pm').classList.add('on');
@@ -69,5 +75,8 @@ document.addEventListener('click',e=>{
   const th=t.closest('.thumbs div'); if(th){$('#mi').style.backgroundImage=`url('${th.dataset.src}')`;document.querySelectorAll('.thumbs div').forEach(d=>d.classList.remove('on'));th.classList.add('on')}
 });
 $('#openContact').onclick=()=>$('#contact').classList.add('on');
+$('#nCall').onclick=()=>$('#contact').classList.add('on');
+$('#nHome').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
+$('#nCat').onclick=()=>{const el=$('#chips').children.length?$('#chips'):$('#q');window.scrollTo({top:el.getBoundingClientRect().top+scrollY-80,behavior:'smooth'})};
 $('#q').oninput=render;
 load();

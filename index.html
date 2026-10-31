@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap">
 <link rel="icon" href="images/logo.png">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/shop.css">
 </head>
-<body>
+<body class="shop">
 <header>
   <div class="brand">
     <img src="images/logo.png" alt="ARAX" onerror="this.style.display='none'">
@@ -35,15 +36,22 @@
 
 <div class="modal" id="contact"><div class="box contact">
   <button class="x" data-close>×</button>
-  <h2>ارتباط با ما</h2>
-  <p>📍 بازار بزرگ تهران<br>بازارچه سعادت ، پاساژ المهدی ۵ ( پرشین ) طبقه دوم ۵۱۷</p>
-  <p>📞 <a href="tel:09196337027">۰۹۱۹۶۳۳۷۰۲۷</a><br>📞 <a href="tel:09193127255">۰۹۱۹۳۱۲۷۲۵۵</a></p>
-  <p>کانال تلگرام:<br><a href="https://t.me/araxabarghoei" target="_blank" rel="noopener">https://t.me/araxabarghoei</a></p>
-  <p>کانال روبیکا:<br><a href="https://rubika.ir/araxabarghoei" target="_blank" rel="noopener">rubika.ir/araxabarghoei</a></p>
+  <h2 style="margin-bottom:8px">ارتباط با ما</h2>
+  <div class="citem" style="font-weight:400"><i>📍</i><span>بازار بزرگ تهران<br>بازارچه سعادت ، پاساژ المهدی ۵ ( پرشین ) طبقه دوم ۵۱۷</span></div>
+  <a class="citem" href="tel:09196337027"><i>📞</i><span>۰۹۱۹۶۳۳۷۰۲۷<small>برای تماس بزنید</small></span></a>
+  <a class="citem" href="tel:09193127255"><i>📞</i><span>۰۹۱۹۳۱۲۷۲۵۵<small>برای تماس بزنید</small></span></a>
+  <a class="citem" href="https://t.me/araxabarghoei" target="_blank" rel="noopener"><i>✈️</i><span>کانال تلگرام<small>https://t.me/araxabarghoei</small></span></a>
+  <a class="citem" href="https://rubika.ir/araxabarghoei" target="_blank" rel="noopener"><i>💬</i><span>کانال روبیکا<small>rubika.ir/araxabarghoei</small></span></a>
 </div></div>
 
 <div class="modal" id="pm"><div class="box" id="pbox"></div></div>
 
+<nav class="bnav">
+  <button id="nHome"><i>🏠</i>ویترین</button>
+  <button id="nCat"><i>🗂️</i>دسته‌ها</button>
+  <a class="hot" href="https://t.me/arax_mood" target="_blank" rel="noopener"><i>🛒</i>سفارش</a>
+  <button id="nCall"><i>📞</i>تماس</button>
+</nav>
 <script src="js/shop.js"></script>
 </body>
 </html>
