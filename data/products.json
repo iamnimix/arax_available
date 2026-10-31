@@ -5,18 +5,39 @@
  "categories": [
   "محصولات جین",
   "محصولات چرم",
-  "شلوار و جاگر ها",
-  "ست و نیم ست ها",
+  "محصولات شلوار",
+  "محصولات ست",
   "دورس و هودی",
   "بامبر و ترنچ کت",
-  "وست ها",
-  "بافت و گپ ها"
+  "وست",
+  "بافت"
  ],
  "products": [
   {
+   "id": "pmvw7ttq1",
+   "name": "ست سویی ساعت شنی",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز :فری سایز, مناسب 36 تا 46",
+   "images": [
+    "images/products/pmvw7ttq1-1zrxh6.jpg",
+    "images/products/pmvw7ttq1-s3gb1v.jpg",
+    "images/products/pmvw7ttq1-jtp7rx.jpg",
+    "images/products/pmvw7ttq1-vysxgx.jpg",
+    "images/products/pmvw7ttq1-4nx0ak.jpg",
+    "images/products/pmvw7ttq1-yicy9i.jpg"
+   ],
+   "updated": "2026-10-31T09:45:39.470Z"
+  },
+  {
    "id": "pmvw69dnj",
    "name": "ست لانگ اسلیو جاگر",
-   "category": "ست و نیم ست ها",
+   "category": "محصولات ست",
    "pinned": false,
    "price": 2298000,
    "stock": 2,
@@ -34,7 +55,7 @@
   {
    "id": "pmvv3oqac",
    "name": "ست دورس شلوار",
-   "category": "ست و نیم ست ها",
+   "category": "محصولات ست",
    "pinned": false,
    "price": 2198000,
    "stock": 10,
@@ -277,7 +298,7 @@
   {
    "id": "pmvtfqef0",
    "name": "بافت پلو سنتی",
-   "category": "بافت و گپ ها",
+   "category": "بافت",
    "pinned": false,
    "price": 2100000,
    "stock": 3,
@@ -574,7 +595,7 @@
   {
    "id": "pmvtb2ugt",
    "name": "جاگر دوکاره CK",
-   "category": "شلوار و جاگر ها",
+   "category": "محصولات شلوار",
    "pinned": false,
    "price": 1098000,
    "stock": 2,
@@ -594,7 +615,7 @@
   {
    "id": "pmvrywsl7",
    "name": "ست دورس شلوار پلو",
-   "category": "ست و نیم ست ها",
+   "category": "محصولات ست",
    "pinned": false,
    "price": 3250000,
    "stock": 2,
@@ -613,7 +634,7 @@
   {
    "id": "pmvrxltbo",
    "name": "بافت پلو ترند",
-   "category": "بافت و گپ ها",
+   "category": "بافت",
    "pinned": true,
    "price": 1598000,
    "stock": 2,
@@ -632,7 +653,7 @@
   {
    "id": "pmvrxiz2r",
    "name": "بافت ترند راه راه",
-   "category": "بافت و گپ ها",
+   "category": "بافت",
    "pinned": true,
    "price": 1150000,
    "stock": 1,
@@ -651,10 +672,10 @@
   {
    "id": "pmvrxejyj",
    "name": "جاگر دو کاره",
-   "category": "شلوار و جاگر ها",
+   "category": "محصولات شلوار",
    "pinned": true,
    "price": 1250000,
-   "stock": 5,
+   "stock": 3,
    "material": "دورس دو نخ پنبه تضمینی",
    "colors": "2",
    "pack": "4",
@@ -663,12 +684,12 @@
     "images/products/pmvrxejyj-xjwwa2.jpg",
     "images/products/pmvrxejyj-2pdhfb.jpg"
    ],
-   "updated": "2026-10-28T09:42:39.169Z"
+   "updated": "2026-10-31T09:44:10.697Z"
   },
   {
    "id": "pmvrxan8u",
    "name": "ست وست و جاگر",
-   "category": "ست و نیم ست ها",
+   "category": "محصولات ست",
    "pinned": false,
    "price": 2598000,
    "stock": 2,
@@ -711,7 +732,7 @@
   {
    "id": "pmvrx1lon",
    "name": "بافت اکریل خشتی🔶",
-   "category": "بافت و گپ ها",
+   "category": "بافت",
    "pinned": false,
    "price": 1150000,
    "stock": 2,
@@ -853,7 +874,7 @@
   {
    "id": "pmvrw3533",
    "name": "بافت فندقی",
-   "category": "بافت و گپ ها",
+   "category": "بافت",
    "pinned": true,
    "price": 1150000,
    "stock": 2,
@@ -874,7 +895,7 @@
   {
    "id": "pmvrvn10x",
    "name": "جاگر دوکمر CK",
-   "category": "شلوار و جاگر ها",
+   "category": "محصولات شلوار",
    "price": 1198000,
    "stock": 2,
    "material": "دورس اسپان داخل کرک",
@@ -892,7 +913,7 @@
   {
    "id": "pmvrvj4t8",
    "name": "ست دورس یقه دار و‌ شلوار بگ",
-   "category": "ست و نیم ست ها",
+   "category": "محصولات ست",
    "price": 3998000,
    "stock": 2,
    "material": "دورس پنبه سه نخ  داخل کرک👌🏻   پنبه ۱۰۰ درصد بدون دون‌دون شدن✅  گلدوزی شده✅",
@@ -910,7 +931,7 @@
   {
    "id": "pmvrvgvbv",
    "name": "وست های کلاه دار چاپی",
-   "category": "وست ها",
+   "category": "وست",
    "price": 930000,
    "stock": 2,
    "material": "دورس دو نخ پنبه",
@@ -1029,7 +1050,7 @@
   {
    "id": "pmvruszu8",
    "name": "ست سوییشرت شلوار آلبالو",
-   "category": "ست و نیم ست ها",
+   "category": "محصولات ست",
    "price": 1998000,
    "stock": 3,
    "material": "دورس داخل کرک اسپان با کیفیت",
@@ -1047,7 +1068,7 @@
   {
    "id": "pmvruiadk",
    "name": "جاگر دو کاره پنبه ۲ نخ",
-   "category": "شلوار و جاگر ها",
+   "category": "محصولات شلوار",
    "price": 1250000,
    "stock": 2,
    "material": "دورس دو نخ پنبه",
