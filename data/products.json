@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmvwcli99",
+   "name": "وست NORA",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "کتان سنگشور شده",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۸",
+   "images": [
+    "images/products/pmvwcli99-ai29oa.jpg",
+    "images/products/pmvwcli99-bn0ffe.jpg",
+    "images/products/pmvwcli99-rkacyw.jpg",
+    "images/products/pmvwcli99-5p1odt.jpg",
+    "images/products/pmvwcli99-yese7a.jpg"
+   ],
+   "updated": "2026-10-31T11:59:07.971Z"
+  },
+  {
    "id": "pmvw8zzhd",
    "name": "بافت لوزی یقه گرد",
    "category": "بافت",
