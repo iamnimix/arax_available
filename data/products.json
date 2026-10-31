@@ -14,6 +14,29 @@
  ],
  "products": [
   {
+   "id": "pmvw81xkh",
+   "name": "کت جین دو بخیه",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1899000,
+   "stock": 2,
+   "material": "جین سنگ‌شور شده",
+   "colors": "4",
+   "pack": "4",
+   "desc": "✂️ قد کار : 52\n✂️ قد آستین : 48\n\n🌈 رنگ : مطابق ژورنال\n🪄 سایز : فری(38 تا 46)",
+   "images": [
+    "images/products/pmvw81xkh-gzmhk5.jpg",
+    "images/products/pmvw81xkh-lssfik.jpg",
+    "images/products/pmvw81xkh-h9679z.jpg",
+    "images/products/pmvw81xkh-0yam1k.jpg",
+    "images/products/pmvw81xkh-0afck6.jpg",
+    "images/products/pmvw81xkh-d7ft29.jpg",
+    "images/products/pmvw81xkh-ztd0ov.jpg",
+    "images/products/pmvw81xkh-4lwu2f.jpg"
+   ],
+   "updated": "2026-10-31T09:52:02.816Z"
+  },
+  {
    "id": "pmvw7zbwl",
    "name": "بامبر گلدوزی هرمس",
    "category": "بامبر و ترنچ کت",
