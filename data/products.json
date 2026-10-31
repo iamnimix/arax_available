@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmvw859rh",
+   "name": "وست کتان دو جیب",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1299000,
+   "stock": 2,
+   "material": "کتان آنزیم شست",
+   "colors": "6",
+   "pack": "6",
+   "desc": "✂️ قد کار : 50\n\n🌈 رنگ : مطابق ژورنال\n🪄 سایز : فری(38 تا 46)",
+   "images": [
+    "images/products/pmvw859rh-5t8zen.jpg",
+    "images/products/pmvw859rh-ak3g1t.jpg",
+    "images/products/pmvw859rh-yp7vd0.jpg",
+    "images/products/pmvw859rh-g0g8sr.jpg",
+    "images/products/pmvw859rh-p8dwvw.jpg",
+    "images/products/pmvw859rh-ensm9o.jpg",
+    "images/products/pmvw859rh-wxn2wt.jpg"
+   ],
+   "updated": "2026-10-31T09:54:35.147Z"
+  },
+  {
    "id": "pmvw81xkh",
    "name": "کت جین دو بخیه",
    "category": "محصولات جین",
