@@ -64,7 +64,7 @@ function renderAll(){renderCats();renderList()}
 
 /* دسته‌بندی */
 function renderCats(){
-  $('#catList').innerHTML=db.categories.length?db.categories.map((c,i)=>`<span>${esc(c)} <button data-dc="${i}" title="حذف">×</button></span>`).join(''):'<small>هنوز دسته‌ای نساخته‌اید.</small>';
+  $('#catList').innerHTML=db.categories.length?db.categories.map((c,i)=>`<span>${esc(c)} <button class="cat-edit" data-rc="${i}" title="ویرایش نام">✏️</button><button data-dc="${i}" title="حذف">×</button></span>`).join(''):'<small>هنوز دسته‌ای نساخته‌اید.</small>';
 }
 $('#addCat').onclick=async()=>{
   const n=$('#newCat').value.trim();if(!n)return;
@@ -73,6 +73,19 @@ $('#addCat').onclick=async()=>{
   catch(e){say('#gmsg','خطا: '+e.message,true)}
 };
 $('#catList').onclick=async e=>{
+  const ri=e.target.dataset.rc;
+  if(ri!==undefined){
+    const old=db.categories[ri];
+    const n=(prompt('نام جدید دسته‌بندی:',old)||'').trim();
+    if(!n||n===old)return;
+    if(db.categories.includes(n))return say('#gmsg','این نام قبلاً وجود دارد',true);
+    say('#gmsg','در حال ذخیره...');
+    try{
+      await saveDB({...db,categories:db.categories.map((c,k)=>k==ri?n:c),products:db.products.map(p=>p.category===old?{...p,category:n}:p)},'rename category');
+      renderAll();say('#gmsg','نام دسته تغییر کرد ✅ (محصولاتش هم خودکار به‌روز شدند)');
+    }catch(err){say('#gmsg','خطا: '+err.message,true)}
+    return;
+  }
   const i=e.target.dataset.dc;if(i===undefined)return;
   const n=db.categories[i];
   if(!confirm(`دسته «${n}» حذف شود؟ (محصولاتش حذف نمی‌شوند، فقط بدون دسته می‌شوند)`))return;

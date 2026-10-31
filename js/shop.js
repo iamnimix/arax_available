@@ -7,8 +7,15 @@ function normalize(d){
   if(Array.isArray(d))return {settings:{},categories:[],products:d};
   return {settings:d?.settings||{},categories:d?.categories||[],products:d?.products||[]};
 }
+let failed=false;
 async function load(){
-  try{const r=await fetch('data/products.json?t='+Date.now());if(r.ok)db=normalize(await r.json())}catch(e){}
+  // ۱) فوراً از حافظه‌ی قبلی نشان بده (باز شدن آنی)
+  try{const c=localStorage.getItem('arax_cache');if(c){db=normalize(JSON.parse(c));render()}}catch(e){}
+  // ۲) اطلاعات تازه
+  let d=null;
+  try{d=await (window.__p||fetch('data/products.json?t='+Date.now()).then(r=>r.ok?r.json():null))}catch(e){}
+  if(d){db=normalize(d);try{localStorage.setItem('arax_cache',JSON.stringify(d))}catch(e){}}
+  else if(!db.products.length)failed=true;
   const gc=db.settings.gc;
   if(gc){const s=document.createElement('script');s.async=true;s.dataset.goatcounter=`https://${gc}.goatcounter.com/count`;s.src='//gc.zgo.at/count.js';document.head.appendChild(s)}
   render();
@@ -22,11 +29,11 @@ function imgFit(i){
 function imgErr(i){i.style.aspectRatio='1/1';i.removeAttribute('src')}
 const colsN=()=>innerWidth<640?2:innerWidth<1000?3:4;
 
-function cardHtml(p){
+function cardHtml(p,i){
   const meta=[p.material,p.colors?p.colors+' رنگ':'',p.pack?p.pack+' در پک':''].filter(Boolean).join(' · ');
   const im=p.images?.[0]||'';
   return `<div class="card ${p.pinned?'pin':''}" data-id="${esc(p.id)}">
-    <div class="im"><img src="${esc(im)}" alt="" style="aspect-ratio:3/4" onload="imgFit(this)" onerror="imgErr(this)" decoding="async">
+    <div class="im"><img src="${esc(im)}" alt="" style="aspect-ratio:3/4" onload="imgFit(this)" onerror="imgErr(this)" decoding="async" ${i>5?'loading="lazy"':''}>
       <span class="tag ${p.stock>0?'':'out'}">${p.stock>0?'موجود':'ناموجود'}</span>
       ${p.pinned?'<span class="pinbadge">📌 ویژه</span>':''}
     </div>
@@ -40,9 +47,10 @@ function render(){
   const all=db.products.filter(p=>(!cat||p.category===cat)&&(!q||(p.name+' '+(p.material||'')).toLowerCase().includes(q)));
   const list=[...all.filter(p=>p.pinned),...all.filter(p=>!p.pinned)];
   $('#empty').classList.toggle('hide',list.length>0);
+  $('#empty').innerHTML=failed&&!db.products.length?'دریافت اطلاعات انجام نشد. اینترنت را بررسی کنید.<br><button class="btn sm" style="margin-top:10px" onclick="location.reload()">تلاش دوباره</button>':'محصولی برای نمایش وجود ندارد.';
   $('#fpill').innerHTML=cat?`<span class="fpill" data-clear>🗂 ${esc(cat)} <b>×</b></span>`:'';
   const n=lastN=colsN(), cols=Array.from({length:n},()=>[]);
-  list.forEach((p,i)=>cols[i%n].push(cardHtml(p)));
+  list.forEach((p,i)=>cols[i%n].push(cardHtml(p,i)));
   $('#grid').innerHTML=cols.map(c=>`<div class="col">${c.join('')}</div>`).join('');
   $('#nHome').classList.toggle('on',!cat);
   $('#nCat').classList.toggle('on',!!cat);
