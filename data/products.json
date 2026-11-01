@@ -14,6 +14,24 @@
  ],
  "products": [
   {
+   "id": "pmvxtfl0j",
+   "name": "بامبر  جکت مغزی دوزی FORD",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "price": 2798000,
+   "stock": 2,
+   "material": "کتان زارا",
+   "colors": "1",
+   "pack": "4",
+   "desc": "تمام کار استرکشی شده\nتمام کار گلدوزی شده\nدمپا و مچ کشبافت پنبه\n  \n📌سایز: فری‌سایز (  ۳۸تا۴۴ )\nقد کار 60",
+   "images": [
+    "images/products/pmvxtfl0j-uvzney.jpg",
+    "images/products/pmvxtfl0j-4z3lq4.jpg",
+    "images/products/pmvxtfl0j-lcuvfy.jpg"
+   ],
+   "updated": "2026-11-01T12:38:07.298Z"
+  },
+  {
    "id": "pmvxo9cpg",
    "name": "بلوز بافت سنتی",
    "category": "بافت",
