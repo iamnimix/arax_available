@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvyaedza",
+   "name": "بلوز بافت سنتی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2150000,
+   "stock": 2,
+   "material": "نخ آکریل ترک🇹🇷",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "سایز ۳۶ تا ۴۴\nپک های ۲،۴ و ۶ عددی",
+   "images": [
+    "images/products/pmvyaedza-es7pgm.jpg",
+    "images/products/pmvyaedza-volnuf.jpg"
+   ],
+   "updated": "2026-11-01T20:33:07.679Z"
+  },
+  {
    "id": "pmvy80n0v",
    "name": "ست  هودی شلوارکلاه ملانژ  SIMPLE",
    "category": "محصولات ست",
