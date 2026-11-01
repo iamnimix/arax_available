@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmvxhm279",
+   "name": "ست سه تیکه وست تیشرت جاگر",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 2598000,
+   "stock": 2,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "5",
+   "pack": "5",
+   "desc": "فری سایز 36 تا 46",
+   "images": [
+    "images/products/pmvxhm279-58jkab.jpg",
+    "images/products/pmvxhm279-4bhz9e.jpg",
+    "images/products/pmvxhm279-ix00bj.jpg",
+    "images/products/pmvxhm279-guhu04.jpg",
+    "images/products/pmvxhm279-goaoak.jpg",
+    "images/products/pmvxhm279-ltkf1h.jpg",
+    "images/products/pmvxhm279-84m739.jpg"
+   ],
+   "updated": "2026-11-01T07:07:20.772Z"
+  },
+  {
    "id": "pmvxhjswm",
    "name": "دورس مغزی دوزی",
    "category": "دورس و هودی",
