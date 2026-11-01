@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmvy80n0v",
+   "name": "ست  هودی شلوارکلاه ملانژ  SIMPLE",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 3698000,
+   "stock": 2,
+   "material": "پارچه شلوار: ملانژ پنبه۳ نخ تو کرکی ✔️پارچه هودی: دورس ۳ نخ پنبه شلوار دوکاره جاگرشو",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "سایز: فری سایز ۳۸تا۴۴",
+   "images": [
+    "images/products/pmvy80n0v-8uymnx.jpg",
+    "images/products/pmvy80n0v-76yerv.jpg",
+    "images/products/pmvy80n0v-dcli35.jpg",
+    "images/products/pmvy80n0v-d4wd5c.jpg",
+    "images/products/pmvy80n0v-2ewogb.jpg",
+    "images/products/pmvy80n0v-7itrm6.jpg"
+   ],
+   "updated": "2026-11-01T19:26:37.790Z"
+  },
+  {
    "id": "pmvxvzw88",
    "name": "بامبر چرم کلاهدار",
    "category": "محصولات چرم",
