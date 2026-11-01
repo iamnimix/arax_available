@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvxvffez",
+   "name": "بامبر چرم هلیا",
+   "category": "محصولات چرم",
+   "pinned": false,
+   "price": 1748000,
+   "stock": 2,
+   "material": "چرم درجه یک داخل کار آستر کشی",
+   "colors": "5",
+   "pack": "5",
+   "desc": "فری سایز ۴۰ تا ۴۴",
+   "images": [
+    "images/products/pmvxvffez-2ssf26.jpg",
+    "images/products/pmvxvffez-jobw7a.jpg",
+    "images/products/pmvxvffez-5egfv2.jpg",
+    "images/products/pmvxvffez-ofykrj.jpg"
+   ],
+   "updated": "2026-11-01T13:34:11.869Z"
+  },
+  {
    "id": "pmvxtfl0j",
    "name": "بامبر  جکت مغزی دوزی FORD",
    "category": "بامبر و ترنچ کت",
