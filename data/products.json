@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmvxgq0ne",
+   "name": "ست دورس و جاگر سنگشور شده",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 4498000,
+   "stock": 1,
+   "material": "پنبه سه نخ سنگشور شده",
+   "colors": "4",
+   "pack": "4",
+   "desc": "فری سایز 38 تا 44\nقواره آزاد",
+   "images": [
+    "images/products/pmvxgq0ne-hao8ed.jpg",
+    "images/products/pmvxgq0ne-usdfo2.jpg",
+    "images/products/pmvxgq0ne-jfx3d4.jpg",
+    "images/products/pmvxgq0ne-12psx1.jpg",
+    "images/products/pmvxgq0ne-758qt5.jpg",
+    "images/products/pmvxgq0ne-s0tzqn.jpg",
+    "images/products/pmvxgq0ne-mlpc0m.jpg"
+   ],
+   "updated": "2026-11-01T06:42:25.724Z"
+  },
+  {
    "id": "pmvwcp37q",
    "name": "وست سه نخ",
    "category": "وست",
