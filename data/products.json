@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmvxi85lb",
+   "name": "دورس یقه سفید",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "دورس دونخ پنبه خارخورده تو کرکی",
+   "colors": "5",
+   "pack": "5",
+   "desc": "فری سایز ۳۸ تا ۴۶\nقد کار ۶۵",
+   "images": [
+    "images/products/pmvxi85lb-62f7nn.jpg",
+    "images/products/pmvxi85lb-kep94f.jpg",
+    "images/products/pmvxi85lb-bbkcbb.jpg",
+    "images/products/pmvxi85lb-o78ntw.jpg",
+    "images/products/pmvxi85lb-afa9ek.jpg",
+    "images/products/pmvxi85lb-k6iebe.jpg",
+    "images/products/pmvxi85lb-25wbqe.jpg"
+   ],
+   "updated": "2026-11-01T07:24:32.418Z"
+  },
+  {
    "id": "pmvxhxmg3",
    "name": "بامبر جکت 98",
    "category": "بامبر و ترنچ کت",
