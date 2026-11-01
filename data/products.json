@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvxo9cpg",
+   "name": "بلوز بافت سنتی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2100000,
+   "stock": 2,
+   "material": "نخ آکریل",
+   "colors": "2",
+   "pack": "6",
+   "desc": "سایز: فری‌سایز (۳۶ تا ۴۴)",
+   "images": [
+    "images/products/pmvxo9cpg-ncny2m.jpg",
+    "images/products/pmvxo9cpg-zqi4th.jpg"
+   ],
+   "updated": "2026-11-01T10:13:16.804Z"
+  },
+  {
    "id": "pmvxi85lb",
    "name": "دورس یقه سفید",
    "category": "دورس و هودی",
