@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvxvzw88",
+   "name": "بامبر چرم کلاهدار",
+   "category": "محصولات چرم",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "چرم درجه یک، آستر کشی داخل کار، کلاه دورس ملانژ، آستین کشبافت",
+   "colors": "5",
+   "pack": "5",
+   "desc": "فری سایز ۴۰ تا ۴۴",
+   "images": [
+    "images/products/pmvxvzw88-ys279x.jpg",
+    "images/products/pmvxvzw88-24tsui.jpg",
+    "images/products/pmvxvzw88-l258my.jpg",
+    "images/products/pmvxvzw88-9994m5.jpg"
+   ],
+   "updated": "2026-11-01T13:49:55.777Z"
+  },
+  {
    "id": "pmvxvffez",
    "name": "بامبر چرم هلیا",
    "category": "محصولات چرم",
