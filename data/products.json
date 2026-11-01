@@ -14,6 +14,30 @@
  ],
  "products": [
   {
+   "id": "pmvxhrcu6",
+   "name": "ست دورس استین رگلان idas",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 2398000,
+   "stock": 2,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "4",
+   "pack": "4",
+   "desc": "فری سایز 36 تا 46",
+   "images": [
+    "images/products/pmvxhrcu6-a9m1jd.jpg",
+    "images/products/pmvxhrcu6-o0xqgg.jpg",
+    "images/products/pmvxhrcu6-pqbm7p.jpg",
+    "images/products/pmvxhrcu6-pvupu3.jpg",
+    "images/products/pmvxhrcu6-17rmq3.jpg",
+    "images/products/pmvxhrcu6-ntg9p9.jpg",
+    "images/products/pmvxhrcu6-vvukfl.jpg",
+    "images/products/pmvxhrcu6-030ruc.jpg",
+    "images/products/pmvxhrcu6-65s27a.jpg"
+   ],
+   "updated": "2026-11-01T07:11:31.916Z"
+  },
+  {
    "id": "pmvxhm279",
    "name": "ست سه تیکه وست تیشرت جاگر",
    "category": "محصولات ست",
