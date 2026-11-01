@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvxhxmg3",
+   "name": "بامبر جکت 98",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "price": 3598000,
+   "stock": 2,
+   "material": "چرم پلار وارداتی ,تمام کار استرکشی شده ,نواردوزی شده ,دمپا و مچ کشبافت پنبه",
+   "colors": "2",
+   "pack": "4",
+   "desc": "فری سایز ۳۸ تا ۴۴",
+   "images": [
+    "images/products/pmvxhxmg3-c9td2s.jpg",
+    "images/products/pmvxhxmg3-1ah6pc.jpg",
+    "images/products/pmvxhxmg3-dtcdwa.jpg",
+    "images/products/pmvxhxmg3-t7ztbg.jpg"
+   ],
+   "updated": "2026-11-01T07:16:15.661Z"
+  },
+  {
    "id": "pmvxhrcu6",
    "name": "ست دورس استین رگلان idas",
    "category": "محصولات ست",
