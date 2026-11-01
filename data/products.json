@@ -14,6 +14,23 @@
  ],
  "products": [
   {
+   "id": "pmvyag85u",
+   "name": "بافت پینترستی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2150000,
+   "stock": 2,
+   "material": "آکریل نخ ترک🇹🇷",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "سایز ۳۶ تا ۴۴ \nپک های ۲،۴ و ۶ عددی",
+   "images": [
+    "images/products/pmvyag85u-rxcwzp.jpg",
+    "images/products/pmvyag85u-ue0le7.jpg"
+   ],
+   "updated": "2026-11-01T20:34:30.212Z"
+  },
+  {
    "id": "pmvyaedza",
    "name": "بلوز بافت سنتی",
    "category": "بافت",
