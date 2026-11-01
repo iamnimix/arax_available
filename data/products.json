@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvxhjswm",
+   "name": "دورس مغزی دوزی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 2150000,
+   "stock": 2,
+   "material": "دورس پنبه سه نخ سنگشور",
+   "colors": "4",
+   "pack": "4",
+   "desc": "فری سایز 38 تا 44",
+   "images": [
+    "images/products/pmvxhjswm-aribhr.jpg",
+    "images/products/pmvxhjswm-9wy3ta.jpg",
+    "images/products/pmvxhjswm-af66ys.jpg",
+    "images/products/pmvxhjswm-qednub.jpg"
+   ],
+   "updated": "2026-11-01T07:05:30.705Z"
+  },
+  {
    "id": "pmvxgq0ne",
    "name": "ست دورس و جاگر سنگشور شده",
    "category": "محصولات ست",
