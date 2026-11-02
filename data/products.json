@@ -14,6 +14,29 @@
  ],
  "products": [
   {
+   "id": "pmvywpj5c",
+   "name": "ست سویشرت شلوار NY",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 2298000,
+   "stock": 4,
+   "material": "دورس اسپان داخل کرک با کیفت",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmvywpj5c-fbrgft.jpg",
+    "images/products/pmvywpj5c-8fybpr.jpg",
+    "images/products/pmvywpj5c-qdycll.jpg",
+    "images/products/pmvywpj5c-vtoceh.jpg",
+    "images/products/pmvywpj5c-9wa27m.jpg",
+    "images/products/pmvywpj5c-bvfivj.jpg",
+    "images/products/pmvywpj5c-dbnz5h.jpg",
+    "images/products/pmvywpj5c-lq3e65.jpg"
+   ],
+   "updated": "2026-11-02T06:57:51.015Z"
+  },
+  {
    "id": "pmvywn27d",
    "name": "ست سویشرت شلوار پلو",
    "category": "محصولات ست",
