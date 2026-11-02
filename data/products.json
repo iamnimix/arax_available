@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmvz1l9pc",
+   "name": "بلوز بافت سنتی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2100000,
+   "stock": 2,
+   "material": "نخ آکریل",
+   "colors": "4",
+   "pack": "4",
+   "desc": "📌سایز: فری‌سایز (۳۶ تا ۴۴)",
+   "images": [
+    "images/products/pmvz1l9pc-bj7zsx.jpg",
+    "images/products/pmvz1l9pc-ml4x3d.jpg",
+    "images/products/pmvz1l9pc-qtyrl7.jpg",
+    "images/products/pmvz1l9pc-2m8yop.jpg"
+   ],
+   "updated": "2026-11-02T09:14:17.505Z"
+  },
+  {
    "id": "pmvywt5o4",
    "name": "بافت پلو ترند",
    "category": "بافت",
