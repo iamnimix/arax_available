@@ -1085,7 +1085,7 @@
    "id": "pmvrxejyj",
    "name": "جاگر دو کاره",
    "category": "محصولات شلوار",
-   "pinned": true,
+   "pinned": false,
    "price": 1250000,
    "stock": 3,
    "material": "دورس دو نخ پنبه تضمینی",
@@ -1491,7 +1491,7 @@
     "images/products/pmvru5kzh-ioqhm6.jpg"
    ],
    "updated": "2026-10-28T08:23:55.884Z",
-   "pinned": false
+   "pinned": true
   },
   {
    "id": "pmvrtyj4f",
@@ -1545,7 +1545,7 @@
     "images/products/pmvrsnau7-y6c39z.jpg"
    ],
    "updated": "2026-10-28T08:01:14.041Z",
-   "pinned": true
+   "pinned": false
   }
  ]
 }
