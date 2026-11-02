@@ -14,6 +14,29 @@
  ],
  "products": [
   {
+   "id": "pmvywt5o4",
+   "name": "بافت پلو ترند",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1950000,
+   "stock": 3,
+   "material": "نخ اکریل ترک درجه ۱",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmvywt5o4-v224u1.jpg",
+    "images/products/pmvywt5o4-5j2lo7.jpg",
+    "images/products/pmvywt5o4-una73w.jpg",
+    "images/products/pmvywt5o4-1v3vau.jpg",
+    "images/products/pmvywt5o4-9t37ry.jpg",
+    "images/products/pmvywt5o4-3obr2z.jpg",
+    "images/products/pmvywt5o4-jql3rj.jpg",
+    "images/products/pmvywt5o4-8q3yfw.jpg"
+   ],
+   "updated": "2026-11-02T07:00:41.276Z"
+  },
+  {
    "id": "pmvywrvfd",
    "name": "بافت پلو ابری ترند",
    "category": "بافت",
