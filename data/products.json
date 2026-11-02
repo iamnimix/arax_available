@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmvywn27d",
+   "name": "ست سویشرت شلوار پلو",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 2198000,
+   "stock": 3,
+   "material": "دورس اسپان داخل کرک",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmvywn27d-ue2t9k.jpg",
+    "images/products/pmvywn27d-x7i7x6.jpg",
+    "images/products/pmvywn27d-zckmfc.jpg",
+    "images/products/pmvywn27d-vvx7up.jpg",
+    "images/products/pmvywn27d-t12wy5.jpg"
+   ],
+   "updated": "2026-11-02T06:55:48.116Z"
+  },
+  {
    "id": "pmvyag85u",
    "name": "بافت پینترستی",
    "category": "بافت",
