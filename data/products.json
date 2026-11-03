@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmw12cdrk",
+   "name": "ست  هودی شلوار دو رنگ   Selium",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 3698000,
+   "stock": 2,
+   "material": "پارچه شلوار: ملانژ پنبه۳ نخ تو کرکی پارچه هودی: دورس ۳ نخ پنبه شلوار دوکاره جاگرشو",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز: فری سایز ۳۸تا۴۴",
+   "images": [
+    "images/products/pmw12cdrk-g7j3jb.jpg",
+    "images/products/pmw12cdrk-y8cqzt.jpg",
+    "images/products/pmw12cdrk-mqmfgl.jpg",
+    "images/products/pmw12cdrk-9xzhme.jpg",
+    "images/products/pmw12cdrk-b1pckj.jpg",
+    "images/products/pmw12cdrk-tb487r.jpg"
+   ],
+   "updated": "2026-11-03T19:11:10.157Z"
+  },
+  {
    "id": "pmw0w7leo",
    "name": "ست هودی شلوار selium",
    "category": "محصولات ست",
