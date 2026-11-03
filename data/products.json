@@ -14,6 +14,29 @@
  ],
  "products": [
   {
+   "id": "pmw0g46a2",
+   "name": "بافت سگ سوسیسی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 3398000,
+   "stock": 2,
+   "material": "اکریل ترک درجه ۱",
+   "colors": "5",
+   "pack": "4",
+   "desc": "سایز: فری‌سایز (۳۶ تا ۴۶)\nقواره لش",
+   "images": [
+    "images/products/pmw0g46a2-e0g6ul.jpg",
+    "images/products/pmw0g46a2-kq5v54.jpg",
+    "images/products/pmw0g46a2-udu46w.jpg",
+    "images/products/pmw0g46a2-hpk82o.jpg",
+    "images/products/pmw0g46a2-5f2ijn.jpg",
+    "images/products/pmw0g46a2-3ngcoh.jpg",
+    "images/products/pmw0g46a2-utg48h.jpg",
+    "images/products/pmw0g46a2-vzqch2.jpg"
+   ],
+   "updated": "2026-11-03T08:48:49.718Z"
+  },
+  {
    "id": "pmw0dzdyb",
    "name": "هودی kiss",
    "category": "دورس و هودی",
