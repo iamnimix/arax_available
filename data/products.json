@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmw0oi51k",
+   "name": "وست وگاس کتان",
+   "category": "وست",
+   "pinned": false,
+   "price": 1598000,
+   "stock": 0,
+   "material": "کتان گرم دار درجه ۱",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmw0oi51k-mxpc06.jpg",
+    "images/products/pmw0oi51k-sbqwus.jpg",
+    "images/products/pmw0oi51k-wk2aw8.jpg",
+    "images/products/pmw0oi51k-qw9riw.jpg",
+    "images/products/pmw0oi51k-2032qh.jpg",
+    "images/products/pmw0oi51k-6vvdnh.jpg"
+   ],
+   "updated": "2026-11-03T12:43:33.843Z"
+  },
+  {
    "id": "pmw0g46a2",
    "name": "بافت سگ سوسیسی",
    "category": "بافت",
