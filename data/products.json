@@ -14,6 +14,24 @@
  ],
  "products": [
   {
+   "id": "pmw0dgsu5",
+   "name": "وست old money",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1748000,
+   "stock": 1,
+   "material": "جین درجه یک شست رفته",
+   "colors": "۲",
+   "pack": "۶",
+   "desc": "📌سایز: فری‌سایز (مناسب ۳۸ تا ۴۶)\nقد ۵۸",
+   "images": [
+    "images/products/pmw0dgsu5-tau40f.jpg",
+    "images/products/pmw0dgsu5-1g0x5o.jpg",
+    "images/products/pmw0dgsu5-sgcbq8.jpg"
+   ],
+   "updated": "2026-11-03T07:34:28.761Z"
+  },
+  {
    "id": "pmvz1l9pc",
    "name": "بلوز بافت سنتی",
    "category": "بافت",
