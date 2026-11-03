@@ -1386,7 +1386,7 @@
    "category": "محصولات جین",
    "pinned": false,
    "price": 1998000,
-   "stock": 2,
+   "stock": 0,
    "material": "جین براش درجه یک",
    "colors": "1",
    "pack": "5",
@@ -1398,7 +1398,7 @@
     "images/products/pmvrwluu4-pbzdfx.jpg",
     "images/products/pmvrwluu4-au117n.jpg"
    ],
-   "updated": "2026-10-28T09:20:25.184Z"
+   "updated": "2026-11-03T19:26:46.728Z"
   },
   {
    "id": "pmvrwgwcq",
