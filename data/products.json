@@ -14,6 +14,24 @@
  ],
  "products": [
   {
+   "id": "pmw12jc9j",
+   "name": "سویشرت شلوار کامرون",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 1398000,
+   "stock": 2,
+   "material": "آیرو وارداتی زد آب درجه یک",
+   "colors": "1",
+   "pack": "4",
+   "desc": "4سایز(M-L-XL-2XL)",
+   "images": [
+    "images/products/pmw12jc9j-1firj6.jpg",
+    "images/products/pmw12jc9j-px05dj.jpg",
+    "images/products/pmw12jc9j-jlxjrs.jpg"
+   ],
+   "updated": "2026-11-03T19:16:26.384Z"
+  },
+  {
    "id": "pmw0w7leo",
    "name": "ست هودی شلوار selium",
    "category": "محصولات ست",
