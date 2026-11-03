@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmw0w7leo",
+   "name": "ست هودی شلوار selium",
+   "category": "محصولات ست",
+   "pinned": false,
+   "price": 3698000,
+   "stock": 2,
+   "material": "پارچه شلوار: ملانژ پنبه۳ نخ تو کرکی ,پارچه هودی: دورس ۳ نخ پنبه شلوار دوکاره جاگرشو",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز: فری سایز ۳۸تا۴۴",
+   "images": [
+    "images/products/pmw0w7leo-q5ifa2.jpg",
+    "images/products/pmw0w7leo-xzhrnj.jpg",
+    "images/products/pmw0w7leo-2eib4w.jpg",
+    "images/products/pmw0w7leo-sly80x.jpg",
+    "images/products/pmw0w7leo-a19fkb.jpg",
+    "images/products/pmw0w7leo-yroui1.jpg"
+   ],
+   "updated": "2026-11-03T16:19:29.360Z"
+  },
+  {
    "id": "pmw0oi51k",
    "name": "وست وگاس کتان",
    "category": "وست",
