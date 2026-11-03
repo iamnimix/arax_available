@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmw12qi9g",
+   "name": "جین پشت پاگن",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "جین سنگ‌شور شده",
+   "colors": "4",
+   "pack": "4",
+   "desc": "✔️ قد پشت کار :70\n✔️ قد پیش کار :55\n✔️ قد آستین :59",
+   "images": [
+    "images/products/pmw12qi9g-02hpqg.jpg",
+    "images/products/pmw12qi9g-epce9w.jpg",
+    "images/products/pmw12qi9g-y6ltd9.jpg",
+    "images/products/pmw12qi9g-43y36j.jpg",
+    "images/products/pmw12qi9g-n21iyb.jpg",
+    "images/products/pmw12qi9g-4hf347.jpg",
+    "images/products/pmw12qi9g-7c0nn9.jpg"
+   ],
+   "updated": "2026-11-03T19:22:19.981Z"
+  },
+  {
    "id": "pmw12mt9v",
    "name": "ترنچ کت تدی",
    "category": "بامبر و ترنچ کت",
