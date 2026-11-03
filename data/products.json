@@ -1709,8 +1709,9 @@
    "id": "pmvrsnau7",
    "name": "کت جین پارمیلا",
    "category": "محصولات جین",
+   "pinned": false,
    "price": 2550000,
-   "stock": 10,
+   "stock": 0,
    "material": "جین براش شست رفته",
    "colors": "۱",
    "pack": "۴",
@@ -1720,8 +1721,7 @@
     "images/products/pmvrsnau7-f11rds.jpg",
     "images/products/pmvrsnau7-y6c39z.jpg"
    ],
-   "updated": "2026-10-28T08:01:14.041Z",
-   "pinned": false
+   "updated": "2026-11-03T19:26:22.355Z"
   }
  ]
 }
