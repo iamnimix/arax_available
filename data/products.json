@@ -14,6 +14,29 @@
  ],
  "products": [
   {
+   "id": "pmw0dzdyb",
+   "name": "هودی kiss",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "price": 1598000,
+   "stock": 2,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "۳ طرح",
+   "pack": "۶",
+   "desc": "فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmw0dzdyb-mprxt4.jpg",
+    "images/products/pmw0dzdyb-50ajmh.jpg",
+    "images/products/pmw0dzdyb-q4du1h.jpg",
+    "images/products/pmw0dzdyb-llht4r.jpg",
+    "images/products/pmw0dzdyb-3v33ki.jpg",
+    "images/products/pmw0dzdyb-sw95zu.jpg",
+    "images/products/pmw0dzdyb-rbwvzj.jpg",
+    "images/products/pmw0dzdyb-tx1kh1.jpg"
+   ],
+   "updated": "2026-11-03T07:49:04.147Z"
+  },
+  {
    "id": "pmw0dgsu5",
    "name": "وست old money",
    "category": "محصولات جین",
