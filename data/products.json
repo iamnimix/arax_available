@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmw12mt9v",
+   "name": "ترنچ کت تدی",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "price": 2688000,
+   "stock": 2,
+   "material": "کتان زارا آستر دار درجه یک",
+   "colors": "5",
+   "pack": "5",
+   "desc": "قد کار60\n\n📌سایزبندی :فری سایز(36تا46)",
+   "images": [
+    "images/products/pmw12mt9v-xqa2xc.jpg",
+    "images/products/pmw12mt9v-at6w0v.jpg",
+    "images/products/pmw12mt9v-yzrs0w.jpg",
+    "images/products/pmw12mt9v-0926rr.jpg",
+    "images/products/pmw12mt9v-1y7ccj.jpg",
+    "images/products/pmw12mt9v-egg1zj.jpg"
+   ],
+   "updated": "2026-11-03T19:19:19.754Z"
+  },
+  {
    "id": "pmw12jc9j",
    "name": "سویشرت شلوار کامرون",
    "category": "محصولات ست",
