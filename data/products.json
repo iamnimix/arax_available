@@ -14,6 +14,31 @@
  ],
  "products": [
   {
+   "id": "pmw12teoc",
+   "name": "وست استین دمپاریش MIAMI",
+   "category": "محصولات جین",
+   "pinned": false,
+   "price": 1798000,
+   "stock": 2,
+   "material": "جین پنبه سنگشور",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز: فری‌سایز (۳۶ تا ۴۸)",
+   "images": [
+    "images/products/pmw12teoc-al46lt.jpg",
+    "images/products/pmw12teoc-wzwc8i.jpg",
+    "images/products/pmw12teoc-69ojy5.jpg",
+    "images/products/pmw12teoc-0j8twu.jpg",
+    "images/products/pmw12teoc-jd5huy.jpg",
+    "images/products/pmw12teoc-o54sbt.jpg",
+    "images/products/pmw12teoc-2jumcv.jpg",
+    "images/products/pmw12teoc-xncgxu.jpg",
+    "images/products/pmw12teoc-dkzmuz.jpg",
+    "images/products/pmw12teoc-ajx5y9.jpg"
+   ],
+   "updated": "2026-11-03T19:24:58.119Z"
+  },
+  {
    "id": "pmw12qi9g",
    "name": "جین پشت پاگن",
    "category": "محصولات جین",
