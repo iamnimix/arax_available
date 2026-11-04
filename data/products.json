@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmw1u5ihx",
+   "name": "بافت ظریف یقه گرد",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1550000,
+   "stock": 1,
+   "material": "اکریل ترک نرم لطیف",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmw1u5ihx-r2hbaf.jpg",
+    "images/products/pmw1u5ihx-ott53i.jpg",
+    "images/products/pmw1u5ihx-4cc9y2.jpg",
+    "images/products/pmw1u5ihx-h959uc.jpg",
+    "images/products/pmw1u5ihx-xxlljj.jpg"
+   ],
+   "updated": "2026-11-04T08:09:27.889Z"
+  },
+  {
    "id": "pmw1u3ztj",
    "name": "بافت راه راه یقه زیپ",
    "category": "بافت",
