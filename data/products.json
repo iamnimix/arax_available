@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmw1u1owx",
+   "name": "بافت سویشرتی دبل زیپ",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1990000,
+   "stock": 1,
+   "material": "اکریل ترک درجه ۱",
+   "colors": "۳",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmw1u1owx-gqx2hq.jpg",
+    "images/products/pmw1u1owx-oe5qos.jpg",
+    "images/products/pmw1u1owx-ds6ze8.jpg",
+    "images/products/pmw1u1owx-vezow5.jpg"
+   ],
+   "updated": "2026-11-04T08:06:26.165Z"
+  },
+  {
    "id": "pmw1tr6ut",
    "name": "بافت تدی اکریل",
    "category": "بافت",
