@@ -14,6 +14,25 @@
  ],
  "products": [
   {
+   "id": "pmw1tkg10",
+   "name": "بافت رگلان ۵ دکمه",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 1,
+   "material": "اکریل ترک درجه ۱",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmw1tkg10-2cgbb8.jpg",
+    "images/products/pmw1tkg10-1rj2af.jpg",
+    "images/products/pmw1tkg10-aih0gs.jpg",
+    "images/products/pmw1tkg10-3xmpet.jpg"
+   ],
+   "updated": "2026-11-04T07:53:02.138Z"
+  },
+  {
    "id": "pmw12teoc",
    "name": "وست استین دمپاریش MIAMI",
    "category": "محصولات جین",
