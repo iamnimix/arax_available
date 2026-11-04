@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmw1tr6ut",
+   "name": "بافت تدی اکریل",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1890000,
+   "stock": 1,
+   "material": "اکریل ترک نرم لطیف",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmw1tr6ut-1b25kb.jpg",
+    "images/products/pmw1tr6ut-p8anps.jpg",
+    "images/products/pmw1tr6ut-b15yx6.jpg",
+    "images/products/pmw1tr6ut-rwa2ug.jpg",
+    "images/products/pmw1tr6ut-kvk1q2.jpg",
+    "images/products/pmw1tr6ut-mbfgfw.jpg",
+    "images/products/pmw1tr6ut-abxuce.jpg"
+   ],
+   "updated": "2026-11-04T07:58:20.404Z"
+  },
+  {
    "id": "pmw1tkg10",
    "name": "بافت رگلان ۵ دکمه",
    "category": "بافت",
