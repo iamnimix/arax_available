@@ -14,6 +14,30 @@
  ],
  "products": [
   {
+   "id": "pmw1u3ztj",
+   "name": "بافت راه راه یقه زیپ",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1550000,
+   "stock": 1,
+   "material": "اکریل ترک درجه ۱",
+   "colors": "۸",
+   "pack": "۸",
+   "desc": "",
+   "images": [
+    "images/products/pmw1u3ztj-09gtsf.jpg",
+    "images/products/pmw1u3ztj-o8c2z1.jpg",
+    "images/products/pmw1u3ztj-fas8v3.jpg",
+    "images/products/pmw1u3ztj-jha818.jpg",
+    "images/products/pmw1u3ztj-83vs05.jpg",
+    "images/products/pmw1u3ztj-gi2zke.jpg",
+    "images/products/pmw1u3ztj-ha19ao.jpg",
+    "images/products/pmw1u3ztj-5ncjn1.jpg",
+    "images/products/pmw1u3ztj-x6zhrq.jpg"
+   ],
+   "updated": "2026-11-04T08:08:25.132Z"
+  },
+  {
    "id": "pmw1u1owx",
    "name": "بافت سویشرتی دبل زیپ",
    "category": "بافت",
