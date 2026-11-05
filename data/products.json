@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmw38bdhl",
+   "name": "وست یقه دار (گرم بالا)",
+   "category": "بافت",
+   "pinned": false,
+   "price": 1380000,
+   "stock": 2,
+   "material": "آکریل ترک🇹🇷 نرمولطیف🍁❄️",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایزبندی : 36 تا 44",
+   "images": [
+    "images/products/pmw38bdhl-3f0ge9.jpg",
+    "images/products/pmw38bdhl-aifbn4.jpg",
+    "images/products/pmw38bdhl-xbod66.jpg",
+    "images/products/pmw38bdhl-knbnop.jpg",
+    "images/products/pmw38bdhl-x9righ.jpg",
+    "images/products/pmw38bdhl-2k0s6f.jpg"
+   ],
+   "updated": "2026-11-05T07:33:52.378Z"
+  },
+  {
    "id": "pmw384xji",
    "name": "وست چرم zara",
    "category": "محصولات چرم",
