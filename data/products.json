@@ -14,6 +14,28 @@
  ],
  "products": [
   {
+   "id": "pmw3awah8",
+   "name": "بافت ابر",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2198000,
+   "stock": 2,
+   "material": "آکریل ترک نرمولطیف🍁❄️",
+   "colors": "1",
+   "pack": "4",
+   "desc": "سایزبندی : 36 تا 44",
+   "images": [
+    "images/products/pmw3awah8-wf9uav.jpg",
+    "images/products/pmw3awah8-ooyr7m.jpg",
+    "images/products/pmw3awah8-32gagk.jpg",
+    "images/products/pmw3awah8-a83i4t.jpg",
+    "images/products/pmw3awah8-6coyx5.jpg",
+    "images/products/pmw3awah8-9gurt6.jpg",
+    "images/products/pmw3awah8-eybwdi.jpg"
+   ],
+   "updated": "2026-11-05T08:45:58.791Z"
+  },
+  {
    "id": "pmw38bdhl",
    "name": "وست یقه دار (گرم بالا)",
    "category": "بافت",
