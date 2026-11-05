@@ -14,6 +14,26 @@
  ],
  "products": [
   {
+   "id": "pmw3b296e",
+   "name": "بافت سگ سوسیسی",
+   "category": "بافت",
+   "pinned": false,
+   "price": 2198000,
+   "stock": 2,
+   "material": "آکریل ترک نرمولطیف🍁❄️",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایزبندی : 36 تا 44",
+   "images": [
+    "images/products/pmw3b296e-01b8av.jpg",
+    "images/products/pmw3b296e-6opnjq.jpg",
+    "images/products/pmw3b296e-dtutm7.jpg",
+    "images/products/pmw3b296e-gu847r.jpg",
+    "images/products/pmw3b296e-nhqxmr.jpg"
+   ],
+   "updated": "2026-11-05T08:50:33.329Z"
+  },
+  {
    "id": "pmw3awah8",
    "name": "بافت ابر",
    "category": "بافت",
