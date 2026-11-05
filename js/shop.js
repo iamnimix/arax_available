@@ -18,7 +18,15 @@ function prices(p){
   else{each=p.price;pack=n?p.price*n:0}
   return {each,pack,n};
 }
-const packPrice=p=>prices(p).pack||p.price;
+const unitLabel=p=>p.priceUnit==='pack'?'پک':'عدد';
+const unitPrice=p=>p.price;
+// جمع یک ردیف سبد: قیمت وارد‌شده × تعداد (اگر قیمت تکی است: × تعداد در پک)
+function line(p,q){
+  const n=toNum(p.pack);
+  if(p.priceUnit==='pack')return {total:p.price*q,text:`${fa(q)} پک × ${fa(p.price)}`};
+  if(n)return {total:p.price*n*q,text:`${fa(q)} پک (${fa(n*q)} عدد) × ${fa(p.price)}`};
+  return {total:p.price*q,text:`${fa(q)} × ${fa(p.price)}`};
+}
 const created=p=>p.created||parseInt(String(p.id).slice(1),36)||0;
 const isNew=p=>created(p)&&Date.now()-created(p)<7*864e5;
 
@@ -52,8 +60,8 @@ const colsN=()=>innerWidth<640?2:innerWidth<1000?3:4;
 function arrange(list){
   let a=[...list];
   if(sort==='new')a.sort((x,y)=>created(y)-created(x));
-  else if(sort==='low')a.sort((x,y)=>packPrice(x)-packPrice(y));
-  else if(sort==='high')a.sort((x,y)=>packPrice(y)-packPrice(x));
+  else if(sort==='low')a.sort((x,y)=>unitPrice(x)-unitPrice(y));
+  else if(sort==='high')a.sort((x,y)=>unitPrice(y)-unitPrice(x));
   else a=[...a.filter(p=>p.pinned),...a.filter(p=>!p.pinned)];
   return [...a.filter(p=>p.stock>0),...a.filter(p=>!(p.stock>0))];
 }
@@ -66,7 +74,7 @@ function cardHtml(p,i){
   const r=prices(p);
   const meta=[p.material,p.colors?p.colors+' رنگ':'',p.pack?p.pack+' در پک':''].filter(Boolean).join(' · ');
   const im=p.images?.[0]||'';
-  const priceTxt=r.pack?`${fa(r.pack)} <small>تومان / پک</small>`:`${fa(p.price)} <small>تومان / ${p.priceUnit==='pack'?'پک':'عدد'}</small>`;
+  const priceTxt=`${fa(p.price)} <small>تومان / ${unitLabel(p)}</small>`;
   return `<div class="card ${p.pinned?'pin':''}" data-id="${esc(p.id)}">
     <div class="im"><img src="${esc(im)}" alt="" style="aspect-ratio:3/4" onload="imgFit(this)" onerror="imgErr(this)" decoding="async" ${i>5?'loading="lazy"':''}>
       ${stockTag(p)}
@@ -112,16 +120,16 @@ function addToCart(id,q=1){
 function orderMessage(){
   const items=cartItems(),name=($('#cName')?.value||'').trim();
   let total=0;
-  const lines=items.map((i,k)=>{const pp=packPrice(i.p),t=pp*i.q;total+=t;return `${fa(k+1)}) ${i.p.name}\n   ${fa(i.q)} پک × ${fa(pp)} = ${fa(t)} تومان`});
+  const lines=items.map((i,k)=>{const l=line(i.p,i.q);total+=l.total;return `${fa(k+1)}) ${i.p.name}\n   ${l.text} = ${fa(l.total)} تومان`});
   return `سلام، سفارش من از ویترین آراکس ARAX:\n\n${lines.join('\n')}\n\nجمع کل: ${fa(total)} تومان${name?`\nنام/شماره: ${name}`:''}\n\n${location.href.split('#')[0]}`;
 }
 function renderCart(){
   const items=cartItems();
   if(!items.length){$('#cartBody').innerHTML='<div class="empty" style="padding:30px 0">سبد سفارش خالی است.<br><small>از کارت هر محصول دکمه «+ سفارش» را بزنید.</small></div>';return}
   let total=0;
-  const rows=items.map(({p,q})=>{const pp=packPrice(p),t=pp*q;total+=t;return `
+  const rows=items.map(({p,q})=>{const l=line(p,q),t=l.total;total+=t;return `
    <div class="crow2"><div class="cth" style="background-image:url('${esc(p.images?.[0]||'')}')"></div>
-    <div class="cin"><b>${esc(p.name)}</b><small>${fa(pp)} تومان / پک</small><small>جمع: <b>${fa(t)}</b> تومان</small></div>
+    <div class="cin"><b>${esc(p.name)}</b><small>${fa(p.price)} تومان / ${unitLabel(p)}</small><small>${l.text}</small><small>جمع: <b>${fa(t)}</b> تومان</small></div>
     <div class="step"><button data-cm="${esc(p.id)}">−</button><span>${fa(q)}</span><button data-cp="${esc(p.id)}">+</button></div>
     <button class="del" data-cd="${esc(p.id)}" aria-label="حذف">🗑</button></div>`}).join('');
   const saved=localStorage.getItem('arax_name')||'';
@@ -178,9 +186,7 @@ function open_(id,fromHash){
       <h2>${esc(p.name)}</h2>
       ${p.category?`<div class="cat">دسته: ${esc(p.category)}</div>`:''}
       <ul class="specs">
-        ${r.pack?`<li class="hl"><span>قیمت هر پک</span><b>${fa(r.pack)} تومان</b></li>`:''}
-        ${r.each?`<li class="hl"><span>قیمت هر عدد</span><b>${fa(r.each)} تومان</b></li>`:''}
-        ${!r.pack&&!r.each?`<li class="hl"><span>قیمت</span><b>${fa(p.price)} تومان</b></li>`:''}
+        <li class="hl" style="grid-column:1/-1"><span>قیمت هر ${unitLabel(p)}</span><b>${fa(p.price)} تومان</b></li>
         <li><span>جنس</span><b>${esc(p.material||'-')}</b></li>
         <li><span>تعداد رنگ</span><b>${esc(p.colors||'-')}</b></li>
         <li><span>تعداد در پک</span><b>${esc(p.pack||'-')}</b></li>
