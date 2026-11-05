@@ -14,6 +14,27 @@
  ],
  "products": [
   {
+   "id": "pmw384xji",
+   "name": "وست چرم zara",
+   "category": "محصولات چرم",
+   "pinned": false,
+   "price": 1998000,
+   "stock": 2,
+   "material": "چرم مسکو  داخل کار آستر دار میباشد",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایزبندی : فری سایز(38تا46)\n ✔️قد کار :  60",
+   "images": [
+    "images/products/pmw384xji-72lkto.jpg",
+    "images/products/pmw384xji-p526ee.jpg",
+    "images/products/pmw384xji-3c4ux9.jpg",
+    "images/products/pmw384xji-3fpovy.jpg",
+    "images/products/pmw384xji-ljcpkx.jpg",
+    "images/products/pmw384xji-b07088.jpg"
+   ],
+   "updated": "2026-11-05T07:28:40.409Z"
+  },
+  {
    "id": "pmw1u5ihx",
    "name": "بافت ظریف یقه گرد",
    "category": "بافت",
