@@ -143,3 +143,23 @@
   .addbtn{font-size:11.5px}
 }
 .cbadge.hide{display:none}
+
+/* ===== پنجره جزئیات: اندازه ثابت برای همه محصولات، بدون اسکرول افقی ===== */
+.shop .box.pop{display:flex;flex-direction:column;padding:0;overflow:hidden;width:100%;max-width:880px;height:min(90vh,780px);height:min(90dvh,780px);max-height:none}
+.pop .pgal{flex:none;padding:12px 12px 0;min-width:0}
+.pop .gal{width:100%;min-width:0}
+.pop .slide{height:min(34vh,300px);height:min(34dvh,300px)}
+.pop .thumbs{margin:8px 0 6px}
+.pop .pright{flex:1;min-height:0;min-width:0;display:flex;flex-direction:column}
+.pop .pinfo{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;padding:6px 14px 12px;overflow-wrap:anywhere;word-break:break-word;-webkit-overflow-scrolling:touch}
+.pop .pinfo h2{font-size:19px;line-height:1.6}
+.pop .specs{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.pop .pbar{flex:none;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid #eee;background:#fff}
+.pop .addrow{margin:0}
+@media(min-width:900px){
+  .shop .box.pop{flex-direction:row}
+  .pop .pgal{width:46%;padding:14px;display:flex;flex-direction:column}
+  .pop .gal{flex:1}
+  .pop .slide{height:100%}
+  .pop .pright{width:54%;padding-top:10px}
+}

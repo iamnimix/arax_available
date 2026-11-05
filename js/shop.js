@@ -138,7 +138,7 @@ function renderCart(){
    <input id="cName" placeholder="نام یا شماره شما (اختیاری)" value="${esc(saved)}" style="margin:8px 0">
    <textarea id="cMsg" rows="6" readonly></textarea>
    <button class="btn" id="sendOrder" style="width:100%;margin-top:8px">کپی پیام و ارسال در تلگرام</button>
-   <p style="font-size:12px;color:#6b6b6b;margin-top:6px;text-align:center">پیام کپی می‌شود؛ در تلگرام فقط Paste کنید و بفرستید.</p>
+   <p style="font-size:12px;color:#6b6b6b;margin-top:6px;text-align:center">تلگرام باز می‌شود و پیام داخل کادر نوشتن آماده است؛ فقط «ارسال» را بزنید. اگر خالی بود، Paste کنید (پیام کپی شده است).</p>
    <button class="btn danger sm" id="clearCart" style="margin-top:6px">خالی کردن سبد</button>`;
   $('#cMsg').value=orderMessage();
 }
@@ -147,8 +147,8 @@ async function sendOrder(){
   const msg=orderMessage();
   try{localStorage.setItem('arax_name',($('#cName')?.value||'').trim())}catch(e){}
   try{await navigator.clipboard.writeText(msg)}catch(e){const m=$('#cMsg');m.select();try{document.execCommand('copy')}catch(_){}}
-  toast('پیام کپی شد ✓');
-  window.open(TG,'_blank');
+  toast('پیام کپی شد و در تلگرام آماده ارسال است ✓');
+  window.open(TG+'?text='+encodeURIComponent(msg),'_blank');
 }
 
 /* ---------- دسته‌ها ---------- */
@@ -175,10 +175,12 @@ function open_(id,fromHash){
   const p=byId(id);if(!p)return;
   const imgs=p.images?.length?p.images:[''],r=prices(p);dq=1;
   $('#pbox').innerHTML=`<button class="x" data-close>×</button>
-  <div class="detail">
-    <div><div class="gal" id="gal">${imgs.map(s=>`<div class="slide"><img src="${esc(s)}" alt="" data-zoom></div>`).join('')}</div>
-      ${imgs.length>1?`<div class="thumbs">${imgs.map((s,i)=>`<div class="${i?'':'on'}" data-i="${i}" style="background-image:url('${esc(s)}')"></div>`).join('')}</div>`:''}</div>
-    <div>
+  <div class="pgal">
+    <div class="gal" id="gal">${imgs.map(s=>`<div class="slide"><img src="${esc(s)}" alt="" data-zoom></div>`).join('')}</div>
+    ${imgs.length>1?`<div class="thumbs">${imgs.map((s,i)=>`<div class="${i?'':'on'}" data-i="${i}" style="background-image:url('${esc(s)}')"></div>`).join('')}</div>`:''}
+  </div>
+  <div class="pright">
+    <div class="pinfo">
       <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">
         ${p.pinned?'<span class="pinbadge static">📌 پیشنهاد ویژه</span>':''}${isNew(p)?'<span class="pinbadge static nb">جدید</span>':''}
         ${p.stock>0&&p.stock<=3?`<span class="pinbadge static lowb">فقط ${fa(p.stock)} پک مانده</span>`:''}
@@ -193,14 +195,17 @@ function open_(id,fromHash){
         <li><span>موجودی</span><b>${p.stock>0?fa(p.stock)+' پک':'ناموجود'}</b></li>
       </ul>
       ${p.desc?`<p style="font-size:14px;margin-bottom:10px">${esc(p.desc)}</p>`:''}
+      <div class="order">ثبت سفارش از طریق لینک زیر:<a class="go" href="${TG}" target="_blank" rel="noopener">https://t.me/arax_mood</a>
+        <div class="tel">📞 شماره تماس: <a href="tel:09193127255"><b>۰۹۱۹۳۱۲۷۲۵۵</b></a></div></div>
+    </div>
+    <div class="pbar">
       ${p.stock>0?`<div class="addrow"><div class="step"><button data-dm>−</button><span id="dq">۱</span><button data-dp="${p.stock}">+</button></div>
         <button class="btn" data-addd="${esc(p.id)}" style="flex:1">افزودن به سفارش</button>
         <button class="btn ghost" data-share="${esc(p.id)}" aria-label="اشتراک‌گذاری">🔗</button></div>`
        :`<div class="addrow"><button class="btn ghost" data-share="${esc(p.id)}" style="flex:1">🔗 اشتراک‌گذاری لینک محصول</button></div>`}
-      <div class="order">ثبت سفارش از طریق لینک زیر:<a class="go" href="${TG}" target="_blank" rel="noopener">https://t.me/arax_mood</a>
-        <div class="tel">📞 شماره تماس: <a href="tel:09193127255"><b>۰۹۱۹۳۱۲۷۲۵۵</b></a></div></div>
     </div>
   </div>`;
+  $('#pbox').scrollTop=0;
   const g=$('#gal');
   g.onscroll=()=>{const i=Math.round(Math.abs(g.scrollLeft)/g.clientWidth);document.querySelectorAll('.thumbs div').forEach((d,k)=>d.classList.toggle('on',k===i))};
   $('#pm').classList.add('on');
