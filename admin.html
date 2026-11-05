@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow">
 <title>پنل مدیریت آراکس</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="css/style.css?v=8">
+<link rel="stylesheet" href="css/style.css?v=9">
 </head>
 <body>
 <header>
@@ -58,8 +58,9 @@
   <div class="field"><label>دسته‌بندی</label><select id="f_category"></select></div>
   <div class="row">
     <div class="field"><label>قیمت (تومان)</label><input id="f_price" type="number" inputmode="numeric"></div>
-    <div class="field"><label>موجودی (تعداد پک)</label><input id="f_stock" type="number" inputmode="numeric"></div>
+    <div class="field"><label>قیمتی که وارد کردید برای…</label><select id="f_unit"><option value="piece">هر عدد (تکی)</option><option value="pack">هر پک</option></select></div>
   </div>
+  <div class="field"><label>موجودی (تعداد پک)</label><input id="f_stock" type="number" inputmode="numeric"></div>
   <div class="field"><label>جنس</label><input id="f_material"></div>
   <div class="row">
     <div class="field"><label>تعداد رنگ</label><input id="f_colors"></div>
@@ -71,10 +72,11 @@
     <div class="slots" id="slots"></div>
     <input type="file" id="file" accept="image/*" multiple class="hide">
   </div>
+  <label style="display:flex;gap:8px;align-items:center;font-size:14px;margin-bottom:8px"><input type="checkbox" id="f_wm" style="width:auto" checked> افزودن واترمارک کوچک لوگو به عکس‌های جدید</label>
   <div id="fmsg"></div>
   <button class="btn" id="saveBtn">ذخیره</button>
 </div></div>
 
-<script src="js/admin.js?v=8"></script>
+<script src="js/admin.js?v=9"></script>
 </body>
 </html>

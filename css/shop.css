@@ -91,3 +91,55 @@
 .sk:nth-child(2){height:300px}
 @keyframes sk{to{background-position:-200% 0}}
 .cat-edit{border:0;background:none;cursor:pointer;font-size:14px}
+/* ===== v9 ===== */
+.shop .brand b{font-size:13px}
+.hbtn{flex:none;width:38px;height:38px;border-radius:50%;background:#f3f4f6;color:#0a0a0a;display:flex;align-items:center;justify-content:center;text-decoration:none}
+.hbtn:active{background:#0a0a0a;color:#fff}
+.filters{display:flex;gap:8px;margin-bottom:6px;align-items:center}
+.filters select{width:auto;flex:1;border:0;box-shadow:0 1px 6px rgba(0,0,0,.1);border-radius:20px;padding:6px 14px;font-size:13px}
+.filters .chip{flex:none;border:0;background:#fff;color:#0a0a0a;box-shadow:0 1px 6px rgba(0,0,0,.1);padding:6px 14px;border-radius:20px;font:inherit;font-size:13px;cursor:pointer}
+.filters .chip.on{background:#0a0a0a;color:#fff}
+.updated{font-size:11.5px;color:#6b6b6b;margin:0 4px 10px}
+.shop .tag.low{background:#fff3cd;color:#7a4b00}
+.newbadge{position:absolute;top:8px;left:8px;z-index:2;background:#fff;color:#0a0a0a;font-weight:700;font-size:11px;border-radius:20px;padding:1px 10px;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.shop .price{margin-bottom:5px}
+.btns{display:flex;gap:6px;align-items:center}
+.btns .more{flex:1;text-align:center;padding:2px 0}
+.addbtn{flex:1;background:#0a0a0a;color:#fff;border:1.5px solid #0a0a0a;border-radius:20px;font:inherit;font-size:12px;padding:2px 0;cursor:pointer}
+.addbtn:active{background:#fff;color:#0a0a0a}
+.pinbadge.static.nb{background:#0a0a0a;color:#fff}
+.pinbadge.static.lowb{background:#fff3cd;color:#7a4b00}
+.shop .specs li.hl{background:#0a0a0a;color:#fff}
+.shop .specs li.hl span{color:#ccc}
+/* گالری کشیدنی */
+.gal{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border-radius:14px;background:#eceef1;scrollbar-width:none}
+.gal::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:center;height:min(60vh,520px);display:flex;align-items:center;justify-content:center}
+.slide img{max-width:100%;max-height:100%;object-fit:contain;cursor:zoom-in}
+.addrow{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+.step{display:inline-flex;align-items:center;border:1.5px solid #0a0a0a;border-radius:20px;overflow:hidden;background:#fff}
+.step button{width:34px;height:34px;border:0;background:#fff;font-size:20px;cursor:pointer;font-family:inherit}
+.step button:active{background:#0a0a0a;color:#fff}
+.step span{min-width:30px;text-align:center;font-weight:700}
+/* سبد */
+.crow2{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #eee}
+.cth{width:54px;height:66px;border-radius:10px;background:#eceef1 center/cover;flex:none}
+.cin{flex:1;min-width:0}.cin b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cin small{display:block;font-size:11.5px;color:#6b6b6b}
+.del{border:0;background:none;font-size:18px;cursor:pointer}
+.ctotal{display:flex;justify-content:space-between;font-size:17px;padding:12px 0 2px}
+#cMsg{font-size:12.5px;background:#f3f4f6;border:0;direction:rtl}
+.cbadge{position:absolute;top:-4px;right:-4px;min-width:20px;height:20px;border-radius:10px;background:#e0b24a;color:#0a0a0a;font-size:11px;display:flex;align-items:center;justify-content:center;padding:0 5px;border:2px solid #fff;font-weight:700}
+.bnav .hot i{position:relative}
+.toast{position:fixed;left:50%;bottom:110px;transform:translate(-50%,20px);background:#0a0a0a;color:#fff;padding:9px 18px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:.25s;z-index:90;white-space:nowrap}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media(max-width:640px){
+  .shop .brand b{font-size:11.5px}
+  .shop header{gap:7px}
+  .hbtn{width:34px;height:34px}
+  .shop header .btn{padding:6px 10px;font-size:13px}
+  .newbadge{top:6px;left:6px;font-size:10px;padding:0 8px}
+  .slide{height:46vh}
+  .addbtn{font-size:11.5px}
+}
+.cbadge.hide{display:none}
