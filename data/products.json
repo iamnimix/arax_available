@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-06T11:51:46.158Z"
+  "updated": "2026-11-06T11:55:07.965Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,28 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw4x3huw",
+   "name": "مدل مزونی: بامبر ،چریکی کارلا (karla )",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "hidden": false,
+   "price": 2198000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "کتان zara آستر کشی شده",
+   "colors": "3",
+   "pack": "3",
+   "desc": "فری سایز :(مناسب برای 38 تا 44)\n✅قد کار: 60",
+   "images": [
+    "images/products/pmw4x3huw-yz36st.jpg",
+    "images/products/pmw4x3huw-qsz74g.jpg",
+    "images/products/pmw4x3huw-ijtose.jpg",
+    "images/products/pmw4x3huw-tvy3vp.jpg"
+   ],
+   "created": 1793966107057,
+   "updated": "2026-11-06T11:55:07.057Z"
+  },
   {
    "id": "pmw4qnwb7",
    "name": "هودی باکسی بیسیک (توکرکی)",
