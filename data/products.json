@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-06T08:55:00.930Z"
+  "updated": "2026-11-06T11:51:46.158Z"
  },
  "categories": [
   "محصولات جین",
@@ -1962,8 +1962,10 @@
    "name": "کت جین پارمیلا",
    "category": "محصولات جین",
    "pinned": false,
-   "price": 2550000,
-   "stock": 0,
+   "hidden": false,
+   "price": 2698000,
+   "priceUnit": "piece",
+   "stock": 5,
    "material": "جین براش شست رفته",
    "colors": "۱",
    "pack": "۴",
@@ -1973,7 +1975,8 @@
     "images/products/pmvrsnau7-f11rds.jpg",
     "images/products/pmvrsnau7-y6c39z.jpg"
    ],
-   "updated": "2026-11-03T19:26:22.355Z"
+   "created": 1793965904890,
+   "updated": "2026-11-06T11:51:44.890Z"
   }
  ]
 }
