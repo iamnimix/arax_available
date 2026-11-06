@@ -54,7 +54,7 @@ function imgFit(i){
   const r=i.naturalHeight/i.naturalWidth;i.style.aspectRatio='auto';
   if(r>1.8){i.style.aspectRatio='1/1.8';i.style.objectFit='cover';i.style.objectPosition='top'}
 }
-function imgErr(i){i.style.aspectRatio='1/1';i.removeAttribute('src')}
+function imgErr(i){i.removeAttribute('src');i.style.display='none'}
 const colsN=()=>innerWidth<640?2:innerWidth<1000?3:4;
 
 function arrange(list){
@@ -76,7 +76,7 @@ function cardHtml(p,i){
   const im=p.images?.[0]||'';
   const priceTxt=`${fa(p.price)} <small>تومان / ${unitLabel(p)}</small>`;
   return `<div class="card ${p.pinned?'pin':''}" data-id="${esc(p.id)}">
-    <div class="im"><img src="${esc(im)}" alt="" style="aspect-ratio:3/4" onload="imgFit(this)" onerror="imgErr(this)" decoding="async" ${i>5?'loading="lazy"':''}>
+    <div class="im"><div class="bg" style="background-image:url('${esc(im)}')"></div><img src="${esc(im)}" alt="" onerror="imgErr(this)" decoding="async" ${i>5?'loading="lazy"':''}>
       ${stockTag(p)}
       ${isNew(p)?'<span class="newbadge">جدید</span>':''}
       ${p.pinned?'<span class="pinbadge">📌 ویژه</span>':''}
@@ -96,9 +96,7 @@ function render(){
   $('#fpill').innerHTML=cat?`<span class="fpill" data-clear>🗂 ${esc(cat)} <b>×</b></span>`:'';
   const up=db.settings.updated||vis().map(p=>p.updated).filter(Boolean).sort().pop();
   $('#upd').textContent=up?'🕒 آخرین به‌روزرسانی موجودی: '+ago(up):'';
-  const n=lastN=colsN(),cols=Array.from({length:n},()=>[]);
-  list.forEach((p,i)=>cols[i%n].push(cardHtml(p,i)));
-  $('#grid').innerHTML=cols.map(c=>`<div class="col">${c.join('')}</div>`).join('');
+  $('#grid').innerHTML=list.map((p,i)=>cardHtml(p,i)).join('');
   $('#nHome').classList.toggle('on',!cat);
   $('#nCat').classList.toggle('on',!!cat);
   updateBadge();
@@ -256,7 +254,6 @@ $('#q').oninput=render;
 $('#sort').onchange=e=>{sort=e.target.value;render()};
 $('#onlyIn').onclick=e=>{onlyIn=!onlyIn;e.currentTarget.classList.toggle('on',onlyIn);render()};
 addEventListener('hashchange',openFromHash);
-let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{if(colsN()!==lastN)render()},150)});
 let dip;addEventListener('beforeinstallprompt',e=>{e.preventDefault();dip=e;$('#installBtn').classList.remove('hide')});
 $('#installBtn').onclick=async()=>{if(dip){dip.prompt();dip=null;$('#installBtn').classList.add('hide')}};
 load();
