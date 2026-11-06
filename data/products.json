@@ -1,6 +1,7 @@
 {
  "settings": {
-  "gc": "arax"
+  "gc": "arax",
+  "updated": "2026-11-06T08:47:46.102Z"
  },
  "categories": [
   "محصولات جین",
@@ -13,6 +14,27 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw4qej2i",
+   "name": "هودی باکسی (توکرکی)",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1478000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "دورس دو نخ پنبه توکرکی",
+   "colors": "9",
+   "pack": "9",
+   "desc": "سایزبندی ( Free۳۸-۴۸)\n\n✔️ عرض سینه :۶۵ سانتیمتر\n✔️ قد : ۶۷ سانتیمتر",
+   "images": [
+    "images/products/pmw4qej2i-qk1dca.jpg",
+    "images/products/pmw4qej2i-spwm84.jpg",
+    "images/products/pmw4qej2i-5vkr1y.jpg"
+   ],
+   "created": 1793954865266,
+   "updated": "2026-11-06T08:47:45.266Z"
+  },
   {
    "id": "pmw3b296e",
    "name": "بافت سگ سوسیسی",
