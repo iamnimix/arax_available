@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-06T08:47:46.102Z"
+  "updated": "2026-11-06T08:51:12.872Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,27 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw4qj0fa",
+   "name": "هودی باکسی (توکرکی)",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1478000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "دورس دو نخ پنبه توکرکی",
+   "colors": "9",
+   "pack": "9",
+   "desc": "سایزبندی ( Free۳۸-۴۸)\n\n✔️ عرض سینه :۶۵ سانتیمتر\n✔️ قد : ۶۷ سانتیمتر",
+   "images": [
+    "images/products/pmw4qj0fa-1mb05m.jpg",
+    "images/products/pmw4qj0fa-2eaq2t.jpg",
+    "images/products/pmw4qj0fa-h96i3t.jpg"
+   ],
+   "created": 1793955072020,
+   "updated": "2026-11-06T08:51:12.020Z"
+  },
   {
    "id": "pmw4qej2i",
    "name": "هودی باکسی (توکرکی)",
