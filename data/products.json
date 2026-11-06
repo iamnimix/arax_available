@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-06T12:00:57.390Z"
+  "updated": "2026-11-06T12:05:07.369Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,27 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw4xgdfd",
+   "name": "ست  ترکیبی ADIDAS",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2498000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "دورس دونخ پنبه  شلوار دوکاره جاگرشو",
+   "colors": "1",
+   "pack": "4",
+   "desc": "سایزبندی: ۳۸تا۴۴",
+   "images": [
+    "images/products/pmw4xgdfd-rs9vsj.jpg",
+    "images/products/pmw4xgdfd-sfp559.jpg",
+    "images/products/pmw4xgdfd-7itw7w.jpg"
+   ],
+   "created": 1793966706524,
+   "updated": "2026-11-06T12:05:06.524Z"
+  },
   {
    "id": "pmw4xazvr",
    "name": "شلوار جاگر مچ کشباف",
