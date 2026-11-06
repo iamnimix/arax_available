@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-06T12:05:07.369Z"
+  "updated": "2026-11-06T12:10:03.896Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,29 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw4xmlsm",
+   "name": "دورس یقه دار",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1998000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس سه نخ پنبه تو کرکی, گلدوزی شده  تراکم بالا",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایزبندی:(مناسب برای 38 تا 44)\n✅قد کار ۶۰ سانت",
+   "images": [
+    "images/products/pmw4xmlsm-kauuo6.jpg",
+    "images/products/pmw4xmlsm-j5580u.jpg",
+    "images/products/pmw4xmlsm-8r0cqc.jpg",
+    "images/products/pmw4xmlsm-bek8yz.jpg",
+    "images/products/pmw4xmlsm-otdtel.jpg"
+   ],
+   "created": 1793967002934,
+   "updated": "2026-11-06T12:10:02.934Z"
+  },
   {
    "id": "pmw4xgdfd",
    "name": "ست  ترکیبی ADIDAS",
