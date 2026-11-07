@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-07T09:12:40.078Z"
+  "updated": "2026-11-07T18:10:21.704Z"
  },
  "categories": [
   "محصولات جین",
@@ -2034,7 +2034,10 @@
    "id": "pmvru5kzh",
    "name": "کت جین دکمه صدفی",
    "category": "محصولات جین",
-   "price": 2598000,
+   "pinned": false,
+   "hidden": false,
+   "price": 2698000,
+   "priceUnit": "piece",
    "stock": 2,
    "material": "جین براش شست رفته",
    "colors": "۱",
@@ -2046,8 +2049,8 @@
     "images/products/pmvru5kzh-xyhwis.jpg",
     "images/products/pmvru5kzh-ioqhm6.jpg"
    ],
-   "updated": "2026-10-28T08:23:55.884Z",
-   "pinned": false
+   "created": 1794075021127,
+   "updated": "2026-11-07T18:10:21.127Z"
   },
   {
    "id": "pmvrtyj4f",
