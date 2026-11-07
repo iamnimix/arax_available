@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-06T19:19:03.769Z"
+  "updated": "2026-11-07T09:11:32.028Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,26 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw66p0pe",
+   "name": "هودی پنبه بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1198000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس دو نخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmw66p0pe-jzlvrc.jpg",
+    "images/products/pmw66p0pe-d8x2uy.jpg"
+   ],
+   "created": 1794042691205,
+   "updated": "2026-11-07T09:11:31.205Z"
+  },
   {
    "id": "pmw4xmlsm",
    "name": "دورس یقه دار",
