@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-07T09:11:32.028Z"
+  "updated": "2026-11-07T09:12:40.078Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,26 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw66qhfq",
+   "name": "کراپ هودی پنبه بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1080000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس دو نخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز از ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmw66qhfq-4i7j5m.jpg",
+    "images/products/pmw66qhfq-c6urx4.jpg"
+   ],
+   "created": 1794042759306,
+   "updated": "2026-11-07T09:12:39.306Z"
+  },
   {
    "id": "pmw66p0pe",
    "name": "هودی پنبه بیسیک",
