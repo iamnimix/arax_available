@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T07:42:20.377Z"
+  "updated": "2026-11-08T09:09:55.933Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,27 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw7m2qvd",
+   "name": "بافت سنتی 4 رنگی",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 2150000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "پشت نخ ترک (درجه یک)",
+   "colors": "4",
+   "pack": "4",
+   "desc": "فری سایز :38 , 44",
+   "images": [
+    "images/products/pmw7m2qvd-6rs62y.jpg",
+    "images/products/pmw7m2qvd-c1lti4.jpg",
+    "images/products/pmw7m2qvd-q2l5k5.jpg"
+   ],
+   "created": 1794128995270,
+   "updated": "2026-11-08T09:09:55.270Z"
+  },
   {
    "id": "pmw7iy09l",
    "name": "ست یقه دار NEW YORK",
