@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T09:13:52.582Z"
+  "updated": "2026-11-08T10:14:22.610Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,25 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw7odqfj",
+   "name": "دورس کراپ بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 950000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس دونخ پنبه",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز  :  فری سایز :36 , 44",
+   "images": [
+    "images/products/pmw7odqfj-ddogsm.jpg"
+   ],
+   "created": 1794132861629,
+   "updated": "2026-11-08T10:14:21.629Z"
+  },
   {
    "id": "pmw7m2qvd",
    "name": "بافت سنتی 4 رنگی",
