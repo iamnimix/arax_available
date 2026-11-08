@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T09:09:55.933Z"
+  "updated": "2026-11-08T09:10:21.586Z"
  },
  "categories": [
   "محصولات جین",
@@ -23,7 +23,7 @@
    "price": 2150000,
    "priceUnit": "piece",
    "stock": 2,
-   "material": "پشت نخ ترک (درجه یک)",
+   "material": "نخ ترک (درجه یک)",
    "colors": "4",
    "pack": "4",
    "desc": "فری سایز :38 , 44",
@@ -33,7 +33,7 @@
     "images/products/pmw7m2qvd-q2l5k5.jpg"
    ],
    "created": 1794128995270,
-   "updated": "2026-11-08T09:09:55.270Z"
+   "updated": "2026-11-08T09:10:20.828Z"
   },
   {
    "id": "pmw7iy09l",
