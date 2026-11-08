@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T07:37:37.523Z"
+  "updated": "2026-11-08T07:42:20.377Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,32 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw7iy09l",
+   "name": "ست یقه دار NEW YORK",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2298000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز  :فری سایز, مناسب 36 تا 46",
+   "images": [
+    "images/products/pmw7iy09l-tabwhp.jpg",
+    "images/products/pmw7iy09l-av7mt8.jpg",
+    "images/products/pmw7iy09l-9725qf.jpg",
+    "images/products/pmw7iy09l-1a4nxw.jpg",
+    "images/products/pmw7iy09l-ezcbtb.jpg",
+    "images/products/pmw7iy09l-p1gezx.jpg",
+    "images/products/pmw7iy09l-fcax8e.jpg",
+    "images/products/pmw7iy09l-2f1kow.jpg"
+   ],
+   "created": 1794123739613,
+   "updated": "2026-11-08T07:42:19.613Z"
+  },
   {
    "id": "pmw7irpuj",
    "name": "ست سه تیکه بیسیک",
