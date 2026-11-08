@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T09:10:21.586Z"
+  "updated": "2026-11-08T09:13:52.582Z"
  },
  "categories": [
   "محصولات جین",
@@ -18,7 +18,7 @@
    "id": "pmw7m2qvd",
    "name": "بافت سنتی 4 رنگی",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 2150000,
    "priceUnit": "piece",
