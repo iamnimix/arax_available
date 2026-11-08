@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T07:26:26.624Z"
+  "updated": "2026-11-08T07:28:27.989Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,26 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw7igcej",
+   "name": "جاگر دورس دوکاره CK",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 999000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "2",
+   "pack": "6",
+   "desc": "✨فول بگ \n✨دو کاربرده: هم بگ هم جاگرشو\n\n📌 جنس : دورس داخل کرک با کیفیت\n\n📌سایز : 36 تا 46 \n✔️قد کار 112",
+   "images": [
+    "images/products/pmw7igcej-i15jrg.jpg",
+    "images/products/pmw7igcej-ysnd9a.jpg"
+   ],
+   "created": 1794122907220,
+   "updated": "2026-11-08T07:28:27.220Z"
+  },
   {
    "id": "pmw7idl14",
    "name": "وست کلاهدار BUGATTI",
