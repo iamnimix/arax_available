@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T07:28:27.989Z"
+  "updated": "2026-11-08T07:37:37.523Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,33 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw7irpuj",
+   "name": "ست سه تیکه بیسیک",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2498000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "4",
+   "pack": "5",
+   "desc": "سایز :فری سایز, مناسب 36 تا 46",
+   "images": [
+    "images/products/pmw7irpuj-3e49qt.jpg",
+    "images/products/pmw7irpuj-qy5j8b.jpg",
+    "images/products/pmw7irpuj-yhnpvm.jpg",
+    "images/products/pmw7irpuj-n06jnz.jpg",
+    "images/products/pmw7irpuj-3ad2f7.jpg",
+    "images/products/pmw7irpuj-9bt74r.jpg",
+    "images/products/pmw7irpuj-7gl25e.jpg",
+    "images/products/pmw7irpuj-jfnzzo.jpg",
+    "images/products/pmw7irpuj-kla25v.jpg"
+   ],
+   "created": 1794123456111,
+   "updated": "2026-11-08T07:37:36.111Z"
+  },
   {
    "id": "pmw7igcej",
    "name": "جاگر دورس دوکاره CK",
