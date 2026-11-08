@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-07T18:10:21.704Z"
+  "updated": "2026-11-08T07:26:26.624Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,30 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw7idl14",
+   "name": "وست کلاهدار BUGATTI",
+   "category": "وست",
+   "pinned": false,
+   "hidden": false,
+   "price": 850000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس تو کرکی",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز : فری سايز۳۶ تا ۴۲ \n✔️قد ؛ ۶۸ سانت و عرض ۶۰ سانت",
+   "images": [
+    "images/products/pmw7idl14-rtwhaz.jpg",
+    "images/products/pmw7idl14-z7brm5.jpg",
+    "images/products/pmw7idl14-f3gn5s.jpg",
+    "images/products/pmw7idl14-2xu8kq.jpg",
+    "images/products/pmw7idl14-tlbc5q.jpg",
+    "images/products/pmw7idl14-e3tp4q.jpg"
+   ],
+   "created": 1794122785824,
+   "updated": "2026-11-08T07:26:25.824Z"
+  },
   {
    "id": "pmw66qhfq",
    "name": "کراپ هودی پنبه بیسیک",
