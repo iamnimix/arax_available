@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-09T19:31:21.468Z"
+  "updated": "2026-11-09T19:33:10.514Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,30 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw9ns1a2",
+   "name": "ست وست شلوار فول بگ",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 1798000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "گلکسی و جین گرم بالا",
+   "colors": "1",
+   "pack": "4",
+   "desc": "✔️قد شلوار۱۱۵\n✔️وست۶۰\n📌فری سایز ۳۶ الی ۴۶",
+   "images": [
+    "images/products/pmw9ns1a2-s0zp06.jpg",
+    "images/products/pmw9ns1a2-ndyr1j.jpg",
+    "images/products/pmw9ns1a2-j40taj.jpg",
+    "images/products/pmw9ns1a2-86dc53.jpg",
+    "images/products/pmw9ns1a2-o4emhr.jpg",
+    "images/products/pmw9ns1a2-pe7d7f.jpg"
+   ],
+   "created": 1794252789615,
+   "updated": "2026-11-09T19:33:09.616Z"
+  },
   {
    "id": "pmw9npl48",
    "name": "دورس everything",
