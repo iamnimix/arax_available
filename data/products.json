@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-08T10:14:22.610Z"
+  "updated": "2026-11-09T13:19:02.419Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,29 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw9aewa0",
+   "name": "دورس  DACHSHUNDS",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 2650000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس سه نخ پنبه تو کرکی بدون دون دون شدن",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایزبندی :(مناسب برای 38 تا 44)\n\n✔️قد کار ۶۰ سانت",
+   "images": [
+    "images/products/pmw9aewa0-nof50o.jpg",
+    "images/products/pmw9aewa0-98p2he.jpg",
+    "images/products/pmw9aewa0-23mnfw.jpg",
+    "images/products/pmw9aewa0-wk6wpb.jpg",
+    "images/products/pmw9aewa0-7568dv.jpg"
+   ],
+   "created": 1794230341663,
+   "updated": "2026-11-09T13:19:01.663Z"
+  },
   {
    "id": "pmw7odqfj",
    "name": "دورس کراپ بیسیک",
