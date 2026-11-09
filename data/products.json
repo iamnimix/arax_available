@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-09T13:21:35.976Z"
+  "updated": "2026-11-09T19:31:21.468Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,28 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw9npl48",
+   "name": "دورس everything",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 2580000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "دورس سه نخ پنبه تو کرکی",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فرق سایز ۳۸ تا ۴۴\nقد کار ۶۰",
+   "images": [
+    "images/products/pmw9npl48-hdj23x.jpg",
+    "images/products/pmw9npl48-wvdhtd.jpg",
+    "images/products/pmw9npl48-rzftp7.jpg",
+    "images/products/pmw9npl48-2kqjlb.jpg"
+   ],
+   "created": 1794252680072,
+   "updated": "2026-11-09T19:31:20.073Z"
+  },
   {
    "id": "pmw9ai3qy",
    "name": "دورس  STAY SHINY",
