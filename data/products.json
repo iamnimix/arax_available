@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-09T13:19:02.419Z"
+  "updated": "2026-11-09T13:21:35.976Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,30 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmw9ai3qy",
+   "name": "دورس  STAY SHINY",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 2650000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس سه نخ پنبه تو کرکی بدون دون دون شدن",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایزبندی :(مناسب برای 38 تا 44)\n\n✔️قد کار ۶۰ سانت",
+   "images": [
+    "images/products/pmw9ai3qy-y30ehx.jpg",
+    "images/products/pmw9ai3qy-e8yrsq.jpg",
+    "images/products/pmw9ai3qy-7qxs2e.jpg",
+    "images/products/pmw9ai3qy-q6dkj1.jpg",
+    "images/products/pmw9ai3qy-dcia9o.jpg",
+    "images/products/pmw9ai3qy-qv6mw7.jpg"
+   ],
+   "created": 1794230495074,
+   "updated": "2026-11-09T13:21:35.074Z"
+  },
   {
    "id": "pmw9aewa0",
    "name": "دورس  DACHSHUNDS",
