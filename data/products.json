@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-10T16:23:04.724Z"
+  "updated": "2026-11-10T16:23:10.102Z"
  },
  "categories": [
   "محصولات جین",
@@ -801,7 +801,7 @@
    "id": "pmw0dgsu5",
    "name": "وست old money",
    "category": "محصولات جین",
-   "pinned": true,
+   "pinned": false,
    "price": 1748000,
    "stock": 1,
    "material": "جین درجه یک شست رفته",
