@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-10T16:37:13.329Z"
+  "updated": "2026-11-10T16:39:55.229Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,28 @@
   "کاپشن و پافر"
  ],
  "products": [
+  {
+   "id": "pmwax12z1",
+   "name": "پافر وارداتی",
+   "category": "کاپشن و پافر",
+   "pinned": false,
+   "hidden": false,
+   "price": 2100000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "",
+   "colors": "۳",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwax12z1-27lrpb.jpg",
+    "images/products/pmwax12z1-ec89f9.jpg",
+    "images/products/pmwax12z1-khjvmg.jpg",
+    "images/products/pmwax12z1-uq9389.jpg"
+   ],
+   "created": 1794328794517,
+   "updated": "2026-11-10T16:39:54.518Z"
+  },
   {
    "id": "pmwawxlb7",
    "name": "کاپشن کلاه گت",
