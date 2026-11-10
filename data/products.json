@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-10T16:23:41.436Z"
+  "updated": "2026-11-10T16:23:50.434Z"
  },
  "categories": [
   "محصولات جین",
@@ -2322,7 +2322,7 @@
    "id": "pmvrsnau7",
    "name": "کت جین پارمیلا",
    "category": "محصولات جین",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 2698000,
    "priceUnit": "piece",
