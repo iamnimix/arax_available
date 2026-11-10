@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-10T16:50:32.109Z"
+  "updated": "2026-11-10T16:51:26.503Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,29 @@
   "شنل"
  ],
  "products": [
+  {
+   "id": "pmwaxfvb9",
+   "name": "شمل کمر دار وگاس",
+   "category": "شنل",
+   "pinned": false,
+   "hidden": false,
+   "price": 2698000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "material": "فوتر",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "فری سایز ۳۸ تا ۴۴",
+   "images": [
+    "images/products/pmwaxfvb9-7nsvzc.jpg",
+    "images/products/pmwaxfvb9-zkbpol.jpg",
+    "images/products/pmwaxfvb9-kg3uin.jpg",
+    "images/products/pmwaxfvb9-lqppex.jpg",
+    "images/products/pmwaxfvb9-oytipj.jpg"
+   ],
+   "created": 1794329485828,
+   "updated": "2026-11-10T16:51:25.829Z"
+  },
   {
    "id": "pmwaxd4j7",
    "name": "کاپشن کلاهدار وارداتی MSN",
