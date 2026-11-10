@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-10T16:46:11.674Z"
+  "updated": "2026-11-10T16:49:12.883Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,27 @@
   "کاپشن و پافر"
  ],
  "products": [
+  {
+   "id": "pmwaxd4j7",
+   "name": "کاپشن کلاهدار وارداتی MSN",
+   "category": "کاپشن و پافر",
+   "pinned": false,
+   "hidden": false,
+   "price": 4390000,
+   "priceUnit": "piece",
+   "stock": 2,
+   "material": "",
+   "colors": "1",
+   "pack": "4",
+   "desc": "سایزبندی میکس\nقد ۶۲",
+   "images": [
+    "images/products/pmwaxd4j7-1dcqcf.jpg",
+    "images/products/pmwaxd4j7-2wkhsk.jpg",
+    "images/products/pmwaxd4j7-zo2uir.jpg"
+   ],
+   "created": 1794329352060,
+   "updated": "2026-11-10T16:49:12.061Z"
+  },
   {
    "id": "pmwax93h9",
    "name": "پافر وارداتی",
