@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-10T16:24:27.863Z"
+  "updated": "2026-11-10T16:37:13.329Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,27 @@
   "کاپشن و پافر"
  ],
  "products": [
+  {
+   "id": "pmwawxlb7",
+   "name": "کاپشن کلاه گت",
+   "category": "کاپشن و پافر",
+   "pinned": false,
+   "hidden": false,
+   "price": 3490000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "",
+   "colors": "1",
+   "pack": "4",
+   "desc": "فری سایز ۳۶ تا ۴۴\nقد ۶۲",
+   "images": [
+    "images/products/pmwawxlb7-3ebvn2.jpg",
+    "images/products/pmwawxlb7-y1cauc.jpg",
+    "images/products/pmwawxlb7-qbod7u.jpg"
+   ],
+   "created": 1794328632425,
+   "updated": "2026-11-10T16:37:12.425Z"
+  },
   {
    "id": "pmw9ns1a2",
    "name": "ست وست شلوار فول بگ",
