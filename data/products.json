@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T06:53:50.650Z"
+  "updated": "2026-11-11T06:55:45.451Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,26 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmwbrltv9",
+   "name": "جاگر دو کاره",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 2198000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "پنبه سه نخ داخل کرک",
+   "colors": "۱",
+   "pack": "دلخواه",
+   "desc": "فری سایز ۳۶ تا ۴۴",
+   "images": [
+    "images/products/pmwbrltv9-htcsz5.jpg",
+    "images/products/pmwbrltv9-9ek41z.jpg"
+   ],
+   "created": 1794380144671,
+   "updated": "2026-11-11T06:55:44.671Z"
+  },
   {
    "id": "pmw9ns1a2",
    "name": "ست وست شلوار فول بگ",
