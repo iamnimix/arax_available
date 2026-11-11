@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T07:16:32.974Z"
+  "updated": "2026-11-11T07:16:51.590Z"
  },
  "categories": [
   "محصولات جین",
@@ -911,7 +911,7 @@
    "id": "pmvz1l9pc",
    "name": "بلوز بافت سنتی",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "price": 1950000,
    "stock": 2,
    "material": "نخ آکریل",
