@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T06:55:45.451Z"
+  "updated": "2026-11-11T06:56:08.933Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,26 +14,6 @@
   "بافت"
  ],
  "products": [
-  {
-   "id": "pmwbrltv9",
-   "name": "جاگر دو کاره",
-   "category": "محصولات شلوار",
-   "pinned": false,
-   "hidden": false,
-   "price": 2198000,
-   "priceUnit": "piece",
-   "stock": 5,
-   "material": "پنبه سه نخ داخل کرک",
-   "colors": "۱",
-   "pack": "دلخواه",
-   "desc": "فری سایز ۳۶ تا ۴۴",
-   "images": [
-    "images/products/pmwbrltv9-htcsz5.jpg",
-    "images/products/pmwbrltv9-9ek41z.jpg"
-   ],
-   "created": 1794380144671,
-   "updated": "2026-11-11T06:55:44.671Z"
-  },
   {
    "id": "pmw9ns1a2",
    "name": "ست وست شلوار فول بگ",
@@ -839,7 +819,7 @@
    "id": "pmvz1l9pc",
    "name": "بلوز بافت سنتی",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "price": 1950000,
    "stock": 2,
    "material": "نخ آکریل",
@@ -858,7 +838,7 @@
    "id": "pmvywt5o4",
    "name": "بافت پلو ترند",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "price": 1950000,
    "stock": 3,
    "material": "نخ اکریل ترک درجه ۱",
@@ -881,7 +861,7 @@
    "id": "pmvywrvfd",
    "name": "بافت پلو ابری ترند",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "price": 1950000,
    "stock": 2,
    "material": "نخ اکریل ترک نرم",
