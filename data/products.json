@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T06:56:08.933Z"
+  "updated": "2026-11-11T06:56:42.591Z"
  },
  "categories": [
   "محصولات جین",
@@ -1994,7 +1994,7 @@
    "id": "pmvrwluu4",
    "name": "وست مارین MARIN",
    "category": "محصولات جین",
-   "pinned": false,
+   "pinned": true,
    "price": 1998000,
    "stock": 0,
    "material": "جین براش درجه یک",
