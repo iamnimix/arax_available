@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T07:53:04.683Z"
+  "updated": "2026-11-11T16:26:58.152Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,32 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwcbzxwr",
+   "name": "جاگر لش عروسکی",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 1450000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "حوله ای داخل کرکی با کیفیت",
+   "colors": "1",
+   "pack": "4",
+   "desc": "سایز: فری‌سایز (۳۶ تا ۴۴)",
+   "images": [
+    "images/products/pmwcbzxwr-patu97.jpg",
+    "images/products/pmwcbzxwr-70dtvn.jpg",
+    "images/products/pmwcbzxwr-ma69gb.jpg",
+    "images/products/pmwcbzxwr-4ecw3n.jpg",
+    "images/products/pmwcbzxwr-sahr2y.jpg",
+    "images/products/pmwcbzxwr-ac50uc.jpg",
+    "images/products/pmwcbzxwr-n1zlsi.jpg",
+    "images/products/pmwcbzxwr-q2nrkk.jpg"
+   ],
+   "created": 1794414417253,
+   "updated": "2026-11-11T16:26:57.253Z"
+  },
   {
    "id": "pmwbscfza",
    "name": "دورس یقه گرد پنبه سه نخ",
