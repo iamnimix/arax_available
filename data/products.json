@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T16:28:14.522Z"
+  "updated": "2026-11-11T19:09:34.359Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,33 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwchtb9q",
+   "name": "ست فریال",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 1998000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "5",
+   "pack": "5",
+   "desc": "فری سایز ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmwchtb9q-xlosfe.jpg",
+    "images/products/pmwchtb9q-oa7f3n.jpg",
+    "images/products/pmwchtb9q-spr2ze.jpg",
+    "images/products/pmwchtb9q-cwq68c.jpg",
+    "images/products/pmwchtb9q-e5gzuk.jpg",
+    "images/products/pmwchtb9q-o31hss.jpg",
+    "images/products/pmwchtb9q-7cu18h.jpg",
+    "images/products/pmwchtb9q-hsu6m6.jpg",
+    "images/products/pmwchtb9q-oyx6ir.jpg"
+   ],
+   "created": 1794424173520,
+   "updated": "2026-11-11T19:09:33.521Z"
+  },
   {
    "id": "pmwcbzxwr",
    "name": "جاگر لش عروسکی",
