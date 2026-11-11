@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T06:53:47.488Z"
+  "updated": "2026-11-11T06:53:50.650Z"
  },
  "categories": [
   "محصولات جین",
@@ -627,7 +627,7 @@
    "id": "pmw12teoc",
    "name": "وست استین دمپاریش MIAMI",
    "category": "محصولات جین",
-   "pinned": true,
+   "pinned": false,
    "price": 1798000,
    "stock": 2,
    "material": "جین پنبه سنگشور",
