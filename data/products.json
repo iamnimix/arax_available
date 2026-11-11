@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T16:26:58.152Z"
+  "updated": "2026-11-11T16:27:46.463Z"
  },
  "categories": [
   "محصولات جین",
@@ -411,7 +411,7 @@
    "hidden": false,
    "price": 1998000,
    "priceUnit": "piece",
-   "stock": 5,
+   "stock": 0,
    "material": "دورس سه نخ پنبه تو کرکی, گلدوزی شده  تراکم بالا",
    "colors": "5",
    "pack": "5",
@@ -424,7 +424,7 @@
     "images/products/pmw4xmlsm-otdtel.jpg"
    ],
    "created": 1793967002934,
-   "updated": "2026-11-06T12:10:02.934Z"
+   "updated": "2026-11-11T16:27:44.058Z"
   },
   {
    "id": "pmw4xgdfd",
