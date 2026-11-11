@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T07:16:57.134Z"
+  "updated": "2026-11-11T07:17:08.118Z"
  },
  "categories": [
   "محصولات جین",
@@ -930,7 +930,7 @@
    "id": "pmvywt5o4",
    "name": "بافت پلو ترند",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "price": 1950000,
    "stock": 3,
    "material": "نخ اکریل ترک درجه ۱",
@@ -953,7 +953,7 @@
    "id": "pmvywrvfd",
    "name": "بافت پلو ابری ترند",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "price": 1950000,
    "stock": 2,
    "material": "نخ اکریل ترک نرم",
