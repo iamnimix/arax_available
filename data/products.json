@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T16:28:01.999Z"
+  "updated": "2026-11-11T16:28:14.522Z"
  },
  "categories": [
   "محصولات جین",
@@ -579,7 +579,9 @@
    "name": "بافت ابر",
    "category": "بافت",
    "pinned": false,
-   "price": 2198000,
+   "hidden": false,
+   "price": 2100000,
+   "priceUnit": "piece",
    "stock": 2,
    "material": "آکریل ترک نرمولطیف🍁❄️",
    "colors": "1",
@@ -594,7 +596,8 @@
     "images/products/pmw3awah8-9gurt6.jpg",
     "images/products/pmw3awah8-eybwdi.jpg"
    ],
-   "updated": "2026-11-05T08:45:58.791Z"
+   "created": 1794414493724,
+   "updated": "2026-11-11T16:28:13.724Z"
   },
   {
    "id": "pmw38bdhl",
