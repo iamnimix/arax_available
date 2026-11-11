@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T05:12:40.568Z"
+  "updated": "2026-11-11T06:53:43.327Z"
  },
  "categories": [
   "محصولات جین",
@@ -11,121 +11,9 @@
   "دورس و هودی",
   "بامبر و ترنچ کت",
   "وست",
-  "بافت",
-  "کاپشن و پافر",
-  "شنل"
+  "بافت"
  ],
  "products": [
-  {
-   "id": "pmwaxfvb9",
-   "name": "شنل کمر دار وگاس",
-   "category": "شنل",
-   "pinned": false,
-   "hidden": false,
-   "price": 2698000,
-   "priceUnit": "piece",
-   "stock": 10,
-   "material": "فوتر",
-   "colors": "۶",
-   "pack": "۶",
-   "desc": "فری سایز ۳۸ تا ۴۴",
-   "images": [
-    "images/products/pmwaxfvb9-7nsvzc.jpg",
-    "images/products/pmwaxfvb9-zkbpol.jpg",
-    "images/products/pmwaxfvb9-kg3uin.jpg",
-    "images/products/pmwaxfvb9-lqppex.jpg",
-    "images/products/pmwaxfvb9-oytipj.jpg"
-   ],
-   "created": 1794329485828,
-   "updated": "2026-11-10T18:38:02.234Z"
-  },
-  {
-   "id": "pmwaxd4j7",
-   "name": "کاپشن کلاهدار وارداتی MSN",
-   "category": "کاپشن و پافر",
-   "pinned": false,
-   "hidden": false,
-   "price": 4390000,
-   "priceUnit": "piece",
-   "stock": 2,
-   "material": "",
-   "colors": "1",
-   "pack": "4",
-   "desc": "سایزبندی میکس\nقد ۶۲",
-   "images": [
-    "images/products/pmwaxd4j7-1dcqcf.jpg",
-    "images/products/pmwaxd4j7-2wkhsk.jpg",
-    "images/products/pmwaxd4j7-zo2uir.jpg"
-   ],
-   "created": 1794329352060,
-   "updated": "2026-11-10T16:49:12.061Z"
-  },
-  {
-   "id": "pmwax93h9",
-   "name": "پافر وارداتی",
-   "category": "کاپشن و پافر",
-   "pinned": false,
-   "hidden": false,
-   "price": 2990000,
-   "priceUnit": "piece",
-   "stock": 2,
-   "material": "",
-   "colors": "2",
-   "pack": "6",
-   "desc": "فری سایز ۳۶ تا ۴۴\nقد ۷۰",
-   "images": [
-    "images/products/pmwax93h9-ga3jgf.jpg",
-    "images/products/pmwax93h9-5m3krw.jpg",
-    "images/products/pmwax93h9-mtfls2.jpg",
-    "images/products/pmwax93h9-nof4jn.jpg",
-    "images/products/pmwax93h9-vloqf2.jpg"
-   ],
-   "created": 1794329170827,
-   "updated": "2026-11-10T16:46:10.827Z"
-  },
-  {
-   "id": "pmwax12z1",
-   "name": "پافر وارداتی",
-   "category": "کاپشن و پافر",
-   "pinned": false,
-   "hidden": false,
-   "price": 2100000,
-   "priceUnit": "piece",
-   "stock": 5,
-   "material": "",
-   "colors": "۳",
-   "pack": "۶",
-   "desc": "",
-   "images": [
-    "images/products/pmwax12z1-27lrpb.jpg",
-    "images/products/pmwax12z1-ec89f9.jpg",
-    "images/products/pmwax12z1-khjvmg.jpg",
-    "images/products/pmwax12z1-uq9389.jpg"
-   ],
-   "created": 1794328794517,
-   "updated": "2026-11-10T16:39:54.518Z"
-  },
-  {
-   "id": "pmwawxlb7",
-   "name": "کاپشن کلاه گت",
-   "category": "کاپشن و پافر",
-   "pinned": false,
-   "hidden": false,
-   "price": 3490000,
-   "priceUnit": "piece",
-   "stock": 5,
-   "material": "",
-   "colors": "1",
-   "pack": "4",
-   "desc": "فری سایز ۳۶ تا ۴۴\nقد ۶۲",
-   "images": [
-    "images/products/pmwawxlb7-3ebvn2.jpg",
-    "images/products/pmwawxlb7-y1cauc.jpg",
-    "images/products/pmwawxlb7-qbod7u.jpg"
-   ],
-   "created": 1794328632425,
-   "updated": "2026-11-10T16:37:12.425Z"
-  },
   {
    "id": "pmw9ns1a2",
    "name": "ست وست شلوار فول بگ",
@@ -739,7 +627,7 @@
    "id": "pmw12teoc",
    "name": "وست استین دمپاریش MIAMI",
    "category": "محصولات جین",
-   "pinned": false,
+   "pinned": true,
    "price": 1798000,
    "stock": 2,
    "material": "جین پنبه سنگشور",
@@ -913,7 +801,7 @@
    "id": "pmw0dgsu5",
    "name": "وست old money",
    "category": "محصولات جین",
-   "pinned": false,
+   "pinned": true,
    "price": 1748000,
    "stock": 1,
    "material": "جین درجه یک شست رفته",
@@ -950,7 +838,7 @@
    "id": "pmvywt5o4",
    "name": "بافت پلو ترند",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "price": 1950000,
    "stock": 3,
    "material": "نخ اکریل ترک درجه ۱",
@@ -973,7 +861,7 @@
    "id": "pmvywrvfd",
    "name": "بافت پلو ابری ترند",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "price": 1950000,
    "stock": 2,
    "material": "نخ اکریل ترک نرم",
@@ -2376,7 +2264,7 @@
    "id": "pmvru5kzh",
    "name": "کت جین دکمه صدفی",
    "category": "محصولات جین",
-   "pinned": true,
+   "pinned": false,
    "hidden": false,
    "price": 2698000,
    "priceUnit": "piece",
