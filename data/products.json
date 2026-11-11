@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T07:10:09.159Z"
+  "updated": "2026-11-11T07:12:04.353Z"
  },
  "categories": [
   "محصولات جین",
@@ -14,6 +14,30 @@
   "بافت"
  ],
  "products": [
+  {
+   "id": "pmwbs6ovn",
+   "name": "سویشرت کلاهدار پنبه سه نخ",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1499000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "سه نخ پنبه داخل کرک",
+   "colors": "6",
+   "pack": "6",
+   "desc": "فری سایز\nدور سینه ۱۴۰\nقد ۵۵",
+   "images": [
+    "images/products/pmwbs6ovn-mfkige.jpg",
+    "images/products/pmwbs6ovn-6t4qvc.jpg",
+    "images/products/pmwbs6ovn-o4ud5k.jpg",
+    "images/products/pmwbs6ovn-8th084.jpg",
+    "images/products/pmwbs6ovn-9krcyf.jpg",
+    "images/products/pmwbs6ovn-qbtvjd.jpg"
+   ],
+   "created": 1794381123529,
+   "updated": "2026-11-11T07:12:03.531Z"
+  },
   {
    "id": "pmwbrxbgw",
    "name": "هودی بیسیک سه نخ پنبه",
@@ -863,7 +887,7 @@
    "id": "pmvz1l9pc",
    "name": "بلوز بافت سنتی",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "price": 1950000,
    "stock": 2,
    "material": "نخ آکریل",
