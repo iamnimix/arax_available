@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-11T19:09:34.359Z"
+  "updated": "2026-11-12T08:10:41.071Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,31 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwd9pvj2",
+   "name": "جاگر دوکمر TOMMY",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 1580000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "material": "دورس دونخ پنبه",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز: فری‌سایز (۳۴ تا ۴۴)\n📌قد کار ۱۱۰",
+   "images": [
+    "images/products/pmwd9pvj2-81iv0i.jpg",
+    "images/products/pmwd9pvj2-e1fibs.jpg",
+    "images/products/pmwd9pvj2-7srr2g.jpg",
+    "images/products/pmwd9pvj2-g8sv5b.jpg",
+    "images/products/pmwd9pvj2-2nmqpf.jpg",
+    "images/products/pmwd9pvj2-0794bu.jpg",
+    "images/products/pmwd9pvj2-c4m8to.jpg"
+   ],
+   "created": 1794471040265,
+   "updated": "2026-11-12T08:10:40.265Z"
+  },
   {
    "id": "pmwchtb9q",
    "name": "ست فریال",
