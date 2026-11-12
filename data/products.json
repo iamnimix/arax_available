@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-12T08:11:58.611Z"
+  "updated": "2026-11-12T09:05:21.667Z"
  },
  "categories": [
   "محصولات جین",
@@ -38,7 +38,7 @@
    "id": "pmwd9pvj2",
    "name": "جاگر دوکمر TOMMY",
    "category": "محصولات شلوار",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 1580000,
    "priceUnit": "piece",
