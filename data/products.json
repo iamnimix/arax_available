@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-12T08:10:41.071Z"
+  "updated": "2026-11-12T08:11:58.611Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,25 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwd9rpw2",
+   "name": "جاگر تک طوسی Tommy",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 1580000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "material": "دورس دونخ پنبه",
+   "colors": "1",
+   "pack": "دلخواه",
+   "desc": "سایز: فری‌سایز (۳۴ تا ۴۴)\n📌قد کار ۱۱۰",
+   "images": [
+    "images/products/pmwd9rpw2-yy3hbd.jpg"
+   ],
+   "created": 1794471117222,
+   "updated": "2026-11-12T08:11:57.222Z"
+  },
   {
    "id": "pmwd9pvj2",
    "name": "جاگر دوکمر TOMMY",
