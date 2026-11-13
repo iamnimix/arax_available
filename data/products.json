@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-13T14:21:02.602Z"
+  "updated": "2026-11-13T19:34:52.596Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,28 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwfdlchg",
+   "name": "بامبر جکت grayer",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "hidden": false,
+   "price": 2598000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "کتان زارا و ملانژ سه نخ کرکی ,تمام کار استرکشی شده",
+   "colors": "",
+   "pack": "۴",
+   "desc": "دمپا کاپشن استوپر و گت داره\n\n📌فری سایز ۳۸تا۴۴\n✔️قد کار ۶۰",
+   "images": [
+    "images/products/pmwfdlchg-w3uxz8.jpg",
+    "images/products/pmwfdlchg-jp0unl.jpg",
+    "images/products/pmwfdlchg-r4in7o.jpg",
+    "images/products/pmwfdlchg-f0hslu.jpg"
+   ],
+   "created": 1794598490908,
+   "updated": "2026-11-13T19:34:50.908Z"
+  },
   {
    "id": "pmwf2e1hp",
    "name": "جکت زارا Zara",
