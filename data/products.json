@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-13T12:29:42.828Z"
+  "updated": "2026-11-13T14:21:02.602Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,29 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwf2e1hp",
+   "name": "جکت زارا Zara",
+   "category": "محصولات جین",
+   "pinned": false,
+   "hidden": false,
+   "price": 2098000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "material": "جین براش درجه یک (شست)",
+   "colors": "۱",
+   "pack": "۵",
+   "desc": "فری سایز ۳۸ تا ۴۴",
+   "images": [
+    "images/products/pmwf2e1hp-jp08pw.jpg",
+    "images/products/pmwf2e1hp-7dqc7c.jpg",
+    "images/products/pmwf2e1hp-zs2njm.jpg",
+    "images/products/pmwf2e1hp-vy01uy.jpg",
+    "images/products/pmwf2e1hp-5zrrsa.jpg"
+   ],
+   "created": 1794579661719,
+   "updated": "2026-11-13T14:21:01.719Z"
+  },
   {
    "id": "pmweyepdn",
    "name": "شلوار استریت",
