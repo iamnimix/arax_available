@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-12T09:05:21.667Z"
+  "updated": "2026-11-13T12:18:44.315Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,32 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmwey0dm4",
+   "name": "جاگر پنبه سه نخ گرم دار دو کاره",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 2198000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "material": "پنبه سه نخ گرم دار",
+   "colors": "۳",
+   "pack": "۳ و ۶",
+   "desc": "سایز :فری سایز, مناسب 36 تا 46",
+   "images": [
+    "images/products/pmwey0dm4-x52c7i.jpg",
+    "images/products/pmwey0dm4-1petfy.jpg",
+    "images/products/pmwey0dm4-uystna.jpg",
+    "images/products/pmwey0dm4-6z35nk.jpg",
+    "images/products/pmwey0dm4-637wmc.jpg",
+    "images/products/pmwey0dm4-dzo40l.jpg",
+    "images/products/pmwey0dm4-2ctj9t.jpg",
+    "images/products/pmwey0dm4-mbll0o.jpg"
+   ],
+   "created": 1794572323337,
+   "updated": "2026-11-13T12:18:43.337Z"
+  },
   {
    "id": "pmwd9rpw2",
    "name": "جاگر تک طوسی Tommy",
