@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-13T12:18:44.315Z"
+  "updated": "2026-11-13T12:29:42.828Z"
  },
  "categories": [
   "محصولات جین",
@@ -15,6 +15,29 @@
   "صدفی"
  ],
  "products": [
+  {
+   "id": "pmweyepdn",
+   "name": "شلوار استریت",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 1298000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس تو کرکی",
+   "colors": "1",
+   "pack": "3",
+   "desc": "سایزبندی : فری سایز(۳۶ تا ۴۴)\n✔️قد کلی ۱۲۳\n✔️قد کش ۷\nبگ پایین گتر قابلیت جاگر شدن",
+   "images": [
+    "images/products/pmweyepdn-4jjhmk.jpg",
+    "images/products/pmweyepdn-doq3j8.jpg",
+    "images/products/pmweyepdn-4cisds.jpg",
+    "images/products/pmweyepdn-7v77wm.jpg",
+    "images/products/pmweyepdn-n5j9uq.jpg"
+   ],
+   "created": 1794572981881,
+   "updated": "2026-11-13T12:29:41.881Z"
+  },
   {
    "id": "pmwey0dm4",
    "name": "جاگر پنبه سه نخ گرم دار دو کاره",
