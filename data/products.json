@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-14T12:24:04.217Z"
+  "updated": "2026-11-14T12:24:37.091Z"
  },
  "categories": [
   "محصولات جین",
@@ -1022,7 +1022,9 @@
    "name": "وست وگاس کتان",
    "category": "وست",
    "pinned": false,
-   "price": 1598000,
+   "hidden": false,
+   "price": 1798000,
+   "priceUnit": "piece",
    "stock": 5,
    "material": "کتان گرم دار درجه ۱",
    "colors": "۶",
@@ -1036,7 +1038,8 @@
     "images/products/pmw0oi51k-2032qh.jpg",
     "images/products/pmw0oi51k-6vvdnh.jpg"
    ],
-   "updated": "2026-11-04T20:58:07.911Z"
+   "created": 1794659075931,
+   "updated": "2026-11-14T12:24:35.931Z"
   },
   {
    "id": "pmw0g46a2",
