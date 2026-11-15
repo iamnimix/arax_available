@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T07:24:44.297Z"
+  "updated": "2026-11-15T07:26:12.597Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,28 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwhigcrp",
+   "name": "ست دورس کراپ شو و شلوار بگ جاگرشو",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 3998000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس تو کرکی سه نخ پنبه",
+   "colors": "4",
+   "pack": "4",
+   "desc": "دورس و شلوار هر دو دارای استوپر \nبالاتنه کراپ شو و پایین تنه جاگر شو  \nمچ آستین ها کش بافت پنبه \nگل دوزی بسیار ظریف\nهر رنگ یک طرح گلدوزی جدا \n\n📌سایز  : فری‌سایز | مناسب سایز ۳۸ تا ۴۴",
+   "images": [
+    "images/products/pmwhigcrp-1xk6km.jpg",
+    "images/products/pmwhigcrp-xvkdu1.jpg",
+    "images/products/pmwhigcrp-anez1k.jpg",
+    "images/products/pmwhigcrp-3a7p0s.jpg"
+   ],
+   "created": 1794727571761,
+   "updated": "2026-11-15T07:26:11.761Z"
+  },
   {
    "id": "pmwhiea6h",
    "name": "ست chill",
