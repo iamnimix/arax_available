@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T07:20:37.268Z"
+  "updated": "2026-11-15T07:22:41.457Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,31 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwhibqal",
+   "name": "ست هودی شلوار بگ",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2198000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "material": "دورس سه نخ حوله ای با کیفیت",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز  : فری سایز ، مناسب ۳۶ تا ۴۶",
+   "images": [
+    "images/products/pmwhibqal-6g2bna.jpg",
+    "images/products/pmwhibqal-qibf0q.jpg",
+    "images/products/pmwhibqal-v29pzl.jpg",
+    "images/products/pmwhibqal-j4iii4.jpg",
+    "images/products/pmwhibqal-p1ww2x.jpg",
+    "images/products/pmwhibqal-w1ui6m.jpg",
+    "images/products/pmwhibqal-u14e7x.jpg"
+   ],
+   "created": 1794727360411,
+   "updated": "2026-11-15T07:22:40.411Z"
+  },
   {
    "id": "pmwhi96j9",
    "name": "بلوز آستین فینگر دار",
