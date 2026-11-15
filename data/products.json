@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T07:26:12.597Z"
+  "updated": "2026-11-15T08:58:48.019Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,28 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwhlre94",
+   "name": "مدل مزونی:ترنچ کت گاردن",
+   "category": "بامبر و ترنچ کت",
+   "pinned": false,
+   "hidden": false,
+   "price": 2798000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "کتان زارا آستر دار درجه یک",
+   "colors": "4",
+   "pack": "4",
+   "desc": "سایز :فری سایز(36تا46)",
+   "images": [
+    "images/products/pmwhlre94-w087ob.jpg",
+    "images/products/pmwhlre94-f5frwe.jpg",
+    "images/products/pmwhlre94-2cfbx9.jpg",
+    "images/products/pmwhlre94-t1yxl9.jpg"
+   ],
+   "created": 1794733127199,
+   "updated": "2026-11-15T08:58:47.199Z"
+  },
   {
    "id": "pmwhigcrp",
    "name": "ست دورس کراپ شو و شلوار بگ جاگرشو",
