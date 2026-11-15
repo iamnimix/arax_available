@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T07:18:05.166Z"
+  "updated": "2026-11-15T07:18:57.215Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,27 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwhi71eo",
+   "name": "بلوز زیپ دار",
+   "category": "بلوز",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "پنبه سوپر فانریپ تضمینی",
+   "colors": "7",
+   "pack": "7",
+   "desc": "سایز :   فری سایز",
+   "images": [
+    "images/products/pmwhi71eo-vmrr39.jpg",
+    "images/products/pmwhi71eo-qmfuaw.jpg",
+    "images/products/pmwhi71eo-9hpyip.jpg"
+   ],
+   "created": 1794727136422,
+   "updated": "2026-11-15T07:18:56.422Z"
+  },
   {
    "id": "pmwfdlchg",
    "name": "بامبر جکت grayer",
