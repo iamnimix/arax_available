@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T07:22:41.457Z"
+  "updated": "2026-11-15T07:24:44.297Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,33 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwhiea6h",
+   "name": "ست chill",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2498000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "دورس داخل کرک با کیفیت",
+   "colors": "6",
+   "pack": "6",
+   "desc": "سایز :فری سایز, مناسب 36 تا 46",
+   "images": [
+    "images/products/pmwhiea6h-zt1573.jpg",
+    "images/products/pmwhiea6h-lg8gwt.jpg",
+    "images/products/pmwhiea6h-oufbum.jpg",
+    "images/products/pmwhiea6h-ngicqt.jpg",
+    "images/products/pmwhiea6h-qmydlp.jpg",
+    "images/products/pmwhiea6h-lpbvge.jpg",
+    "images/products/pmwhiea6h-9283zc.jpg",
+    "images/products/pmwhiea6h-brhtiu.jpg",
+    "images/products/pmwhiea6h-flpd7x.jpg"
+   ],
+   "created": 1794727482861,
+   "updated": "2026-11-15T07:24:42.861Z"
+  },
   {
    "id": "pmwhibqal",
    "name": "ست هودی شلوار بگ",
