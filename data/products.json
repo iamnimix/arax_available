@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T07:18:57.215Z"
+  "updated": "2026-11-15T07:20:37.268Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,27 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwhi96j9",
+   "name": "بلوز آستین فینگر دار",
+   "category": "بلوز",
+   "pinned": false,
+   "hidden": false,
+   "price": 720000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "material": "پنبه فانریپ",
+   "colors": "5",
+   "pack": "5",
+   "desc": "سایز :   فری سایز",
+   "images": [
+    "images/products/pmwhi96j9-w5xrbv.jpg",
+    "images/products/pmwhi96j9-l8hrr4.jpg",
+    "images/products/pmwhi96j9-dhqpt4.jpg"
+   ],
+   "created": 1794727236350,
+   "updated": "2026-11-15T07:20:36.350Z"
+  },
   {
    "id": "pmwhi71eo",
    "name": "بلوز زیپ دار",
