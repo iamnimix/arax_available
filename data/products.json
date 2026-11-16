@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:57:18.779Z"
+  "updated": "2026-11-16T21:57:22.461Z"
  },
  "categories": [
   "محصولات جین",
@@ -751,28 +751,28 @@
    "updated": "2026-11-16T21:56:55.123Z"
   },
   {
-   "id": "pmwbrxbgw",
-   "name": "هودی بیسیک سه نخ پنبه",
+   "id": "pmwbs6ovn",
+   "name": "سویشرت کلاهدار پنبه سه نخ",
    "category": "دورس و هودی",
    "pinned": false,
    "hidden": false,
    "price": 1499000,
    "priceUnit": "piece",
-   "stock": 5,
+   "stock": 4,
    "material": "سه نخ پنبه داخل کرک",
    "colors": "6",
    "pack": "6",
-   "desc": "فری سایز\nدور سینه ۱۵۰\nقد کار ۶۷",
+   "desc": "فری سایز\nدور سینه ۱۴۰\nقد ۵۵",
    "images": [
-    "images/products/pmwbrxbgw-pntve3.jpg",
-    "images/products/pmwbrxbgw-2qsndu.jpg",
-    "images/products/pmwbrxbgw-cx8hpd.jpg",
-    "images/products/pmwbrxbgw-czg5sb.jpg",
-    "images/products/pmwbrxbgw-he8t1z.jpg",
-    "images/products/pmwbrxbgw-l7c53z.jpg"
+    "images/products/pmwbs6ovn-mfkige.jpg",
+    "images/products/pmwbs6ovn-6t4qvc.jpg",
+    "images/products/pmwbs6ovn-o4ud5k.jpg",
+    "images/products/pmwbs6ovn-8th084.jpg",
+    "images/products/pmwbs6ovn-9krcyf.jpg",
+    "images/products/pmwbs6ovn-qbtvjd.jpg"
    ],
-   "created": 1794380685900,
-   "updated": "2026-11-11T07:04:45.900Z"
+   "created": 1794381123529,
+   "updated": "2026-11-16T21:57:14.789Z"
   },
   {
    "id": "pmwbrltv9",
