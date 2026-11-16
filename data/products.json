@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:54:34.962Z"
+  "updated": "2026-11-16T21:56:24.709Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,35 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsyjcs",
+   "name": "بافت استین دگمه",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 1880000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "اکریل ترک",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsyjcs-ua77pd.jpg",
+    "images/products/pmwjsyjcs-e4py7o.jpg",
+    "images/products/pmwjsyjcs-xzz0tk.jpg",
+    "images/products/pmwjsyjcs-jnt5to.jpg",
+    "images/products/pmwjsyjcs-zkno29.jpg",
+    "images/products/pmwjsyjcs-gohiwn.jpg",
+    "images/products/pmwjsyjcs-341gtw.jpg",
+    "images/products/pmwjsyjcs-nnrtgb.jpg"
+   ],
+   "created": 1794866183712,
+   "updated": "2026-11-16T21:56:23.714Z"
+  },
   {
    "id": "pmwjswc2t",
    "name": "ست font",
