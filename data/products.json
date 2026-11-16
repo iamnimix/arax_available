@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:43:14.427Z"
+  "updated": "2026-11-16T21:44:28.452Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,30 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsjpn5",
+   "name": "بافت وینتیج",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 2198000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "اکریل",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsjpn5-eovh21.jpg",
+    "images/products/pmwjsjpn5-om3pgi.jpg",
+    "images/products/pmwjsjpn5-gkth5x.jpg"
+   ],
+   "created": 1794865467362,
+   "updated": "2026-11-16T21:44:27.362Z"
+  },
   {
    "id": "pmwjshtgf",
    "name": "نیم زیپ رگلان",
