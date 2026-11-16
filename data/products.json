@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:39:43.841Z"
+  "updated": "2026-11-16T21:41:27.000Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,35 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsfibb",
+   "name": "وست دو جیب ترند",
+   "category": "وست",
+   "pinned": false,
+   "hidden": false,
+   "price": 1798000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "کتان زارا کجراه (درجه یک)  ⭐️ مدل تمام آسترکشی شده  ‌‌(مناسب فصل پاییز )",
+   "colors": "۳",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsfibb-ev4udz.jpg",
+    "images/products/pmwjsfibb-fps912.jpg",
+    "images/products/pmwjsfibb-29s7fi.jpg",
+    "images/products/pmwjsfibb-l4qg2w.jpg",
+    "images/products/pmwjsfibb-ujk0hk.jpg",
+    "images/products/pmwjsfibb-q18vev.jpg",
+    "images/products/pmwjsfibb-555fjo.jpg",
+    "images/products/pmwjsfibb-zon4db.jpg"
+   ],
+   "created": 1794865285840,
+   "updated": "2026-11-16T21:41:25.840Z"
+  },
   {
    "id": "pmwjsd6mz",
    "name": "ست bulls",
