@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:51:10.434Z"
+  "updated": "2026-11-16T21:52:55.396Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,37 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjstthb",
+   "name": "دورس راه راه سگ سوسیسی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 998000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دونخ پنبه",
+   "colors": "8",
+   "pack": "8",
+   "desc": "",
+   "images": [
+    "images/products/pmwjstthb-vzlmut.jpg",
+    "images/products/pmwjstthb-42wsp7.jpg",
+    "images/products/pmwjstthb-urwkgc.jpg",
+    "images/products/pmwjstthb-e90ol5.jpg",
+    "images/products/pmwjstthb-k7ta08.jpg",
+    "images/products/pmwjstthb-kgda9z.jpg",
+    "images/products/pmwjstthb-np7gr0.jpg",
+    "images/products/pmwjstthb-mmdpx9.jpg",
+    "images/products/pmwjstthb-r4cbwq.jpg",
+    "images/products/pmwjstthb-0gwst2.jpg"
+   ],
+   "created": 1794865974422,
+   "updated": "2026-11-16T21:52:54.423Z"
+  },
   {
    "id": "pmwjssapd",
    "name": "وست کلاهدار کرکی",
