@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:52:55.396Z"
+  "updated": "2026-11-16T21:54:34.962Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,34 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjswc2t",
+   "name": "ست font",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2498000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس داخل کرکی",
+   "colors": "مشکی دوبل",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmwjswc2t-g7l54m.jpg",
+    "images/products/pmwjswc2t-vaog5w.jpg",
+    "images/products/pmwjswc2t-0ae3mi.jpg",
+    "images/products/pmwjswc2t-tjc7sh.jpg",
+    "images/products/pmwjswc2t-z5recy.jpg",
+    "images/products/pmwjswc2t-qa0nrm.jpg",
+    "images/products/pmwjswc2t-xl0w62.jpg"
+   ],
+   "created": 1794866073658,
+   "updated": "2026-11-16T21:54:33.658Z"
+  },
   {
    "id": "pmwjstthb",
    "name": "دورس راه راه سگ سوسیسی",
