@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:37:03.706Z"
+  "updated": "2026-11-16T21:39:43.841Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,35 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsd6mz",
+   "name": "ست bulls",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 1498000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس داخل کرکی",
+   "colors": "۴",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsd6mz-1d6lbr.jpg",
+    "images/products/pmwjsd6mz-q349wl.jpg",
+    "images/products/pmwjsd6mz-5e6sp0.jpg",
+    "images/products/pmwjsd6mz-c4hloq.jpg",
+    "images/products/pmwjsd6mz-h7uzc8.jpg",
+    "images/products/pmwjsd6mz-z4e7rz.jpg",
+    "images/products/pmwjsd6mz-vuoxno.jpg",
+    "images/products/pmwjsd6mz-sesyoe.jpg"
+   ],
+   "created": 1794865182776,
+   "updated": "2026-11-16T21:39:42.778Z"
+  },
   {
    "id": "pmwjs9p2m",
    "name": "لگ کبریتی ساده و کرکی",
