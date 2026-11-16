@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow">
 <title>پنل مدیریت آراکس</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="css/style.css?v=12">
+<link rel="stylesheet" href="css/style.css?v=13">
 </head>
 <body>
 <header>
@@ -30,6 +30,11 @@
   </section>
 
   <section id="app" class="hide">
+    <div class="card2" id="ordersCard">
+      <h3>🧾 سفارش‌ها <span id="ordBadge" class="nbadge hide">0</span></h3>
+      <div id="ordersBox">در حال بارگذاری...</div>
+    </div>
+
     <div class="card2">
       <h3>📊 بازدید ویترین</h3>
       <div id="statsBox">در حال بارگذاری...</div>
@@ -51,6 +56,8 @@
   </section>
 </div>
 
+<div class="modal" id="om"><div class="box"><button class="x" id="oclose">×</button><div id="oBody"></div></div></div>
+
 <div class="modal" id="fm"><div class="box">
   <button class="x" id="fclose">×</button>
   <h2 id="ftitle">محصول جدید</h2>
@@ -61,7 +68,14 @@
     <div class="field"><label>قیمتی که وارد کردید برای…</label><select id="f_unit"><option value="piece">هر عدد (تکی)</option><option value="pack">هر پک</option></select></div>
   </div>
   <div class="field"><label>موجودی (تعداد پک)</label><input id="f_stock" type="number" inputmode="numeric"></div>
-  <div class="field"><label>جنس</label><input id="f_material"></div>
+  <div class="row">
+    <div class="field"><label>کد محصول</label><input id="f_code"></div>
+    <div class="field"><label>جنس</label><input id="f_material"></div>
+  </div>
+  <div class="row">
+    <div class="field"><label>سایزبندی (مثلاً فری سایز)</label><input id="f_sizing"></div>
+    <div class="field"><label>قد</label><input id="f_height"></div>
+  </div>
   <div class="row">
     <div class="field"><label>تعداد رنگ</label><input id="f_colors"></div>
     <div class="field"><label>تعداد در پک</label><input id="f_pack"></div>
@@ -77,6 +91,6 @@
   <button class="btn" id="saveBtn">ذخیره</button>
 </div></div>
 
-<script src="js/admin.js?v=12"></script>
+<script src="js/admin.js?v=13"></script>
 </body>
 </html>

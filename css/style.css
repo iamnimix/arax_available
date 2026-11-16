@@ -116,3 +116,18 @@ footer{border-top:2px solid var(--fg);text-align:center;padding:16px;font-size:1
 .stp b{min-width:28px;text-align:center}
 .top5{margin-top:8px;font-size:13px}
 .top5 div{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:3px 0}
+
+.nbadge{background:#e5484d;color:#fff;border-radius:12px;padding:0 9px;font-size:13px;margin-right:6px}
+.ochips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.ochip{border:1.5px solid var(--fg);background:#fff;border-radius:20px;padding:2px 12px;font:inherit;font-size:13px;cursor:pointer}
+.ochip.on{background:var(--fg);color:#fff}
+.orow{display:flex;gap:8px;align-items:center;border:1.5px solid var(--fg);border-radius:10px;padding:8px 10px;margin-bottom:8px;cursor:pointer}
+.orow.hot{background:#fff8e1;border-width:2.5px}
+.orow>div{flex:1}.orow small{color:var(--mut)}
+.sbadge{display:inline-block;color:#fff;border-radius:12px;padding:0 10px;font-size:12px}
+.otbl{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+.otbl th{background:var(--fg);color:#fff;padding:4px;font-weight:400}
+.otbl td{border-bottom:1px solid var(--line);padding:4px;text-align:center}
+.otbl input{width:78px;padding:4px 6px;text-align:center}
+.oact{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.rcimg{max-width:100%;max-height:60vh;border:1.5px solid var(--fg);border-radius:8px;margin-top:6px}

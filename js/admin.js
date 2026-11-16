@@ -58,7 +58,7 @@ async function start(){
   localStorage.setItem('skipgc','t');
   $('#login').classList.add('hide');$('#app').classList.remove('hide');$('#logout').classList.remove('hide');
   say('#gmsg','در حال بارگذاری...');
-  try{db=(await readDB()).db;say('#gmsg','');renderAll();loadStats()}
+  try{db=(await readDB()).db;say('#gmsg','');renderAll();loadStats();initOrders()}
   catch(e){say('#gmsg','خطا: '+e.message+' — اگر توکن منقضی شده، خروج بزنید و دوباره وارد شوید.',true)}
 }
 const src=p=>preview[p]||p;
@@ -164,7 +164,7 @@ $('#backup').onclick=()=>{
 };
 
 /* فرم محصول */
-const F=['name','price','stock','material','colors','pack','desc'];
+const F=['name','price','stock','material','colors','pack','desc','code','sizing','height'];
 let copyMode=false;
 function openForm(p,copy){
   copyMode=!!copy;editing=p&&!copy?p:null;
@@ -244,7 +244,7 @@ $('#saveBtn').onclick=async()=>{
     }
     const p={id,name,category:$('#f_category').value,pinned:!!editing?.pinned,hidden:!!editing?.hidden,
       price:+$('#f_price').value||0,priceUnit:$('#f_unit').value,stock:+$('#f_stock').value||0,
-      material:$('#f_material').value.trim(),colors:$('#f_colors').value.trim(),pack:$('#f_pack').value.trim(),
+      code:$('#f_code').value.trim(),sizing:$('#f_sizing').value.trim(),height:$('#f_height').value.trim(),material:$('#f_material').value.trim(),colors:$('#f_colors').value.trim(),pack:$('#f_pack').value.trim(),
       desc:$('#f_desc').value.trim(),images:paths,created:editing?.created||Date.now(),updated:new Date().toISOString()};
     const products=editing?db.products.map(x=>x.id===id?p:x):[p,...db.products];
     await saveDB({...db,products},(editing?'update ':'add ')+name);
@@ -306,4 +306,183 @@ async function loadStats(){
     $('#gcReset').onclick=()=>statsSetup();
     renderList();
   }catch(e){statsSetup(e.message)}
+}
+
+/* ===================== سفارش‌ها (Supabase) ===================== */
+const ST={new:['جدید – منتظر بررسی','#d08a0b'],confirmed:['تایید شد – منتظر پرداخت','#2f5be0'],receipt:['رسید ارسال شد – بررسی کنید','#7c3aed'],paid:['پرداخت تایید شد','#1d9b57'],shipped:['ارسال شد','#0f766e'],rejected:['رد شد','#c0392b']};
+const sbCfg=()=>db.settings.sb&&db.settings.sb.url&&db.settings.sb.key?db.settings.sb:null;
+const sbS=()=>{try{return JSON.parse(localStorage.getItem('arax_sbs'))}catch(e){return null}};
+let ords=[],ordFilter='',ordTimer=null,knownOrd={},ordFirst=true,od=null,cardSet=null;
+const jdate=iso=>{if(!iso)return '';const d=new Date(iso),tz={timeZone:'Asia/Tehran'};return d.toLocaleDateString('fa-IR-u-ca-persian',{...tz,year:'numeric',month:'2-digit',day:'2-digit'})+' '+d.toLocaleTimeString('fa-IR',{...tz,hour:'2-digit',minute:'2-digit',hour12:false})};
+const toLatin=s=>String(s??'').replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d));
+const toNumA=s=>{const m=toLatin(s).match(/\d+/);return m?+m[0]:0};
+
+async function sbLogin(email,pw){
+  const c=sbCfg(),r=await fetch(c.url+'/auth/v1/token?grant_type=password',{method:'POST',headers:{apikey:c.key,'Content-Type':'application/json'},body:JSON.stringify({email,password:pw})});
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok)throw new Error(j.error_description||j.msg||j.message||'ورود ناموفق ('+r.status+')');
+  localStorage.setItem('arax_sbs',JSON.stringify({access:j.access_token,refresh:j.refresh_token,exp:Date.now()+(j.expires_in||3600)*1000-60000}));
+}
+async function sbTok(){
+  const s=sbS();if(!s)throw new Error('وارد نشده‌اید');
+  if(Date.now()<s.exp)return s.access;
+  const c=sbCfg(),r=await fetch(c.url+'/auth/v1/token?grant_type=refresh_token',{method:'POST',headers:{apikey:c.key,'Content-Type':'application/json'},body:JSON.stringify({refresh_token:s.refresh})});
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok){localStorage.removeItem('arax_sbs');throw new Error('نشست منقضی شد؛ دوباره وارد شوید')}
+  localStorage.setItem('arax_sbs',JSON.stringify({access:j.access_token,refresh:j.refresh_token,exp:Date.now()+(j.expires_in||3600)*1000-60000}));
+  return j.access_token;
+}
+async function sbf(path,opts={}){
+  const c=sbCfg(),t=await sbTok();
+  const r=await fetch(c.url+path,{...opts,headers:{apikey:c.key,Authorization:'Bearer '+t,'Content-Type':'application/json',...(opts.headers||{})}});
+  const txt=await r.text();let j=null;try{j=txt?JSON.parse(txt):null}catch(e){}
+  if(!r.ok)throw new Error((j&&(j.message||j.error))||('خطا '+r.status));
+  return j;
+}
+function beep(){try{const a=new (window.AudioContext||window.webkitAudioContext)(),o=a.createOscillator(),g=a.createGain();o.connect(g);g.connect(a.destination);o.frequency.value=880;g.gain.setValueAtTime(.25,a.currentTime);g.gain.exponentialRampToValueAtTime(.001,a.currentTime+.5);o.start();o.stop(a.currentTime+.5)}catch(e){}}
+function initOrders(){
+  if(!sbCfg())return renderOrdersBox();
+  if(!sbS())return renderOrdersBox();
+  renderOrdersBox();ordPoll();clearInterval(ordTimer);ordTimer=setInterval(ordPoll,15000);
+}
+async function ordPoll(){
+  try{
+    ords=await sbf('/rest/v1/orders?select=*&order=created_at.desc&limit=200');
+    const act=ords.filter(o=>o.status==='new'||o.status==='receipt').length;
+    $('#ordBadge').textContent=act;$('#ordBadge').classList.toggle('hide',!act);
+    document.title=(act?`(${act}) `:'')+'پنل مدیریت آراکس';
+    if(!ordFirst){
+      for(const o of ords){
+        const prev=knownOrd[o.id];
+        if(prev===undefined&&o.status==='new'){alert_(`🔔 سفارش جدید ${o.code} از ${o.name}`)}
+        else if(prev&&prev!==o.status&&o.status==='receipt'){alert_(`🧾 رسید پرداخت سفارش ${o.code} رسید`)}
+      }
+    }
+    ords.forEach(o=>knownOrd[o.id]=o.status);ordFirst=false;
+    if(!$('#om').classList.contains('on'))renderOrdList();
+  }catch(e){$('#ordersBox').innerHTML=`<div class="msg err">${esc(e.message)}</div>`+(/نشست|وارد/.test(e.message)?'':'')}
+}
+function alert_(t){
+  say('#gmsg',t);beep();
+  try{if(window.Notification&&Notification.permission==='granted')new Notification('پنل آراکس',{body:t,icon:'images/logo.png'})}catch(e){}
+}
+async function renderOrdersBox(){
+  const box=$('#ordersBox');
+  if(!sbCfg()){
+    box.innerHTML=`<div class="msg">برای فعال‌شدن ثبت سفارش آنلاین، یک‌بار Supabase را راه‌اندازی کنید (راهنما در پیام چت) و اطلاعات پروژه را اینجا وارد کنید:</div>
+     <div class="field"><label>Project URL</label><input id="sbUrl" dir="ltr" placeholder="https://xxxx.supabase.co"></div>
+     <div class="field"><label>Anon (publishable) key</label><input id="sbKey" dir="ltr"></div>
+     <button class="btn sm" id="sbSave">ذخیره</button>`;
+    $('#sbSave').onclick=async()=>{
+      const url=$('#sbUrl').value.trim().replace(/\/+$/,''),key=$('#sbKey').value.trim();
+      if(!/^https:\/\//.test(url)||!key)return;
+      try{await saveDB({...db,settings:{...db.settings,sb:{url,key}}},'enable orders');renderOrdersBox()}catch(e){say('#gmsg','خطا: '+e.message,true)}
+    };return;
+  }
+  if(!sbS()){
+    box.innerHTML=`<div class="msg">ورود به بخش سفارش‌ها (ایمیل و رمزی که در Supabase برای خودتان ساخته‌اید):</div>
+     <div class="row"><div class="field"><label>ایمیل</label><input id="sbEmail" dir="ltr" type="email"></div><div class="field"><label>رمز</label><input id="sbPw" dir="ltr" type="password"></div></div>
+     <button class="btn sm" id="sbLogin">ورود</button> <button class="btn ghost sm" id="sbChange">تغییر اتصال</button><div id="sbMsg"></div>`;
+    $('#sbLogin').onclick=async()=>{try{await sbLogin($('#sbEmail').value.trim(),$('#sbPw').value);try{Notification.requestPermission()}catch(e){}beep();ordFirst=true;initOrders()}catch(e){say('#sbMsg',e.message,true)}};
+    $('#sbChange').onclick=async()=>{await saveDB({...db,settings:{...db.settings,sb:null}},'reset orders');renderOrdersBox()};
+    return;
+  }
+  box.innerHTML=`<div class="ochips" id="oChips"></div><div id="oList"></div>
+   <details style="margin-top:10px"><summary style="cursor:pointer">💳 شماره کارت پرداخت (برای مشتری‌ها)</summary>
+    <div class="field" style="margin-top:8px"><label>شماره کارت</label><input id="cdNo" dir="ltr" inputmode="numeric"></div>
+    <div class="row"><div class="field"><label>به نام</label><input id="cdHolder"></div><div class="field"><label>بانک</label><input id="cdBank"></div></div>
+    <button class="btn sm" id="cdSave">ذخیره‌ی شماره کارت</button><div id="cdMsg"></div></details>
+   <p style="margin-top:10px"><button class="btn ghost sm" id="sbLogout">خروج از سفارش‌ها</button></p>`;
+  renderOrdList();
+  box.onclick=ordClick;
+  if(!cardSet){try{const r=await sbf('/rest/v1/shop_settings?id=eq.1&select=*');cardSet=r&&r[0]||{}}catch(e){cardSet={}}}
+  if($('#cdNo')){$('#cdNo').value=cardSet.card_number||'';$('#cdHolder').value=cardSet.card_holder||'';$('#cdBank').value=cardSet.bank||''}
+}
+const ORD_F={'':()=>true,act:o=>o.status==='new'||o.status==='receipt',confirmed:o=>o.status==='confirmed',paid:o=>o.status==='paid',shipped:o=>o.status==='shipped',rejected:o=>o.status==='rejected'};
+const ORD_LAB={'':'همه',act:'نیازمند اقدام',confirmed:'منتظر پرداخت',paid:'پرداخت‌شده',shipped:'ارسال‌شده',rejected:'رد شده'};
+function renderOrdList(){
+  if(!$('#oList'))return renderOrdersBox();
+  $('#oChips').innerHTML=Object.keys(ORD_LAB).map(k=>`<button class="ochip ${ordFilter===k?'on':''}" data-of="${k}">${ORD_LAB[k]}</button>`).join('');
+  const list=ords.filter(ORD_F[ordFilter]);
+  $('#oList').innerHTML=list.length?list.map(o=>{const [t,c]=ST[o.status]||[o.status,'#777'];return `<div class="orow ${o.status==='new'||o.status==='receipt'?'hot':''}" data-oid="${o.id}"><div><b>${esc(o.code)}</b> — ${esc(o.name)}<br><small>${jdate(o.created_at)} · ${fa(o.total)} تومان · ${esc(o.shipping)}</small></div><span class="sbadge" style="background:${c}">${t}</span></div>`}).join(''):'<div class="empty">سفارشی وجود ندارد.</div>';
+}
+async function ordClick(e){
+  const d=e.target.closest('[data-of],[data-oid]'),t=e.target;
+  if(t.id==='cdSave'){
+    try{await sbf('/rest/v1/shop_settings?id=eq.1',{method:'PATCH',body:JSON.stringify({card_number:toLatin($('#cdNo').value).replace(/\D/g,''),card_holder:$('#cdHolder').value.trim(),bank:$('#cdBank').value.trim()}),headers:{Prefer:'return=representation'}});
+      cardSet=null;say('#cdMsg','ذخیره شد ✅')}catch(err){say('#cdMsg',err.message,true)}return;
+  }
+  if(t.id==='sbLogout'){localStorage.removeItem('arax_sbs');clearInterval(ordTimer);renderOrdersBox();return}
+  if(!d)return;
+  if(d.dataset.of!==undefined){ordFilter=d.dataset.of;renderOrdList();return}
+  if(d.dataset.oid)openOrder(d.dataset.oid);
+}
+$('#oclose').onclick=()=>{$('#om').classList.remove('on');renderOrdList()};
+
+/* ----- ویرایشگر سفارش ----- */
+function recalc(i){
+  i.packs=Math.max(0,+i.packs||0);i.unitPrice=Math.max(0,+i.unitPrice||0);
+  i.qty=i.unit==='پک'?i.packs:(i.perPack?i.perPack*i.packs:i.packs);i.total=i.unitPrice*i.qty;
+}
+const sumOd=()=>od.items.reduce((a,i)=>a+(+i.total||0),0);
+function openOrder(id){
+  const o=ords.find(x=>x.id===id);if(!o)return;
+  od=JSON.parse(JSON.stringify(o));paintOrder();$('#om').classList.add('on');
+}
+function paintOrder(){
+  const o=od,[t,c]=ST[o.status]||[o.status,'#777'],edit=o.status==='new'||o.status==='confirmed';
+  const rows=o.items.map((i,k)=>`<tr data-k="${k}"><td class="n" style="text-align:right">${esc(i.name)}</td>
+    <td>${edit?`<input type="number" min="0" data-f="packs" value="${i.packs}">`:fa(i.packs)}</td>
+    <td class="q">${fa(i.qty)} ${esc(i.unit)}</td>
+    <td>${edit?`<input type="number" min="0" data-f="unitPrice" value="${i.unitPrice}">`:fa(i.unitPrice)}</td>
+    <td class="t"><b>${fa(i.total)}</b></td>
+    <td>${edit?`<button class="btn danger sm" data-rm="${k}" title="حذف این کالا از فاکتور">✕</button>`:''}</td></tr>`).join('');
+  const A=[];
+  if(edit)A.push(`<button class="btn ghost sm" data-a="save">💾 ذخیره تغییرات</button>`);
+  if(o.status==='new')A.push(`<button class="btn sm" data-a="confirm">✅ تایید و اعلام به مشتری</button>`);
+  if(o.status==='confirmed')A.push(`<button class="btn sm" data-a="confirm">💾 ذخیره و به‌روزرسانی فاکتور مشتری</button>`);
+  if(o.status==='receipt'){A.push(`<button class="btn sm" data-a="paid">✅ تایید پرداخت</button>`,`<button class="btn ghost sm" data-a="rereceipt">↩ رسید نامعتبر (درخواست رسید جدید)</button>`)}
+  if(o.status==='paid')A.push(`<button class="btn sm" data-a="shipped">📦 ثبت ارسال</button>`);
+  if(!['rejected','shipped'].includes(o.status))A.push(`<button class="btn danger sm" data-a="reject">رد / لغو سفارش</button>`);
+  $('#oBody').innerHTML=`<h2>${esc(o.code)} <span class="sbadge" style="background:${c}">${t}</span></h2>
+   <div class="msg"><b>${esc(o.name)}</b> — <a href="tel:${esc(o.phone)}">${esc(o.phone)}</a><br>آدرس: ${esc(o.address)}<br>ارسال با: <b>${esc(o.shipping)}</b><br><small>ثبت: ${jdate(o.created_at)}</small></div>
+   <table class="otbl"><thead><tr><th>کالا</th><th>پک</th><th>تعداد</th><th>قیمت واحد</th><th>جمع</th><th></th></tr></thead><tbody>${rows}</tbody></table>
+   <div style="font-size:16px;margin:6px 0">جمع کل: <b id="oTot">${fa(sumOd())}</b> تومان</div>
+   ${edit?'<small>می‌توانید تعداد و قیمت را اصلاح یا کالای تمام‌شده را با ✕ حذف کنید.</small>':''}
+   <div class="field" style="margin-top:8px"><label>توضیحات برای مشتری (اختیاری)</label><textarea id="oNote" rows="2">${esc(o.admin_note||'')}</textarea></div>
+   ${o.receipt_path?`<div class="msg">🧾 رسید پرداخت ${o.receipt_at?'('+jdate(o.receipt_at)+')':''}${o.receipt_note?`<br>متن: ${esc(o.receipt_note)}`:''}<br><button class="btn ghost sm" data-a="viewrc">مشاهده عکس رسید</button><div id="rcBox"></div></div>`:''}
+   ${o.tracking?`<div class="msg">کد رهگیری: <b>${esc(o.tracking)}</b></div>`:''}
+   <div id="oMsg"></div><div class="oact">${A.join('')}</div>`;
+  $('#oBody').oninput=e=>{
+    const tr=e.target.closest('tr[data-k]');if(!tr||!e.target.dataset.f)return;
+    const i=od.items[+tr.dataset.k];i[e.target.dataset.f]=toLatin(e.target.value);recalc(i);
+    tr.querySelector('.q').textContent=fa(i.qty)+' '+i.unit;tr.querySelector('.t').innerHTML='<b>'+fa(i.total)+'</b>';$('#oTot').textContent=fa(sumOd());
+  };
+  $('#oBody').onclick=async e=>{
+    const rm=e.target.dataset.rm,a=e.target.dataset.a;
+    if(rm!==undefined){od.items.splice(+rm,1);od.admin_note=$('#oNote').value;paintOrder();return}
+    if(a)orderAction(a);
+  };
+}
+async function orderAction(a){
+  const o=od;o.admin_note=$('#oNote').value.trim();
+  const body={items:o.items,subtotal:sumOd(),total:sumOd(),admin_note:o.admin_note||null};
+  try{
+    if(a==='viewrc'){
+      const j=await sbf('/storage/v1/object/sign/receipts/'+o.receipt_path,{method:'POST',body:JSON.stringify({expiresIn:900})});
+      const u=sbCfg().url+'/storage/v1'+j.signedURL;$('#rcBox').innerHTML=`<a href="${u}" target="_blank"><img class="rcimg" src="${u}"></a>`;return;
+    }
+    if(['save','confirm'].includes(a)){
+      if(!o.items.length)return say('#oMsg','فاکتور بدون کالا قابل ثبت نیست؛ سفارش را رد کنید.',true);
+      if(a==='confirm'){if(!cardSet||!cardSet.card_number)if(!confirm('شماره کارت هنوز ذخیره نشده؛ مشتری شماره کارتی نمی‌بیند. ادامه می‌دهید؟'))return;body.status='confirmed'}
+    }
+    if(a==='paid')body.status='paid';
+    if(a==='rereceipt'){body.status='confirmed';body.receipt_path=null;body.admin_note=o.admin_note||'رسید ارسالی خوانا/معتبر نبود؛ لطفاً رسید جدید بارگذاری کنید.'}
+    if(a==='shipped'){const tr=prompt('کد رهگیری مرسوله (اختیاری):','');if(tr===null)return;body.status='shipped';body.tracking=tr.trim()||null}
+    if(a==='reject'){if(!confirm('سفارش رد/لغو شود؟'))return;body.status='rejected'}
+    say('#oMsg','در حال ذخیره...');
+    await sbf('/rest/v1/orders?id=eq.'+o.id,{method:'PATCH',body:JSON.stringify(body),headers:{Prefer:'return=minimal'}});
+    await ordPoll();$('#om').classList.remove('on');renderOrdList();
+    say('#gmsg',a==='confirm'?'سفارش تایید شد و به مشتری اطلاع داده می‌شود ✅':'ذخیره شد ✅');
+  }catch(e){say('#oMsg','خطا: '+e.message,true)}
 }
