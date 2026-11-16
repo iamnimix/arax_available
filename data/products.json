@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:56:33.456Z"
+  "updated": "2026-11-16T21:56:57.645Z"
  },
  "categories": [
   "محصولات جین",
@@ -734,7 +734,7 @@
    "hidden": false,
    "price": 1499000,
    "priceUnit": "piece",
-   "stock": 5,
+   "stock": 0,
    "material": "پنبه سه نخ داخل کرک",
    "colors": "۶",
    "pack": "۶",
@@ -748,7 +748,7 @@
     "images/products/pmwbscfza-dp6ar5.jpg"
    ],
    "created": 1794381392071,
-   "updated": "2026-11-11T07:16:32.071Z"
+   "updated": "2026-11-16T21:56:55.123Z"
   },
   {
    "id": "pmwbs6ovn",
