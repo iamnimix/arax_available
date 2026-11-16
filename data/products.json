@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:16:40.857Z"
+  "updated": "2026-11-16T21:33:45.559Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,33 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwjs5p8b",
+   "name": "وست بافت اکریل",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 998000,
+   "priceUnit": "piece",
+   "stock": 15,
+   "code": "",
+   "sizing": "فری",
+   "height": "",
+   "material": "اکریل",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwjs5p8b-zny6gk.jpg",
+    "images/products/pmwjs5p8b-9j0agk.jpg",
+    "images/products/pmwjs5p8b-5aront.jpg",
+    "images/products/pmwjs5p8b-08byji.jpg",
+    "images/products/pmwjs5p8b-tqc9ot.jpg",
+    "images/products/pmwjs5p8b-vvqw2t.jpg"
+   ],
+   "created": 1794864824494,
+   "updated": "2026-11-16T21:33:44.494Z"
+  },
   {
    "id": "pmwjrk5pw",
    "name": "وست جین وگاس جیب دار",
