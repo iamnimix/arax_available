@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:34:38.945Z"
+  "updated": "2026-11-16T21:37:03.706Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,36 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjs9p2m",
+   "name": "لگ کبریتی ساده و کرکی",
+   "category": "لگ",
+   "pinned": false,
+   "hidden": false,
+   "price": 1198000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "📌 سایزبندی :  (M ‘ L ‘ xL ‘ 2XL ‘3XL ‘4XL 5XL)",
+   "height": "",
+   "material": "کبریتی",
+   "colors": "۶",
+   "pack": "۹",
+   "desc": "رنگ و سایز به انتخاب خودتون حداقل سفارش ۶ عدد",
+   "images": [
+    "images/products/pmwjs9p2m-vc2q6s.jpg",
+    "images/products/pmwjs9p2m-wv54w8.jpg",
+    "images/products/pmwjs9p2m-axe7b4.jpg",
+    "images/products/pmwjs9p2m-yghjud.jpg",
+    "images/products/pmwjs9p2m-98bijp.jpg",
+    "images/products/pmwjs9p2m-8lx8gi.jpg",
+    "images/products/pmwjs9p2m-1on3no.jpg",
+    "images/products/pmwjs9p2m-lkjdi8.jpg",
+    "images/products/pmwjs9p2m-ns2y3p.jpg"
+   ],
+   "created": 1794865022708,
+   "updated": "2026-11-16T21:37:02.711Z"
+  },
   {
    "id": "pmwjs5p8b",
    "name": "وست بافت اکریل",
