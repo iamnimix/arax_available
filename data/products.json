@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:49:23.876Z"
+  "updated": "2026-11-16T21:51:10.434Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,32 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjssapd",
+   "name": "وست کلاهدار کرکی",
+   "category": "وست",
+   "pinned": false,
+   "hidden": false,
+   "price": 1550000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "پنبه دونخ کرکی",
+   "colors": "",
+   "pack": "۵",
+   "desc": "کراپ زیر وست موجود ۸۸۰/۰۰۰",
+   "images": [
+    "images/products/pmwjssapd-g3viyh.jpg",
+    "images/products/pmwjssapd-fifz8t.jpg",
+    "images/products/pmwjssapd-606t19.jpg",
+    "images/products/pmwjssapd-i0i8a0.jpg",
+    "images/products/pmwjssapd-77ym2d.jpg"
+   ],
+   "created": 1794865869322,
+   "updated": "2026-11-16T21:51:09.324Z"
+  },
   {
    "id": "pmwjsq25k",
    "name": "کراپ رگلاین",
