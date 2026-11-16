@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:44:28.452Z"
+  "updated": "2026-11-16T21:46:22.388Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,33 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsm19u",
+   "name": "ست سویشرت شلوار",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 3300000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "پنبه دونخ داخل کرکی",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsm19u-qrr8e5.jpg",
+    "images/products/pmwjsm19u-w4u49x.jpg",
+    "images/products/pmwjsm19u-wsm4t1.jpg",
+    "images/products/pmwjsm19u-hc3yhy.jpg",
+    "images/products/pmwjsm19u-8c34uc.jpg",
+    "images/products/pmwjsm19u-npo6wo.jpg"
+   ],
+   "created": 1794865581214,
+   "updated": "2026-11-16T21:46:21.215Z"
+  },
   {
    "id": "pmwjsjpn5",
    "name": "بافت وینتیج",
