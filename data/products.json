@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:41:27.000Z"
+  "updated": "2026-11-16T21:43:14.427Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,33 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjshtgf",
+   "name": "نیم زیپ رگلان",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 1898000,
+   "priceUnit": "piece",
+   "stock": 12,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "اکریل نرم",
+   "colors": "۵",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwjshtgf-b87cao.jpg",
+    "images/products/pmwjshtgf-l85tco.jpg",
+    "images/products/pmwjshtgf-jgm3hs.jpg",
+    "images/products/pmwjshtgf-7o5ezn.jpg",
+    "images/products/pmwjshtgf-ka2oxu.jpg",
+    "images/products/pmwjshtgf-t8zveu.jpg"
+   ],
+   "created": 1794865393411,
+   "updated": "2026-11-16T21:43:13.413Z"
+  },
   {
    "id": "pmwjsfibb",
    "name": "وست دو جیب ترند",
