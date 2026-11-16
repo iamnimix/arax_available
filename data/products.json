@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:46:22.388Z"
+  "updated": "2026-11-16T21:47:49.196Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,31 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsnydc",
+   "name": "دورس یقه دار نیم زیپ",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1430000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "",
+   "height": "",
+   "material": "پنبه دونخ لاکرا",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsnydc-df9wb4.jpg",
+    "images/products/pmwjsnydc-3guild.jpg",
+    "images/products/pmwjsnydc-b13r31.jpg",
+    "images/products/pmwjsnydc-pgsjad.jpg"
+   ],
+   "created": 1794865668254,
+   "updated": "2026-11-16T21:47:48.254Z"
+  },
   {
    "id": "pmwjsm19u",
    "name": "ست سویشرت شلوار",
