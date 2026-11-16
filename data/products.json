@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-15T08:58:48.019Z"
+  "updated": "2026-11-16T21:16:40.857Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,6 +16,28 @@
   "بلوز"
  ],
  "products": [
+  {
+   "id": "pmwjrk5pw",
+   "name": "وست جین وگاس جیب دار",
+   "category": "محصولات جین",
+   "pinned": false,
+   "hidden": false,
+   "price": 1898000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "جین شست رفته گرم دار",
+   "colors": "۳",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwjrk5pw-8nym03.jpg"
+   ],
+   "created": 1794863799851,
+   "updated": "2026-11-16T21:16:39.852Z"
+  },
   {
    "id": "pmwhlre94",
    "name": "مدل مزونی:ترنچ کت گاردن",
