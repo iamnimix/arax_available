@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-16T21:47:49.196Z"
+  "updated": "2026-11-16T21:49:23.876Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,32 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwjsq25k",
+   "name": "کراپ رگلاین",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1250000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "پنبه دونخ لاکرا",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwjsq25k-z2vivr.jpg",
+    "images/products/pmwjsq25k-box0nt.jpg",
+    "images/products/pmwjsq25k-ukzkya.jpg",
+    "images/products/pmwjsq25k-awq1kn.jpg",
+    "images/products/pmwjsq25k-eyc1e8.jpg"
+   ],
+   "created": 1794865762929,
+   "updated": "2026-11-16T21:49:22.929Z"
+  },
   {
    "id": "pmwjsnydc",
    "name": "دورس یقه دار نیم زیپ",
