@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:45:19.110Z"
+  "updated": "2026-11-18T20:45:26.814Z"
  },
  "categories": [
   "محصولات جین",
@@ -2851,7 +2851,7 @@
    "category": "دورس و هودی",
    "pinned": false,
    "price": 1050000,
-   "stock": 2,
+   "stock": 0,
    "material": "دورس دونخ پنبه سفارشی",
    "colors": "6",
    "pack": "6",
@@ -2862,7 +2862,7 @@
     "images/products/pmvrwgwcq-sdmpmx.jpg",
     "images/products/pmvrwgwcq-y0ehsy.jpg"
    ],
-   "updated": "2026-10-28T09:16:32.440Z"
+   "updated": "2026-11-18T20:45:24.585Z"
   },
   {
    "id": "pmvrwe6lb",
