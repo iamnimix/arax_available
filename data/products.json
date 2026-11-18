@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:42:26.414Z"
+  "updated": "2026-11-18T20:42:59.785Z"
  },
  "categories": [
   "محصولات جین",
@@ -1207,27 +1207,6 @@
    ],
    "created": 1793966107057,
    "updated": "2026-11-06T11:55:07.057Z"
-  },
-  {
-   "id": "pmw4qnwb7",
-   "name": "هودی باکسی بیسیک (توکرکی)",
-   "category": "دورس و هودی",
-   "pinned": false,
-   "hidden": false,
-   "price": 1478000,
-   "priceUnit": "piece",
-   "stock": 5,
-   "material": "دورس دو نخ پنبه توکرکی",
-   "colors": "9",
-   "pack": "9",
-   "desc": "سایزبندی ( Free۳۸-۴۸)\n\n✔️ عرض سینه :۶۵ سانتیمتر\n✔️ قد : ۶۷ سانتیمتر",
-   "images": [
-    "images/products/pmw4qnwb7-v93nwj.jpg",
-    "images/products/pmw4qnwb7-u9nx4e.jpg",
-    "images/products/pmw4qnwb7-5syqgn.jpg"
-   ],
-   "created": 1793955300081,
-   "updated": "2026-11-06T08:55:00.081Z"
   },
   {
    "id": "pmw4qj0fa",
