@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T09:43:20.099Z"
+  "updated": "2026-11-18T09:44:43.478Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,32 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwlxpw5x",
+   "name": "شال ترند",
+   "category": "شال",
+   "pinned": false,
+   "hidden": false,
+   "price": 995000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "",
+   "height": "",
+   "material": "جنس گرم بالا",
+   "colors": "انتخاب رنگ دارد",
+   "pack": "8",
+   "desc": "",
+   "images": [
+    "images/products/pmwlxpw5x-irbnjg.jpg",
+    "images/products/pmwlxpw5x-t5mcx7.jpg",
+    "images/products/pmwlxpw5x-aecerp.jpg",
+    "images/products/pmwlxpw5x-nkq0a1.jpg",
+    "images/products/pmwlxpw5x-9wq7a4.jpg"
+   ],
+   "created": 1794995082203,
+   "updated": "2026-11-18T09:44:42.203Z"
+  },
   {
    "id": "pmwlwtnr1",
    "name": "بافت راه راه ترند",
