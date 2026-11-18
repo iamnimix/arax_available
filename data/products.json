@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T21:10:19.408Z"
+  "updated": "2026-11-18T21:11:31.473Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,29 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwmm9ai2",
+   "name": "هودی کراپ balenciaga",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس دونخ پنبه کرکی",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmwmm9ai2-dchlge.jpg",
+    "images/products/pmwmm9ai2-c3pcyd.jpg"
+   ],
+   "created": 1795036290590,
+   "updated": "2026-11-18T21:11:30.591Z"
+  },
   {
    "id": "pmwmm7r0p",
    "name": "هودی کراپ نیویورک ۲",
