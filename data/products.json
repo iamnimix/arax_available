@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:43:23.846Z"
+  "updated": "2026-11-18T20:44:53.878Z"
  },
  "categories": [
   "محصولات جین",
@@ -2466,7 +2466,7 @@
    "category": "دورس و هودی",
    "pinned": false,
    "price": 980000,
-   "stock": 2,
+   "stock": 0,
    "material": "اسپان داخل کرک",
    "colors": "۵",
    "pack": "۵",
@@ -2475,7 +2475,7 @@
     "images/products/pmvtcmrrb-b257zt.jpg",
     "images/products/pmvtcmrrb-amxu9a.jpg"
    ],
-   "updated": "2026-10-29T09:36:44.075Z"
+   "updated": "2026-11-18T20:44:51.340Z"
   },
   {
    "id": "pmvtcliyn",
