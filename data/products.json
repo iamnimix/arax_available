@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T21:11:31.473Z"
+  "updated": "2026-11-18T22:13:05.604Z"
  },
  "categories": [
   "محصولات جین",
@@ -1927,7 +1927,7 @@
    "id": "pmvxvzw88",
    "name": "بامبر چرم کلاهدار",
    "category": "محصولات چرم",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 2198000,
    "priceUnit": "piece",
