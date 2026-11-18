@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T11:22:50.826Z"
+  "updated": "2026-11-18T11:32:10.987Z"
  },
  "categories": [
   "محصولات جین",
@@ -1806,17 +1806,25 @@
    "name": "بلوز بافت سنتی",
    "category": "بافت",
    "pinned": true,
+   "hidden": false,
    "price": 2150000,
+   "priceUnit": "piece",
    "stock": 2,
+   "code": "",
+   "sizing": "",
+   "height": "",
    "material": "نخ آکریل ترک🇹🇷",
    "colors": "۲",
    "pack": "۴",
    "desc": "سایز ۳۶ تا ۴۴\nپک های ۲،۴ و ۶ عددی",
    "images": [
-    "images/products/pmvyaedza-es7pgm.jpg",
-    "images/products/pmvyaedza-volnuf.jpg"
+    "images/products/pmvyaedza-0ym4kd.jpg",
+    "images/products/pmvyaedza-i77u7o.jpg",
+    "images/products/pmvyaedza-n6hk2y.jpg",
+    "images/products/pmvyaedza-u4ufrb.jpg"
    ],
-   "updated": "2026-11-01T20:33:07.679Z"
+   "created": 1795001529771,
+   "updated": "2026-11-18T11:32:09.771Z"
   },
   {
    "id": "pmvy80n0v",
