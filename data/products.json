@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T21:03:55.555Z"
+  "updated": "2026-11-18T21:04:53.048Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,29 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwmm0rdx",
+   "name": "هودی اردکی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1180000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwmm0rdx-hsgyf1.jpg",
+    "images/products/pmwmm0rdx-mwirma.jpg"
+   ],
+   "created": 1795035892227,
+   "updated": "2026-11-18T21:04:52.227Z"
+  },
   {
    "id": "pmwmlzipw",
    "name": "هودی Noel",
