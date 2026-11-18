@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:51:00.689Z"
+  "updated": "2026-11-18T20:51:14.271Z"
  },
  "categories": [
   "محصولات جین",
@@ -2844,25 +2844,6 @@
     "images/products/pmvrwluu4-au117n.jpg"
    ],
    "updated": "2026-11-03T19:26:46.728Z"
-  },
-  {
-   "id": "pmvrwgwcq",
-   "name": "دورس پنبه بیسیک",
-   "category": "دورس و هودی",
-   "pinned": false,
-   "price": 1050000,
-   "stock": 0,
-   "material": "دورس دونخ پنبه سفارشی",
-   "colors": "6",
-   "pack": "6",
-   "desc": "سایز:فری سایز ۳۶ تا ۴۶",
-   "images": [
-    "images/products/pmvrwgwcq-gmctxl.jpg",
-    "images/products/pmvrwgwcq-r6bxnr.jpg",
-    "images/products/pmvrwgwcq-sdmpmx.jpg",
-    "images/products/pmvrwgwcq-y0ehsy.jpg"
-   ],
-   "updated": "2026-11-18T20:45:24.585Z"
   },
   {
    "id": "pmvrwe6lb",
