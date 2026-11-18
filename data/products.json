@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:57:22.675Z"
+  "updated": "2026-11-18T21:02:37.834Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,29 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwmlxpgg",
+   "name": "هودی wimbledon",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1180000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس دونخ پنبه",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwmlxpgg-isumu7.jpg",
+    "images/products/pmwmlxpgg-wb5mkt.jpg"
+   ],
+   "created": 1795035756972,
+   "updated": "2026-11-18T21:02:36.974Z"
+  },
   {
    "id": "pmwm17lm2",
    "name": "جاگر گلدوزی بالنی",
