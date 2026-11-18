@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T21:04:53.048Z"
+  "updated": "2026-11-18T21:06:27.803Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,29 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwmm2sga",
+   "name": "هودی کراپ بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1450000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس دونخ پنبه توکرکی",
+   "colors": "5",
+   "pack": "5",
+   "desc": "",
+   "images": [
+    "images/products/pmwmm2sga-8ttu5l.jpg",
+    "images/products/pmwmm2sga-ms23op.jpg"
+   ],
+   "created": 1795035986938,
+   "updated": "2026-11-18T21:06:26.939Z"
+  },
   {
    "id": "pmwmm0rdx",
    "name": "هودی اردکی",
