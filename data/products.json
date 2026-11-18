@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:45:39.968Z"
+  "updated": "2026-11-18T20:50:50.564Z"
  },
  "categories": [
   "محصولات جین",
@@ -3133,25 +3133,6 @@
     "images/products/pmvrtyj4f-f6v91c.jpg"
    ],
    "updated": "2026-10-28T08:06:15.113Z"
-  },
-  {
-   "id": "pmvrtv862",
-   "name": "وست جین نوژا",
-   "category": "محصولات جین",
-   "price": 1950000,
-   "stock": 0,
-   "material": "جین شست رفته",
-   "colors": "۴",
-   "pack": "۴",
-   "desc": "",
-   "images": [
-    "images/products/pmvrtv862-qq2x4u.jpg",
-    "images/products/pmvrtv862-zhlocl.jpg",
-    "images/products/pmvrtv862-2ix269.jpg",
-    "images/products/pmvrtv862-q5mite.jpg"
-   ],
-   "updated": "2026-11-14T12:24:01.809Z",
-   "pinned": false
   },
   {
    "id": "pmvrsnau7",
