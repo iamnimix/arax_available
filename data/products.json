@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T09:08:00.377Z"
+  "updated": "2026-11-18T09:19:35.855Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,31 @@
   "لگ"
  ],
  "products": [
+  {
+   "id": "pmwlwtnr1",
+   "name": "بافت راه راه ترند",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 1980000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "آکریل ترک🇹🇷",
+   "colors": "۱",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmwlwtnr1-arit6q.jpg",
+    "images/products/pmwlwtnr1-wqerys.jpg",
+    "images/products/pmwlwtnr1-u6j093.jpg",
+    "images/products/pmwlwtnr1-60plwj.jpg"
+   ],
+   "created": 1794993575182,
+   "updated": "2026-11-18T09:19:35.183Z"
+  },
   {
    "id": "pmwjsyjcs",
    "name": "بافت استین دگمه",
