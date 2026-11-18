@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:52:56.764Z"
+  "updated": "2026-11-18T20:53:02.351Z"
  },
  "categories": [
   "محصولات جین",
@@ -2901,24 +2901,6 @@
     "images/products/pmvrvj4t8-jn61tx.jpg"
    ],
    "updated": "2026-10-28T08:50:16.928Z"
-  },
-  {
-   "id": "pmvrvgvbv",
-   "name": "وست های کلاه دار چاپی",
-   "category": "وست",
-   "price": 930000,
-   "stock": 0,
-   "material": "دورس دو نخ پنبه",
-   "colors": "6",
-   "pack": "6",
-   "desc": "هر طرح رنگبندی قابل سفارش\nسایز: فری‌سایز (۳۶ تا ۴۴)",
-   "images": [
-    "images/products/pmvrvgvbv-56allm.jpg",
-    "images/products/pmvrvgvbv-7gwhwu.jpg",
-    "images/products/pmvrvgvbv-h6wkh2.jpg",
-    "images/products/pmvrvgvbv-0cr1xn.jpg"
-   ],
-   "updated": "2026-11-18T20:45:36.783Z"
   },
   {
    "id": "pmvrvdsdf",
