@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T21:06:27.803Z"
+  "updated": "2026-11-18T21:07:46.469Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,29 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwmm4hb1",
+   "name": "هودی کراپ سگ",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1080000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس‌دونخ پنبه",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwmm4hb1-abx8an.jpg",
+    "images/products/pmwmm4hb1-sk6wc7.jpg"
+   ],
+   "created": 1795036065662,
+   "updated": "2026-11-18T21:07:45.662Z"
+  },
   {
    "id": "pmwmm2sga",
    "name": "هودی کراپ بیسیک",
