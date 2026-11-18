@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:42:22.079Z"
+  "updated": "2026-11-18T20:42:26.414Z"
  },
  "categories": [
   "محصولات جین",
@@ -829,30 +829,6 @@
    ],
    "created": 1794381392071,
    "updated": "2026-11-16T21:56:55.123Z"
-  },
-  {
-   "id": "pmwbs6ovn",
-   "name": "سویشرت کلاهدار پنبه سه نخ",
-   "category": "دورس و هودی",
-   "pinned": false,
-   "hidden": false,
-   "price": 1499000,
-   "priceUnit": "piece",
-   "stock": 2,
-   "material": "سه نخ پنبه داخل کرک",
-   "colors": "6",
-   "pack": "6",
-   "desc": "فری سایز\nدور سینه ۱۴۰\nقد ۵۵",
-   "images": [
-    "images/products/pmwbs6ovn-mfkige.jpg",
-    "images/products/pmwbs6ovn-6t4qvc.jpg",
-    "images/products/pmwbs6ovn-o4ud5k.jpg",
-    "images/products/pmwbs6ovn-8th084.jpg",
-    "images/products/pmwbs6ovn-9krcyf.jpg",
-    "images/products/pmwbs6ovn-qbtvjd.jpg"
-   ],
-   "created": 1794381123529,
-   "updated": "2026-11-18T20:42:07.074Z"
   },
   {
    "id": "pmwbrltv9",
