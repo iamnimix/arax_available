@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:43:04.002Z"
+  "updated": "2026-11-18T20:43:23.846Z"
  },
  "categories": [
   "محصولات جین",
@@ -1642,7 +1642,7 @@
    "category": "بافت",
    "pinned": false,
    "price": 1950000,
-   "stock": 2,
+   "stock": 0,
    "material": "نخ آکریل",
    "colors": "4",
    "pack": "4",
@@ -1653,7 +1653,7 @@
     "images/products/pmvz1l9pc-qtyrl7.jpg",
     "images/products/pmvz1l9pc-2m8yop.jpg"
    ],
-   "updated": "2026-11-03T06:52:54.848Z"
+   "updated": "2026-11-18T20:43:21.437Z"
   },
   {
    "id": "pmvywt5o4",
