@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T21:07:46.469Z"
+  "updated": "2026-11-18T21:08:56.515Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,29 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwmm5xzv",
+   "name": "هودی کراپ نیویورک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس دونخ پنبه داخل کرکی",
+   "colors": "۵",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmwmm5xzv-uokxpx.jpg",
+    "images/products/pmwmm5xzv-27i8rr.jpg"
+   ],
+   "created": 1795036134920,
+   "updated": "2026-11-18T21:08:54.921Z"
+  },
   {
    "id": "pmwmm4hb1",
    "name": "هودی کراپ سگ",
