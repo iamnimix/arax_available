@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T20:51:14.271Z"
+  "updated": "2026-11-18T20:51:24.231Z"
  },
  "categories": [
   "محصولات جین",
@@ -2761,26 +2761,6 @@
    "updated": "2026-10-28T09:39:47.346Z"
   },
   {
-   "id": "pmvrx8i4y",
-   "name": "جکت جین کایا",
-   "category": "محصولات جین",
-   "pinned": false,
-   "price": 1698000,
-   "stock": 2,
-   "material": "جین براش شست رفته سفارشی",
-   "colors": "2",
-   "pack": "۶",
-   "desc": "رنگ سرمه ای تعداد دلخواه",
-   "images": [
-    "images/products/pmvrx8i4y-slritq.jpg",
-    "images/products/pmvrx8i4y-6cxxcy.jpg",
-    "images/products/pmvrx8i4y-e9tcnc.jpg",
-    "images/products/pmvrx8i4y-mpcpa3.jpg",
-    "images/products/pmvrx8i4y-23bvxv.jpg"
-   ],
-   "updated": "2026-10-28T09:38:04.105Z"
-  },
-  {
    "id": "pmvrx1lon",
    "name": "بافت اکریل خشتی🔶",
    "category": "بافت",
@@ -2831,7 +2811,7 @@
    "category": "محصولات جین",
    "pinned": false,
    "price": 1998000,
-   "stock": 0,
+   "stock": 2,
    "material": "جین براش درجه یک",
    "colors": "1",
    "pack": "5",
@@ -2843,7 +2823,7 @@
     "images/products/pmvrwluu4-pbzdfx.jpg",
     "images/products/pmvrwluu4-au117n.jpg"
    ],
-   "updated": "2026-11-03T19:26:46.728Z"
+   "updated": "2026-11-18T20:51:17.536Z"
   },
   {
    "id": "pmvrwe6lb",
