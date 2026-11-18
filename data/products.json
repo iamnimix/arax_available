@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T09:44:43.478Z"
+  "updated": "2026-11-18T11:22:50.826Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,35 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwm17lm2",
+   "name": "جاگر گلدوزی بالنی",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 2998000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس پنبه داخل کرک",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwm17lm2-0xbpd0.jpg",
+    "images/products/pmwm17lm2-vcqm3t.jpg",
+    "images/products/pmwm17lm2-lbry0p.jpg",
+    "images/products/pmwm17lm2-o2liib.jpg",
+    "images/products/pmwm17lm2-a2op38.jpg",
+    "images/products/pmwm17lm2-pu9quf.jpg",
+    "images/products/pmwm17lm2-8racjn.jpg",
+    "images/products/pmwm17lm2-us1gs5.jpg"
+   ],
+   "created": 1795000969257,
+   "updated": "2026-11-18T11:22:49.257Z"
+  },
   {
    "id": "pmwlxpw5x",
    "name": "شال ترند",
