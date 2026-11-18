@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T14:49:16.975Z"
+  "updated": "2026-11-18T20:42:10.733Z"
  },
  "categories": [
   "محصولات جین",
@@ -838,7 +838,7 @@
    "hidden": false,
    "price": 1499000,
    "priceUnit": "piece",
-   "stock": 4,
+   "stock": 2,
    "material": "سه نخ پنبه داخل کرک",
    "colors": "6",
    "pack": "6",
@@ -852,7 +852,7 @@
     "images/products/pmwbs6ovn-qbtvjd.jpg"
    ],
    "created": 1794381123529,
-   "updated": "2026-11-16T21:57:14.789Z"
+   "updated": "2026-11-18T20:42:07.074Z"
   },
   {
    "id": "pmwbrltv9",
