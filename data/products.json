@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-19T06:53:51.369Z"
+  "updated": "2026-11-19T19:58:28.487Z"
  },
  "categories": [
   "محصولات جین",
@@ -21,7 +21,7 @@
    "id": "pmwn6w4wd",
    "name": "بافت کاردیگن پلو",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 2098000,
    "priceUnit": "piece",
