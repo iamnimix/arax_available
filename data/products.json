@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-19T06:49:17.186Z"
+  "updated": "2026-11-19T06:53:51.369Z"
  },
  "categories": [
   "محصولات جین",
@@ -34,14 +34,14 @@
    "pack": "۳",
    "desc": "",
    "images": [
-    "images/products/pmwn6w4wd-5mb1ed.jpg",
     "images/products/pmwn6w4wd-9jctj0.jpg",
     "images/products/pmwn6w4wd-inoo53.jpg",
     "images/products/pmwn6w4wd-f8604e.jpg",
-    "images/products/pmwn6w4wd-9kua0d.jpg"
+    "images/products/pmwn6w4wd-9kua0d.jpg",
+    "images/products/pmwn6w4wd-z6g8f2.jpg"
    ],
    "created": 1795070956188,
-   "updated": "2026-11-19T06:49:16.188Z"
+   "updated": "2026-11-19T06:53:49.852Z"
   },
   {
    "id": "pmwmm9ai2",
