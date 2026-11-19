@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-18T22:13:05.604Z"
+  "updated": "2026-11-19T06:49:17.186Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,32 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwn6w4wd",
+   "name": "بافت کاردیگن پلو",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 2098000,
+   "priceUnit": "piece",
+   "stock": 20,
+   "code": "",
+   "sizing": "فری",
+   "height": "",
+   "material": "اکرلیک نرم",
+   "colors": "۳",
+   "pack": "۳",
+   "desc": "",
+   "images": [
+    "images/products/pmwn6w4wd-5mb1ed.jpg",
+    "images/products/pmwn6w4wd-9jctj0.jpg",
+    "images/products/pmwn6w4wd-inoo53.jpg",
+    "images/products/pmwn6w4wd-f8604e.jpg",
+    "images/products/pmwn6w4wd-9kua0d.jpg"
+   ],
+   "created": 1795070956188,
+   "updated": "2026-11-19T06:49:16.188Z"
+  },
   {
    "id": "pmwmm9ai2",
    "name": "هودی کراپ balenciaga",
