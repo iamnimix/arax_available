@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-21T07:41:49.825Z"
+  "updated": "2026-11-21T07:42:57.824Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,31 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwq3ox06",
+   "name": "بامبر چرم کلاه دورس",
+   "category": "محصولات چرم",
+   "pinned": false,
+   "hidden": false,
+   "price": 3200000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "۳۶ تا ۴۴",
+   "height": "",
+   "material": "چرم تیرکمونی وارداتی",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "۱ سفید ۳ مشکی",
+   "images": [
+    "images/products/pmwq3ox06-mw1x0p.jpg",
+    "images/products/pmwq3ox06-ll9ylg.jpg",
+    "images/products/pmwq3ox06-tp65pp.jpg",
+    "images/products/pmwq3ox06-dfnggv.jpg"
+   ],
+   "created": 1795246976893,
+   "updated": "2026-11-21T07:42:56.893Z"
+  },
   {
    "id": "pmwq3njbi",
    "name": "شلوار جاگر اسلش استیکری",
