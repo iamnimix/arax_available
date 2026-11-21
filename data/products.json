@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-19T19:58:28.487Z"
+  "updated": "2026-11-21T07:41:49.825Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,30 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwq3njbi",
+   "name": "شلوار جاگر اسلش استیکری",
+   "category": "محصولات شلوار",
+   "pinned": false,
+   "hidden": false,
+   "price": 1450000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "۳۶ تا۴۴",
+   "height": "",
+   "material": "دورس حوله ای داخل کرک",
+   "colors": "۱",
+   "pack": "۶",
+   "desc": "۳ طرح",
+   "images": [
+    "images/products/pmwq3njbi-qzskep.jpg",
+    "images/products/pmwq3njbi-cx5yok.jpg",
+    "images/products/pmwq3njbi-b7z9nl.jpg"
+   ],
+   "created": 1795246908791,
+   "updated": "2026-11-21T07:41:48.791Z"
+  },
   {
    "id": "pmwn6w4wd",
    "name": "بافت کاردیگن پلو",
