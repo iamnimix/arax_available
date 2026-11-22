@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:27:25.318Z"
+  "updated": "2026-11-22T09:28:37.501Z"
  },
  "categories": [
   "محصولات جین",
@@ -18,6 +18,33 @@
   "اورال"
  ],
  "products": [
+  {
+   "id": "pmwrmwn3g",
+   "name": "کراپ دورس بغل گت دار",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1098000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 36 تا 44 )",
+   "height": "55",
+   "material": "دورس دو نخ پنبه گلوبال",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwrmwn3g-iskui8.jpg",
+    "images/products/pmwrmwn3g-usv9eo.jpg",
+    "images/products/pmwrmwn3g-zpi6e4.jpg",
+    "images/products/pmwrmwn3g-f14c2n.jpg",
+    "images/products/pmwrmwn3g-wm5jg8.jpg",
+    "images/products/pmwrmwn3g-z3yjk6.jpg"
+   ],
+   "created": 1795339716548,
+   "updated": "2026-11-22T09:28:36.548Z"
+  },
   {
    "id": "pmwrmv5ek",
    "name": "اورال دورس کمر گنی کلاهدار",
