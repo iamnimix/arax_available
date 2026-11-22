@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:30:52.566Z"
+  "updated": "2026-11-22T09:33:58.377Z"
  },
  "categories": [
   "محصولات جین",
@@ -18,6 +18,37 @@
   "اورال"
  ],
  "products": [
+  {
+   "id": "pmwrn3du0",
+   "name": "هودی چمپیون",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1398000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری‌سایز | مناسب 38 تا 52",
+   "height": "",
+   "material": "دورس حوله ای",
+   "colors": "5",
+   "pack": "5",
+   "desc": "",
+   "images": [
+    "images/products/pmwrn3du0-3kk0ni.jpg",
+    "images/products/pmwrn3du0-k0il1t.jpg",
+    "images/products/pmwrn3du0-wcr3mq.jpg",
+    "images/products/pmwrn3du0-lngr4b.jpg",
+    "images/products/pmwrn3du0-kmyua9.jpg",
+    "images/products/pmwrn3du0-7rxuhj.jpg",
+    "images/products/pmwrn3du0-8hhn3g.jpg",
+    "images/products/pmwrn3du0-kb3st1.jpg",
+    "images/products/pmwrn3du0-k85jyd.jpg",
+    "images/products/pmwrn3du0-cox5j5.jpg"
+   ],
+   "created": 1795340037270,
+   "updated": "2026-11-22T09:33:57.270Z"
+  },
   {
    "id": "pmwrmzp3i",
    "name": "کت و سارافون یلدا",
