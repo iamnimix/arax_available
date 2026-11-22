@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:28:37.501Z"
+  "updated": "2026-11-22T09:29:05.876Z"
  },
  "categories": [
   "محصولات جین",
@@ -1875,8 +1875,13 @@
    "name": "بافت سگ سوسیسی",
    "category": "بافت",
    "pinned": false,
-   "price": 2398000,
+   "hidden": false,
+   "price": 2299996,
+   "priceUnit": "piece",
    "stock": 2,
+   "code": "",
+   "sizing": "",
+   "height": "",
    "material": "اکریل ترک درجه ۱",
    "colors": "5",
    "pack": "4",
@@ -1891,7 +1896,8 @@
     "images/products/pmw0g46a2-utg48h.jpg",
     "images/products/pmw0g46a2-vzqch2.jpg"
    ],
-   "updated": "2026-11-03T14:07:35.548Z"
+   "created": 1795339744904,
+   "updated": "2026-11-22T09:29:04.904Z"
   },
   {
    "id": "pmw0dzdyb",
