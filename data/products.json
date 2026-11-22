@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-21T07:42:57.824Z"
+  "updated": "2026-11-22T09:23:25.882Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,30 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwrmq2nj",
+   "name": "هودی چاپی  دونخ داخل کرکی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز 36 تا 44",
+   "height": "",
+   "material": "دورس دونخ پنبه داخل کرکی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwrmq2nj-sxr9u9.jpg",
+    "images/products/pmwrmq2nj-mn6100.jpg",
+    "images/products/pmwrmq2nj-gzqei8.jpg"
+   ],
+   "created": 1795339405031,
+   "updated": "2026-11-22T09:23:25.031Z"
+  },
   {
    "id": "pmwq3ox06",
    "name": "بامبر چرم کلاه دورس",
