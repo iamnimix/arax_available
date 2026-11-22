@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:33:58.377Z"
+  "updated": "2026-11-22T09:34:54.133Z"
  },
  "categories": [
   "محصولات جین",
@@ -18,6 +18,31 @@
   "اورال"
  ],
  "products": [
+  {
+   "id": "pmwrn4quq",
+   "name": "دورس Department",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 2698000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری | مناسب سایز ۳۸ تا ۴۴",
+   "height": "60",
+   "material": "دورس ۳ نخ پنبه بدون دون دون شدن",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwrn4quq-vn6bf4.jpg",
+    "images/products/pmwrn4quq-u5xnkp.jpg",
+    "images/products/pmwrn4quq-jqrkup.jpg",
+    "images/products/pmwrn4quq-ie3o15.jpg"
+   ],
+   "created": 1795340092917,
+   "updated": "2026-11-22T09:34:52.917Z"
+  },
   {
    "id": "pmwrn3du0",
    "name": "هودی چمپیون",
