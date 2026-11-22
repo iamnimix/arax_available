@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:36:29.856Z"
+  "updated": "2026-11-22T23:39:56.372Z"
  },
  "categories": [
   "محصولات جین",
@@ -521,7 +521,7 @@
    "id": "pmwlxpw5x",
    "name": "شال ترند",
    "category": "شال",
-   "pinned": true,
+   "pinned": false,
    "hidden": false,
    "price": 995000,
    "priceUnit": "piece",
