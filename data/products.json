@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:23:25.882Z"
+  "updated": "2026-11-22T09:24:29.284Z"
  },
  "categories": [
   "محصولات جین",
@@ -17,6 +17,30 @@
   "شال"
  ],
  "products": [
+  {
+   "id": "pmwrmrf7h",
+   "name": "هودی بیسیک کراپ",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز 36 تا 44",
+   "height": "",
+   "material": "دورس دونخ پنبه داخل کرکی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwrmrf7h-o60i0q.jpg",
+    "images/products/pmwrmrf7h-qbokow.jpg",
+    "images/products/pmwrmrf7h-jix6jd.jpg"
+   ],
+   "created": 1795339467848,
+   "updated": "2026-11-22T09:24:27.848Z"
+  },
   {
    "id": "pmwrmq2nj",
    "name": "هودی چاپی  دونخ داخل کرکی",
