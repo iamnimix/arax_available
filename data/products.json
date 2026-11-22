@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:29:14.618Z"
+  "updated": "2026-11-22T09:30:52.566Z"
  },
  "categories": [
   "محصولات جین",
@@ -18,6 +18,28 @@
   "اورال"
  ],
  "products": [
+  {
+   "id": "pmwrmzp3i",
+   "name": "کت و سارافون یلدا",
+   "category": "",
+   "pinned": false,
+   "hidden": false,
+   "price": 998000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "3 سایز(مناسب برای 40تا 46 )",
+   "height": "115",
+   "material": "مخمل وارداتی  درجه یک گرم بالا 🍂سارافون کار پیردوپل خارجی  🍂کمر کش 🍂دگمه کاربردی",
+   "colors": "1",
+   "pack": "3",
+   "desc": "",
+   "images": [
+    "images/products/pmwrmzp3i-cjma7k.jpg"
+   ],
+   "created": 1795339851440,
+   "updated": "2026-11-22T09:30:51.440Z"
+  },
   {
    "id": "pmwrmwn3g",
    "name": "کراپ دورس بغل گت دار",
