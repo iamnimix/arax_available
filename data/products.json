@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T23:39:56.372Z"
+  "updated": "2026-11-22T23:40:02.588Z"
  },
  "categories": [
   "محصولات جین",
@@ -572,7 +572,7 @@
    "id": "pmwjsyjcs",
    "name": "بافت استین دگمه",
    "category": "بافت",
-   "pinned": true,
+   "pinned": false,
    "hidden": false,
    "price": 1880000,
    "priceUnit": "piece",
