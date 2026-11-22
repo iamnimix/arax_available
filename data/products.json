@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:29:05.876Z"
+  "updated": "2026-11-22T09:29:14.618Z"
  },
  "categories": [
   "محصولات جین",
@@ -1874,7 +1874,7 @@
    "id": "pmw0g46a2",
    "name": "بافت سگ سوسیسی",
    "category": "بافت",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 2299996,
    "priceUnit": "piece",
