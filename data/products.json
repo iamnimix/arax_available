@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:35:16.430Z"
+  "updated": "2026-11-22T09:36:29.856Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,37 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwrn6let",
+   "name": "پالتو فوتر لیدی",
+   "category": "پالتو",
+   "pinned": false,
+   "hidden": false,
+   "price": 5980000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "(مناسب برای40 تا 46)",
+   "height": "",
+   "material": "چرم فوتر دوتن گرم بالا  داخل کار آستر کشی شده هم رنگ",
+   "colors": "",
+   "pack": "4",
+   "desc": "",
+   "images": [
+    "images/products/pmwrn6let-fhkauy.jpg",
+    "images/products/pmwrn6let-2tor8u.jpg",
+    "images/products/pmwrn6let-f0lcj1.jpg",
+    "images/products/pmwrn6let-d8jtrg.jpg",
+    "images/products/pmwrn6let-lot75t.jpg",
+    "images/products/pmwrn6let-lxxndy.jpg",
+    "images/products/pmwrn6let-5b6b03.jpg",
+    "images/products/pmwrn6let-3g4tfo.jpg",
+    "images/products/pmwrn6let-cv5tfn.jpg",
+    "images/products/pmwrn6let-bdseew.jpg"
+   ],
+   "created": 1795340188959,
+   "updated": "2026-11-22T09:36:28.959Z"
+  },
   {
    "id": "pmwrn4quq",
    "name": "دورس Department",
