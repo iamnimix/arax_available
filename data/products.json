@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T09:26:18.427Z"
+  "updated": "2026-11-22T09:27:25.318Z"
  },
  "categories": [
   "محصولات جین",
@@ -18,6 +18,32 @@
   "اورال"
  ],
  "products": [
+  {
+   "id": "pmwrmv5ek",
+   "name": "اورال دورس کمر گنی کلاهدار",
+   "category": "اورال",
+   "pinned": false,
+   "hidden": false,
+   "price": 2998000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 44 )",
+   "height": "",
+   "material": "دورس دو نخ پنبه لاکرا",
+   "colors": "5",
+   "pack": "5",
+   "desc": "",
+   "images": [
+    "images/products/pmwrmv5ek-hzbqwz.jpg",
+    "images/products/pmwrmv5ek-o4in8o.jpg",
+    "images/products/pmwrmv5ek-o98ptb.jpg",
+    "images/products/pmwrmv5ek-iq93rx.jpg",
+    "images/products/pmwrmv5ek-0nd3hf.jpg"
+   ],
+   "created": 1795339644399,
+   "updated": "2026-11-22T09:27:24.399Z"
+  },
   {
    "id": "pmwrmrf7h",
    "name": "هودی بیسیک کراپ",
