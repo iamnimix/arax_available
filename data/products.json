@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T08:41:16.397Z"
+  "updated": "2026-11-23T08:42:33.455Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,34 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwt0p742",
+   "name": "لانگ اسلیو بیسیک",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1498000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 44 )",
+   "height": "",
+   "material": "دورس دو نخ پنبه لاکرا",
+   "colors": "7",
+   "pack": "7",
+   "desc": "",
+   "images": [
+    "images/products/pmwt0p742-4zkzbr.jpg",
+    "images/products/pmwt0p742-1xw7ia.jpg",
+    "images/products/pmwt0p742-sf2l2a.jpg",
+    "images/products/pmwt0p742-l93xvq.jpg",
+    "images/products/pmwt0p742-msq20n.jpg",
+    "images/products/pmwt0p742-j491ry.jpg",
+    "images/products/pmwt0p742-mfl6q0.jpg"
+   ],
+   "created": 1795423352513,
+   "updated": "2026-11-23T08:42:32.513Z"
+  },
   {
    "id": "pmwt0nq7v",
    "name": "ست دو تیکه یلدایی 🍉",
