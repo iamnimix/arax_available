@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T08:44:37.454Z"
+  "updated": "2026-11-23T08:45:58.411Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,34 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwt0tl3a",
+   "name": "لانگ اسلیو star",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1498000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 44 )",
+   "height": "",
+   "material": "دورس دو نخ پنبه لاکرا",
+   "colors": "7",
+   "pack": "7",
+   "desc": "",
+   "images": [
+    "images/products/pmwt0tl3a-kg6xyc.jpg",
+    "images/products/pmwt0tl3a-zzpf1w.jpg",
+    "images/products/pmwt0tl3a-89l5po.jpg",
+    "images/products/pmwt0tl3a-ul2y1o.jpg",
+    "images/products/pmwt0tl3a-xzkx55.jpg",
+    "images/products/pmwt0tl3a-f188f1.jpg",
+    "images/products/pmwt0tl3a-ht9xr4.jpg"
+   ],
+   "created": 1795423557537,
+   "updated": "2026-11-23T08:45:57.537Z"
+  },
   {
    "id": "pmwt0rvjx",
    "name": "لانگ اسلیو prada",
