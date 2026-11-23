@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T08:39:26.951Z"
+  "updated": "2026-11-23T08:40:17.195Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,29 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwt0mg5p",
+   "name": "کراپ دورس  چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1380000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز 36 تا 44",
+   "height": "",
+   "material": "دورس پنبه  دو نخ داخل کرکی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwt0mg5p-k4712l.jpg",
+    "images/products/pmwt0mg5p-7t5tb5.jpg"
+   ],
+   "created": 1795423216067,
+   "updated": "2026-11-23T08:40:16.067Z"
+  },
   {
    "id": "pmwt0ldug",
    "name": "کراپ هودی  چاپی",
