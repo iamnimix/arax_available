@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-22T23:40:49.042Z"
+  "updated": "2026-11-23T07:29:35.309Z"
  },
  "categories": [
   "محصولات جین",
@@ -848,7 +848,7 @@
    "hidden": false,
    "price": 1498000,
    "priceUnit": "piece",
-   "stock": 20,
+   "stock": 0,
    "code": "",
    "sizing": "فری سایز",
    "height": "",
@@ -867,7 +867,7 @@
     "images/products/pmwjsd6mz-sesyoe.jpg"
    ],
    "created": 1794865182776,
-   "updated": "2026-11-16T21:39:42.778Z"
+   "updated": "2026-11-23T07:29:33.732Z"
   },
   {
    "id": "pmwjs9p2m",
