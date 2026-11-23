@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T07:31:06.103Z"
+  "updated": "2026-11-23T08:39:26.951Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,29 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwt0ldug",
+   "name": "کراپ هودی  چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "(۳۶٫۴۴)",
+   "height": "",
+   "material": "دورس پنبه  دو نخ داخل کرکی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwt0ldug-8al0w8.jpg",
+    "images/products/pmwt0ldug-fitgu0.jpg"
+   ],
+   "created": 1795423166112,
+   "updated": "2026-11-23T08:39:26.112Z"
+  },
   {
    "id": "pmwrn6let",
    "name": "پالتو فوتر لیدی",
