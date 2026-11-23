@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T08:45:58.411Z"
+  "updated": "2026-11-23T08:47:20.781Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,34 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwt0vdug",
+   "name": "لانگ اسلیو off",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1498000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 44 )",
+   "height": "",
+   "material": "دورس دو نخ پنبه لاکرا",
+   "colors": "7",
+   "pack": "7",
+   "desc": "",
+   "images": [
+    "images/products/pmwt0vdug-mwd8cr.jpg",
+    "images/products/pmwt0vdug-zmjrbe.jpg",
+    "images/products/pmwt0vdug-l4r0y6.jpg",
+    "images/products/pmwt0vdug-hlofj2.jpg",
+    "images/products/pmwt0vdug-6s4zbf.jpg",
+    "images/products/pmwt0vdug-0l274o.jpg",
+    "images/products/pmwt0vdug-lgko7f.jpg"
+   ],
+   "created": 1795423639832,
+   "updated": "2026-11-23T08:47:19.832Z"
+  },
   {
    "id": "pmwt0tl3a",
    "name": "لانگ اسلیو star",
