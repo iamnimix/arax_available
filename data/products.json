@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T08:40:17.195Z"
+  "updated": "2026-11-23T08:41:16.397Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,30 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwt0nq7v",
+   "name": "ست دو تیکه یلدایی 🍉",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 1298000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 44 )",
+   "height": "",
+   "material": "کت گلیمی همراه با دامن تور",
+   "colors": "1",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwt0nq7v-6q3yvk.jpg",
+    "images/products/pmwt0nq7v-pbw0sw.jpg",
+    "images/products/pmwt0nq7v-dpayiv.jpg"
+   ],
+   "created": 1795423275444,
+   "updated": "2026-11-23T08:41:15.444Z"
+  },
   {
    "id": "pmwt0mg5p",
    "name": "کراپ دورس  چاپی",
