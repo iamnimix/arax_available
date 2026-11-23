@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T07:29:57.103Z"
+  "updated": "2026-11-23T07:30:10.965Z"
  },
  "categories": [
   "محصولات جین",
@@ -605,7 +605,7 @@
    "hidden": false,
    "price": 2498000,
    "priceUnit": "piece",
-   "stock": 0,
+   "stock": 5,
    "code": "",
    "sizing": "فری سایز",
    "height": "",
@@ -623,7 +623,7 @@
     "images/products/pmwjswc2t-xl0w62.jpg"
    ],
    "created": 1794866073658,
-   "updated": "2026-11-23T07:29:56.153Z"
+   "updated": "2026-11-23T07:30:09.983Z"
   },
   {
    "id": "pmwjstthb",
