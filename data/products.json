@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T05:42:20.621Z"
+  "updated": "2026-11-24T06:49:38.829Z"
  },
  "categories": [
   "محصولات جین",
@@ -2195,7 +2195,7 @@
    "category": "بافت",
    "pinned": true,
    "hidden": false,
-   "price": 2299996,
+   "price": 2298000,
    "priceUnit": "piece",
    "stock": 2,
    "code": "",
@@ -2216,7 +2216,7 @@
     "images/products/pmw0g46a2-vzqch2.jpg"
    ],
    "created": 1795339744904,
-   "updated": "2026-11-22T09:29:04.904Z"
+   "updated": "2026-11-24T06:49:38.171Z"
   },
   {
    "id": "pmw0dzdyb",
