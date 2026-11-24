@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T07:56:11.394Z"
+  "updated": "2026-11-24T10:19:37.742Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,34 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwujlul2",
+   "name": "کاردیگان پلنگی لش",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 1800000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "۳۶ تا ۴۸ فری",
+   "height": "",
+   "material": "اکریل ترک گرم خیلی بالا",
+   "colors": "۲",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmwujlul2-d9zcqy.jpg",
+    "images/products/pmwujlul2-48j6pj.jpg",
+    "images/products/pmwujlul2-5uwof7.jpg",
+    "images/products/pmwujlul2-qg2kjy.jpg",
+    "images/products/pmwujlul2-f108ld.jpg",
+    "images/products/pmwujlul2-3w5s69.jpg",
+    "images/products/pmwujlul2-p6wiqx.jpg"
+   ],
+   "created": 1795515576898,
+   "updated": "2026-11-24T10:19:36.899Z"
+  },
   {
    "id": "pmwuehhl8",
    "name": "کراپ هودی  چاپی",
