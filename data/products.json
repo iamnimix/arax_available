@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T07:08:53.352Z"
+  "updated": "2026-11-24T07:10:02.608Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,30 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwucu8d2",
+   "name": "هودی گلدوزی تک 28",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1598000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 46)",
+   "height": "60",
+   "material": "سه نخ حوله ایی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwucu8d2-ym7i1u.jpg",
+    "images/products/pmwucu8d2-gqwb5m.jpg",
+    "images/products/pmwucu8d2-p6mfei.jpg"
+   ],
+   "created": 1795504201227,
+   "updated": "2026-11-24T07:10:01.227Z"
+  },
   {
    "id": "pmwucsmgp",
    "name": "ست هودی و شلوار SUPREME",
