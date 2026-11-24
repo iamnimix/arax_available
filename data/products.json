@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T06:50:00.882Z"
+  "updated": "2026-11-24T07:08:53.352Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,34 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwucsmgp",
+   "name": "ست هودی و شلوار SUPREME",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 4498000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری | مناسب سایز ۳۸ تا 46",
+   "height": "",
+   "material": "دورس سه نخ پنبه سفارشی",
+   "colors": "2",
+   "pack": "4",
+   "desc": "",
+   "images": [
+    "images/products/pmwucsmgp-mqvx0r.jpg",
+    "images/products/pmwucsmgp-4gegt6.jpg",
+    "images/products/pmwucsmgp-l147m0.jpg",
+    "images/products/pmwucsmgp-5sme3f.jpg",
+    "images/products/pmwucsmgp-w5v092.jpg",
+    "images/products/pmwucsmgp-ysfkd9.jpg",
+    "images/products/pmwucsmgp-6uxyp7.jpg"
+   ],
+   "created": 1795504132403,
+   "updated": "2026-11-24T07:08:52.403Z"
+  },
   {
    "id": "pmwu9pcj6",
    "name": "کاردیگن بافت راه راه",
