@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T06:49:38.829Z"
+  "updated": "2026-11-24T06:50:00.882Z"
  },
  "categories": [
   "محصولات جین",
@@ -292,7 +292,7 @@
    "hidden": false,
    "price": 1398000,
    "priceUnit": "piece",
-   "stock": 4,
+   "stock": 0,
    "code": "",
    "sizing": "فری‌سایز | مناسب 38 تا 52",
    "height": "",
@@ -313,7 +313,7 @@
     "images/products/pmwrn3du0-cox5j5.jpg"
    ],
    "created": 1795340037270,
-   "updated": "2026-11-23T19:23:38.879Z"
+   "updated": "2026-11-24T06:49:58.827Z"
   },
   {
    "id": "pmwrmzp3i",
