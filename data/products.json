@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T07:11:41.320Z"
+  "updated": "2026-11-24T07:30:13.421Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,31 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwudk5ok",
+   "name": "| ست لانگ اسلیو باکسی و جاگر بالونی 2 کاره|",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2798000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز مناسب 36تا44|",
+   "height": "⭐️قد لانگ اسلیو:50 ⭐️قد شلوار 110 |",
+   "material": "دورس پنبه دو نخ لاکرا✔️",
+   "colors": "3",
+   "pack": "3و6",
+   "desc": "",
+   "images": [
+    "images/products/pmwudk5ok-xnbfwq.jpg",
+    "images/products/pmwudk5ok-o950aw.jpg",
+    "images/products/pmwudk5ok-6qiz3r.jpg",
+    "images/products/pmwudk5ok-u1z9vm.jpg"
+   ],
+   "created": 1795505412466,
+   "updated": "2026-11-24T07:30:12.466Z"
+  },
   {
    "id": "pmwucw559",
    "name": "ست نیم زیپ باکسی Manhattan",
