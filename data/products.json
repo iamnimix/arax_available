@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T07:10:02.608Z"
+  "updated": "2026-11-24T07:11:41.320Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,37 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwucw559",
+   "name": "ست نیم زیپ باکسی Manhattan",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2198000,
+   "priceUnit": "piece",
+   "stock": 6,
+   "code": "",
+   "sizing": "فری سایز(مناسب برای 38 تا 44 )",
+   "height": "110",
+   "material": "دورس اسپان داخل کرک",
+   "colors": "5",
+   "pack": "5",
+   "desc": "",
+   "images": [
+    "images/products/pmwucw559-592m0t.jpg",
+    "images/products/pmwucw559-sb1at0.jpg",
+    "images/products/pmwucw559-w1c5rg.jpg",
+    "images/products/pmwucw559-uc4ju9.jpg",
+    "images/products/pmwucw559-esyrpm.jpg",
+    "images/products/pmwucw559-auv3fy.jpg",
+    "images/products/pmwucw559-ywlfjg.jpg",
+    "images/products/pmwucw559-72qv5j.jpg",
+    "images/products/pmwucw559-5538zj.jpg",
+    "images/products/pmwucw559-qqwg7f.jpg"
+   ],
+   "created": 1795504300302,
+   "updated": "2026-11-24T07:11:40.302Z"
+  },
   {
    "id": "pmwucu8d2",
    "name": "هودی گلدوزی تک 28",
