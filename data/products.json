@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T07:30:13.421Z"
+  "updated": "2026-11-24T07:32:19.881Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,32 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwudmtjd",
+   "name": "کراپ دورس  چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1380000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز 36 تا 44",
+   "height": "",
+   "material": "دورس پنبه  دو نخ داخل کرکی",
+   "colors": "6",
+   "pack": "6",
+   "desc": "",
+   "images": [
+    "images/products/pmwudmtjd-mzdf88.jpg",
+    "images/products/pmwudmtjd-gda312.jpg",
+    "images/products/pmwudmtjd-zl7agm.jpg",
+    "images/products/pmwudmtjd-81obuq.jpg",
+    "images/products/pmwudmtjd-tjgu7l.jpg"
+   ],
+   "created": 1795505538533,
+   "updated": "2026-11-24T07:32:18.533Z"
+  },
   {
    "id": "pmwudk5ok",
    "name": "| ست لانگ اسلیو باکسی و جاگر بالونی 2 کاره|",
