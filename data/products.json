@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-23T19:24:14.185Z"
+  "updated": "2026-11-24T05:42:20.621Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,33 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwu9pcj6",
+   "name": "کاردیگن بافت راه راه",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 1998000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز ۳۶ تا ۴۴",
+   "height": "",
+   "material": "بافت آکریل ترک",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmwu9pcj6-1v8b3k.jpg",
+    "images/products/pmwu9pcj6-4ebmpp.jpg",
+    "images/products/pmwu9pcj6-75v5tl.jpg",
+    "images/products/pmwu9pcj6-hlooee.jpg",
+    "images/products/pmwu9pcj6-tj4tc5.jpg",
+    "images/products/pmwu9pcj6-ydsq8k.jpg"
+   ],
+   "created": 1795498939817,
+   "updated": "2026-11-24T05:42:19.818Z"
+  },
   {
    "id": "pmwt0vdug",
    "name": "لانگ اسلیو off",
