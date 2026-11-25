@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-24T10:19:37.742Z"
+  "updated": "2026-11-25T07:16:46.178Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,37 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwvsifzi",
+   "name": "دورس سگ سوسیسی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 998000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز ۳۶ تا ۴۶",
+   "height": "",
+   "material": "دورس داخل کرکی گلدوزی",
+   "colors": "۸",
+   "pack": "۸",
+   "desc": "",
+   "images": [
+    "images/products/pmwvsifzi-7mb0z0.jpg",
+    "images/products/pmwvsifzi-j5ykoa.jpg",
+    "images/products/pmwvsifzi-dmokkj.jpg",
+    "images/products/pmwvsifzi-1ndn15.jpg",
+    "images/products/pmwvsifzi-1iqlpz.jpg",
+    "images/products/pmwvsifzi-vishdf.jpg",
+    "images/products/pmwvsifzi-b7mmsx.jpg",
+    "images/products/pmwvsifzi-hvju1d.jpg",
+    "images/products/pmwvsifzi-3vq2xn.jpg",
+    "images/products/pmwvsifzi-twrffz.jpg"
+   ],
+   "created": 1795591005047,
+   "updated": "2026-11-25T07:16:45.047Z"
+  },
   {
    "id": "pmwujlul2",
    "name": "کاردیگان پلنگی لش",
