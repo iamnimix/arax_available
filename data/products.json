@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-25T07:18:13.475Z"
+  "updated": "2026-11-25T10:36:42.574Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,33 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwvznrmc",
+   "name": "ست وست و شلوار جاگر شو",
+   "category": "محصولات ست",
+   "pinned": false,
+   "hidden": false,
+   "price": 2698000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری سایز۳۶ تا ۴۶",
+   "height": "۵۰، ۱۱۰",
+   "material": "دورس دونخ پنبه گلوبال",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "✅قد: 50 سانت\n✅عرض: 55 سانت\n\nمشخصات شلوار:\n📌فری‌سایز مناسب 36 تا 46\n✅قد: 110 سانت\n✅دور ران: 60 سانت",
+   "images": [
+    "images/products/pmwvznrmc-6b0vz0.jpg",
+    "images/products/pmwvznrmc-q0indo.jpg",
+    "images/products/pmwvznrmc-f0d92d.jpg",
+    "images/products/pmwvznrmc-wxmbhs.jpg",
+    "images/products/pmwvznrmc-h1lhn5.jpg",
+    "images/products/pmwvznrmc-bjc8lb.jpg"
+   ],
+   "created": 1795603001509,
+   "updated": "2026-11-25T10:36:41.510Z"
+  },
   {
    "id": "pmwvsjsok",
    "name": "دورس everything",
