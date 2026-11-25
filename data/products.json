@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-25T19:37:35.320Z"
+  "updated": "2026-11-25T19:38:55.531Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,29 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwwj168s",
+   "name": "کراپ هودی چاپی",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1480000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز ۳۶ تا ۴۴",
+   "height": "۵۵",
+   "material": "دورس دونخ پنبه داخل کرکی",
+   "colors": "۶",
+   "pack": "۶",
+   "desc": "",
+   "images": [
+    "images/products/pmwwj168s-bp9isy.jpg",
+    "images/products/pmwwj168s-958adv.jpg"
+   ],
+   "created": 1795635534639,
+   "updated": "2026-11-25T19:38:54.639Z"
+  },
   {
    "id": "pmwwiz633",
    "name": "بافت یقه گرد سگ سوسیسی",
