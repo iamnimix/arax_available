@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-25T19:35:27.839Z"
+  "updated": "2026-11-25T19:35:57.470Z"
  },
  "categories": [
   "محصولات جین",
@@ -2548,7 +2548,7 @@
    "category": "محصولات جین",
    "pinned": true,
    "price": 1748000,
-   "stock": 1,
+   "stock": 0,
    "material": "جین درجه یک شست رفته",
    "colors": "۲",
    "pack": "۶",
@@ -2558,7 +2558,7 @@
     "images/products/pmw0dgsu5-1g0x5o.jpg",
     "images/products/pmw0dgsu5-sgcbq8.jpg"
    ],
-   "updated": "2026-11-03T07:34:28.761Z"
+   "updated": "2026-11-25T19:35:55.363Z"
   },
   {
    "id": "pmvz1l9pc",
