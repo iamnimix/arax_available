@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-25T07:16:46.178Z"
+  "updated": "2026-11-25T07:17:46.780Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,36 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwvsjsok",
+   "name": "دورس everything",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 998000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فری سایز ۳۶ تا ۴۶",
+   "height": "",
+   "material": "دورس داخل کرکی گلدوزی",
+   "colors": "۸",
+   "pack": "۸",
+   "desc": "",
+   "images": [
+    "images/products/pmwvsjsok-7kp661.jpg",
+    "images/products/pmwvsjsok-tjzudm.jpg",
+    "images/products/pmwvsjsok-tyom5i.jpg",
+    "images/products/pmwvsjsok-h2dghn.jpg",
+    "images/products/pmwvsjsok-kilg83.jpg",
+    "images/products/pmwvsjsok-tlt90d.jpg",
+    "images/products/pmwvsjsok-963iyj.jpg",
+    "images/products/pmwvsjsok-0foron.jpg",
+    "images/products/pmwvsjsok-jdt0qb.jpg"
+   ],
+   "created": 1795591065741,
+   "updated": "2026-11-25T07:17:45.742Z"
+  },
   {
    "id": "pmwvsifzi",
    "name": "دورس سگ سوسیسی",
