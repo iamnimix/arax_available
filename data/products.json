@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-25T19:36:03.105Z"
+  "updated": "2026-11-25T19:37:35.320Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,36 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwwiz633",
+   "name": "بافت یقه گرد سگ سوسیسی",
+   "category": "بافت",
+   "pinned": false,
+   "hidden": false,
+   "price": 1998000,
+   "priceUnit": "piece",
+   "stock": 5,
+   "code": "",
+   "sizing": "فری ۳۸ تا ۴۴",
+   "height": "",
+   "material": "بافت اکریل",
+   "colors": "۴",
+   "pack": "۴",
+   "desc": "",
+   "images": [
+    "images/products/pmwwiz633-c39pb5.jpg",
+    "images/products/pmwwiz633-2jkmb8.jpg",
+    "images/products/pmwwiz633-aeru1k.jpg",
+    "images/products/pmwwiz633-dm642x.jpg",
+    "images/products/pmwwiz633-7plg3m.jpg",
+    "images/products/pmwwiz633-i79n9h.jpg",
+    "images/products/pmwwiz633-mugfo6.jpg",
+    "images/products/pmwwiz633-5lansp.jpg",
+    "images/products/pmwwiz633-u3oyn4.jpg"
+   ],
+   "created": 1795635454397,
+   "updated": "2026-11-25T19:37:34.398Z"
+  },
   {
    "id": "pmwwiwkjf",
    "name": "دورس گلدوزی اسب",
