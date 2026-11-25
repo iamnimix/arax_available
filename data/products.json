@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-25T10:36:42.574Z"
+  "updated": "2026-11-25T19:35:27.839Z"
  },
  "categories": [
   "محصولات جین",
@@ -19,6 +19,33 @@
   "پالتو"
  ],
  "products": [
+  {
+   "id": "pmwwiwkjf",
+   "name": "دورس گلدوزی اسب",
+   "category": "دورس و هودی",
+   "pinned": false,
+   "hidden": false,
+   "price": 1750000,
+   "priceUnit": "piece",
+   "stock": 10,
+   "code": "",
+   "sizing": "فی سایز ۳۶ تا ۴۸",
+   "height": "",
+   "material": "دورس دونخ پنبه داخل کرکی",
+   "colors": "",
+   "pack": "۵",
+   "desc": "",
+   "images": [
+    "images/products/pmwwiwkjf-o3rstu.jpg",
+    "images/products/pmwwiwkjf-vz09vp.jpg",
+    "images/products/pmwwiwkjf-dll7j8.jpg",
+    "images/products/pmwwiwkjf-drjp3p.jpg",
+    "images/products/pmwwiwkjf-bia1rj.jpg",
+    "images/products/pmwwiwkjf-ohvu1x.jpg"
+   ],
+   "created": 1795635326875,
+   "updated": "2026-11-25T19:35:26.877Z"
+  },
   {
    "id": "pmwvznrmc",
    "name": "ست وست و شلوار جاگر شو",
