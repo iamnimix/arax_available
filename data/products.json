@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-26T16:40:36.698Z"
+  "updated": "2026-11-26T16:40:46.232Z"
  },
  "categories": [
   "محصولات جین",
@@ -3874,7 +3874,7 @@
    "id": "pmvru5kzh",
    "name": "کت جین دکمه صدفی",
    "category": "محصولات جین",
-   "pinned": false,
+   "pinned": true,
    "hidden": false,
    "price": 2698000,
    "priceUnit": "piece",
