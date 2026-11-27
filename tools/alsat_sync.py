@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-همگام‌سازی خودکار محصولات فروشگاه آراکس در «آلسات» با ویترین.
-- لیست محصولات را از صفحه‌ی فروشگاه می‌خواند، هر محصول را باز می‌کند و در data/products.json وارد/به‌روز می‌کند.
+افزودن خودکار محصولِ جدید آلسات به ویترین (فقط افزودن؛ محصولات قبلی را دست نمی‌زند).
+- اولین اجرا: فقط لیست محصولات فعلی آلسات را «به‌عنوان قبلی» ثبت می‌کند (چیزی وارد نمی‌شود).
+- اجراهای بعدی: هر محصولی که تازه در آلسات پیدا شود وارد data/products.json می‌شود.
 - فقط از کتابخانه‌های استاندارد پایتون (+ اختیاری Pillow برای کوچک‌کردن عکس‌ها) استفاده می‌کند.
 اجرا:  python tools/alsat_sync.py            (همگام‌سازی کامل)
         python tools/alsat_sync.py --file page.html   (فقط تست خواندن یک صفحه‌ی محصول)
@@ -142,8 +143,9 @@ def save_image(url, pid, k):
         open(path, 'wb').write(data)
     return path
 
-# ---------- ادغام ----------
-SYNC = ['name', 'price', 'pack', 'colors', 'sizing', 'height', 'material', 'code', 'desc']
+KNOWN = os.getenv('KNOWN_FILE', 'data/alsat_known.json')
+def now_iso(): return datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
 def load():
     try: d = json.load(open(DATA, encoding='utf8'))
     except FileNotFoundError: d = {}
@@ -151,67 +153,59 @@ def load():
     d.setdefault('settings', {}); d.setdefault('categories', []); d.setdefault('products', [])
     return d
 
-def run(dry=False):
+def load_known():
+    try: return set(map(str, json.load(open(KNOWN, encoding='utf8')).get('ids', [])))
+    except FileNotFoundError: return None
+
+def save_known(ids):
+    os.makedirs(os.path.dirname(KNOWN) or '.', exist_ok=True)
+    json.dump({'ids': sorted(ids, key=int), 'updated': now_iso()}, open(KNOWN, 'w', encoding='utf8'), ensure_ascii=False)
+
+def run(dry=False, import_all=False):
     if not robots_ok(): return 1
     ids = discover()
-    if not ids: log('هیچ محصولی در صفحه‌ی فروشگاه پیدا نشد (ساختار صفحه عوض شده یا دسترسی بسته است).'); return 1
-    db = load(); ign = set(map(str, db['settings'].get('alsatIgnore', [])))
-    byA = {p['alsatId']: p for p in db['products'] if p.get('alsatId')}
-    now_ms = int(time.time() * 1000); changed = 0; seen = set(); fresh = []
-    for pid in ids:
-        if pid in ign: continue
+    if not ids:
+        log('هیچ محصولی در صفحه‌ی فروشگاه پیدا نشد (ساختار صفحه عوض شده یا دسترسی بسته است).'); return 1
+    known = load_known()
+    if known is None and not import_all:
+        log(f'اولین اجرا: {len(ids)} محصول فعلی آلسات به‌عنوان «قبلی» ثبت شد. از این به بعد فقط محصولِ جدید وارد می‌شود.')
+        if not dry: save_known(ids)
+        return 0
+    known = known or set()
+    new = [i for i in ids if i not in known]
+    if not new: log('محصول جدیدی در آلسات نیست.'); return 0
+    log(f'{len(new)} محصول جدید پیدا شد.')
+    db = load(); have = {p.get('alsatId') for p in db['products'] if p.get('alsatId')}
+    ign = set(map(str, db['settings'].get('alsatIgnore', [])))
+    fresh = []; now_ms = int(time.time() * 1000)
+    for pid in new:
+        if pid in have or pid in ign: known.add(pid); continue
         try: info = parse_product(fetch(f'{BASE}/product/{pid}/'), pid)
-        except Exception as e: log(f'⚠ محصول {pid} خوانده نشد:', e); continue
+        except Exception as e: log(f'⚠ محصول {pid} خوانده نشد (ساعت بعد دوباره تلاش می‌شود):', e); continue
+        known.add(pid)
         if not info: log(f'⚠ محصول {pid}: ساختار صفحه شناخته نشد'); continue
-        if '/shop/' + SHOP.strip('/').split('/')[-1] not in info['brandUrl']:
-            continue  # محصول فروشگاه دیگر (مثلاً پیشنهادهای مشابه)
-        seen.add(pid)
-        p = byA.get(pid)
-        if p is None:
-            if dry: log('جدید:', info['name']); continue
-            imgs = [save_image(u, pid, k) for k, u in enumerate(info['images'][:10])]
-            p = {'id': 'a' + pid, 'alsatId': pid, 'category': info['category'], 'priceUnit': 'piece',
-                 'stock': DEFAULT_STOCK if info['inStock'] else 0, 'alsatOut': not info['inStock'],
-                 'images': imgs, 'alsatImgs': info['images'][:10], 'created': now_ms,
-                 'updated': info['updatedSrc'] or datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}
-            for f in SYNC: p[f] = info[f]
-            p['alsatHash'] = hashlib.md5(json.dumps([info[f] for f in SYNC], ensure_ascii=False).encode()).hexdigest()
-            if info['category'] and info['category'] not in db['categories']: db['categories'].append(info['category'])
-            fresh.append(p); changed += 1; log('➕ جدید:', info['name'])
-            continue
-        if p.get('locked'): continue
-        h = hashlib.md5(json.dumps([info[f] for f in SYNC], ensure_ascii=False).encode()).hexdigest()
-        ch = False
-        if h != p.get('alsatHash'):
-            for f in SYNC: p[f] = info[f]
-            p['priceUnit'] = 'piece'; p['alsatHash'] = h; ch = True
-            p['updated'] = info['updatedSrc'] or datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-        if info['images'][:10] != p.get('alsatImgs') and not dry:
-            p['images'] = [save_image(u, pid, k) for k, u in enumerate(info['images'][:10])]; p['alsatImgs'] = info['images'][:10]; ch = True
-        if not info['inStock'] and p.get('stock', 0) != 0: p['stock'] = 0; p['alsatOut'] = True; ch = True
-        elif info['inStock'] and p.get('alsatOut'): p['stock'] = DEFAULT_STOCK; p['alsatOut'] = False; ch = True
-        if p.get('alsatGone'): p['hidden'] = False; p['alsatGone'] = False; ch = True
-        if ch: changed += 1; log('✏ به‌روز شد:', p['name'])
-    # محصولاتی که دیگر در آلسات نیستند → مخفی (فقط اگر لیست کامل به نظر برسد)
-    known = [p for p in db['products'] if p.get('alsatId') and not p.get('locked')]
-    if known and len(seen) >= 0.5 * len(known):
-        for p in known:
-            if p['alsatId'] not in seen and p['alsatId'] not in ign and not p.get('alsatGone'):
-                p['hidden'] = True; p['alsatGone'] = True; changed += 1; log('🙈 دیگر در آلسات نیست (مخفی شد):', p['name'])
-    elif known: log('⚠ تعداد محصولات پیداشده خیلی کمتر از قبل است؛ برای ایمنی چیزی مخفی نشد.')
-    if not changed: log('تغییری وجود نداشت.'); return 0
-    db['products'] = fresh + db['products']
-    db['settings']['updated'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-    if not dry:
+        if '/shop/' + SHOP.strip('/').split('/')[-1] not in info['brandUrl']: continue   # محصول فروشگاه دیگر
+        if dry: log('➕ وارد می‌شد:', info['name']); continue
+        imgs = [save_image(u, pid, k) for k, u in enumerate(info['images'][:10])]
+        p = {'id': 'a' + pid, 'alsatId': pid, 'category': info['category'], 'priceUnit': 'piece',
+             'stock': DEFAULT_STOCK if info['inStock'] else 0, 'images': imgs, 'created': now_ms,
+             'updated': info['updatedSrc'] or now_iso()}
+        for f in ['name', 'price', 'pack', 'colors', 'sizing', 'height', 'material', 'code', 'desc']: p[f] = info[f]
+        if info['category'] and info['category'] not in db['categories']: db['categories'].append(info['category'])
+        fresh.append(p); log('➕ جدید:', info['name'])
+    if dry: log('🧪 اجرای آزمایشی: چیزی ذخیره نشد.'); return 0
+    if fresh:
+        db['products'] = fresh + db['products']; db['settings']['updated'] = now_iso()
         os.makedirs(os.path.dirname(DATA) or '.', exist_ok=True)
         json.dump(db, open(DATA, 'w', encoding='utf8'), ensure_ascii=False, indent=1)
-    log(f'✅ پایان: {changed} تغییر');
+    save_known(known)
+    log(f'✅ پایان: {len(fresh)} محصول به ویترین اضافه شد.')
     return 0
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('--file'); ap.add_argument('--dry', action='store_true'); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument('--file'); ap.add_argument('--dry', action='store_true'); ap.add_argument('--import-all', action='store_true'); a = ap.parse_args()
     if a.file:
         print(json.dumps(parse_product(open(a.file, encoding='utf8').read()), ensure_ascii=False, indent=1)); sys.exit(0)
-    try: sys.exit(run(a.dry))
+    try: sys.exit(run(a.dry, a.import_all))
     except Exception as e:
         log('❌ خطا:', e); sys.exit(1)
