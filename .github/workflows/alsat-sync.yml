@@ -1,8 +1,17 @@
-name: همگام‌سازی با آلسات
+name: افزودن محصول جدید آلسات
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
+    inputs:
+      dry:
+        description: 'اجرای آزمایشی (فقط گزارش بده، چیزی ذخیره نکن)'
+        type: boolean
+        default: false
+      import_all:
+        description: 'اولین اجرا: همه‌ی محصولات فعلی آلسات هم وارد شوند'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -16,14 +25,14 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - run: pip install pillow
-      - run: python tools/alsat_sync.py
+      - run: python tools/alsat_sync.py ${{ inputs.dry && '--dry' || '' }} ${{ inputs.import_all && '--import-all' || '' }}
       - name: Commit changes
         run: |
           git config user.name "arax-sync"
           git config user.email "sync@users.noreply.github.com"
           git add data images
           if ! git diff --cached --quiet; then
-            git commit -m "sync from alsat"
+            git commit -m "new products from alsat"
             git pull --rebase
             git push
           fi
