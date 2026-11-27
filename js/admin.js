@@ -106,7 +106,7 @@ function renderList(){
     const id=esc(p.id),c=clicks[p.id];
     return `<div class="item ${p.pinned?'pinned':''} ${p.hidden?'hidden':''}">
     <div class="th" style="background-image:url('${esc(src(p.images?.[0]||''))}')"></div>
-    <div class="nm"><b>${esc(p.name)}</b> ${p.hidden?'<span class="hid">مخفی</span>':''}<br><small>${p.category?esc(p.category)+' — ':''}${fa(p.price)} تومان${p.priceUnit==='pack'?' (هر پک)':''}${c?` — 👁 ${fa(c)} کلیک`:''}</small></div>
+    <div class="nm"><b>${esc(p.name)}</b> ${p.hidden?'<span class="hid">مخفی</span>':''}${p.alsatId?` <span class="hid" style="background:#2f5be0">آلسات${p.locked?' 🔒':''}</span>`:''}<br><small>${p.category?esc(p.category)+' — ':''}${fa(p.price)} تومان${p.priceUnit==='pack'?' (هر پک)':''}${c?` — 👁 ${fa(c)} کلیک`:''}</small></div>
     <div class="stp" title="موجودی (پک)"><button data-sm="${id}">−</button><b>${fa(p.stock)}</b><button data-sp="${id}">+</button></div>
     <div class="acts">
       <button class="pin ${p.pinned?'on':''}" data-pn="${id}">${p.pinned?'📌 پین شده':'📍 پین'}</button>
@@ -151,7 +151,8 @@ $('#list').onclick=async e=>{
     if(!confirm(`«${p.name}» حذف شود؟`))return;
     say('#gmsg','در حال حذف...');
     try{
-      await saveDB({...db,products:db.products.filter(x=>x.id!==d.d)},'delete '+p.name);
+      const st=p.alsatId?{...db.settings,alsatIgnore:[...(db.settings.alsatIgnore||[]),p.alsatId]}:db.settings;
+      await saveDB({...db,settings:st,products:db.products.filter(x=>x.id!==d.d)},'delete '+p.name);
       for(const im of p.images||[])await delFile(im);
       renderList();say('#gmsg','حذف شد. تا ۱–۲ دقیقه‌ی دیگر در ویترین اعمال می‌شود.');
     }catch(err){say('#gmsg','خطا: '+err.message,true)}
@@ -171,7 +172,7 @@ function openForm(p,copy){
   $('#ftitle').textContent=copy?'کپی محصول (عکس و اسم را عوض کنید)':p?'ویرایش محصول':'محصول جدید';
   F.forEach(k=>$('#f_'+k).value=p?(p[k]??''):'');
   if(copy)$('#f_name').value=p.name+' (کپی)';
-  $('#f_unit').value=p?.priceUnit||'piece';
+  $('#f_unit').value=p?.priceUnit||'piece';$('#f_lock').checked=!copy&&!!p?.locked;
   $('#f_category').innerHTML='<option value="">— بدون دسته —</option>'+db.categories.map(c=>`<option ${p&&p.category===c?'selected':''}>${esc(c)}</option>`).join('');
   imgs=copy?[]:(p?.images||[]).map(path=>({path}));
   $('#f_wm').checked=localStorage.getItem('arax_wm')!=='0';
@@ -242,7 +243,7 @@ $('#saveBtn').onclick=async()=>{
       await putFile(path,im.dataUrl.split(',')[1],'add image');
       preview[path]=im.dataUrl;paths.push(path);
     }
-    const p={id,name,category:$('#f_category').value,pinned:!!editing?.pinned,hidden:!!editing?.hidden,
+    const p={...(editing||{}),id,name,locked:$('#f_lock').checked,category:$('#f_category').value,pinned:!!editing?.pinned,hidden:!!editing?.hidden,
       price:+$('#f_price').value||0,priceUnit:$('#f_unit').value,stock:+$('#f_stock').value||0,
       code:$('#f_code').value.trim(),sizing:$('#f_sizing').value.trim(),height:$('#f_height').value.trim(),material:$('#f_material').value.trim(),colors:$('#f_colors').value.trim(),pack:$('#f_pack').value.trim(),
       desc:$('#f_desc').value.trim(),images:paths,created:editing?.created||Date.now(),updated:new Date().toISOString()};
