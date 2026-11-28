@@ -1,7 +1,7 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-26T16:40:46.232Z"
+  "updated": "2026-11-28T09:34:23Z"
  },
  "categories": [
   "محصولات جین",
@@ -16,9 +16,188 @@
   "لگ",
   "شال",
   "اورال",
-  "پالتو"
+  "پالتو",
+  "بالاتنه » شومیز‌",
+  "بالاتنه » کاپشن و پافر",
+  "ست » راحتی",
+  "بالاتنه » هودی و دورس",
+  "بالاتنه » بافت"
  ],
  "products": [
+  {
+   "id": "a49694",
+   "alsatId": "49694",
+   "category": "بالاتنه » شومیز‌",
+   "priceUnit": "piece",
+   "stock": 10,
+   "images": [
+    "images/products/alsat-49694-0-21985b81.jpg",
+    "images/products/alsat-49694-1-24ba4c78.jpg",
+    "images/products/alsat-49694-2-666d2534.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T05:52:00Z",
+   "name": "شومیز تک ابی مکمل استایل",
+   "price": 1070000,
+   "pack": "۶",
+   "colors": "۱",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "",
+   "code": "rx560000239292",
+   "desc": "جهت استایل کردن زیر دورس و بافت"
+  },
+  {
+   "id": "a49692",
+   "alsatId": "49692",
+   "category": "بالاتنه » کاپشن و پافر",
+   "priceUnit": "piece",
+   "stock": 10,
+   "images": [
+    "images/products/alsat-49692-0-d334c0f1.jpg",
+    "images/products/alsat-49692-1-51b0173a.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T05:53:00Z",
+   "name": "کاپشن یقه بلند سیلیکونی",
+   "price": 1950000,
+   "pack": "۵",
+   "colors": "۵",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "سیلیکونی درجه ۱",
+   "code": "rx560000239291",
+   "desc": "کاپشن یقه بلند سیلیکونی — برند آراکس| ARAX"
+  },
+  {
+   "id": "a49683",
+   "alsatId": "49683",
+   "category": "ست » راحتی",
+   "priceUnit": "piece",
+   "stock": 10,
+   "images": [
+    "images/products/alsat-49683-0-faf94a49.jpg",
+    "images/products/alsat-49683-1-3087e0bd.jpg",
+    "images/products/alsat-49683-2-24d1dfda.jpg",
+    "images/products/alsat-49683-3-fec6a635.jpg",
+    "images/products/alsat-49683-4-8f58fab5.jpg",
+    "images/products/alsat-49683-5-33acc633.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T05:50:00Z",
+   "name": "ست بیسیک نیم زیپ",
+   "price": 2320000,
+   "pack": "۶",
+   "colors": "۵",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس حوله ای با کیفیت",
+   "code": "rx560000239290",
+   "desc": "مشکی دوبل"
+  },
+  {
+   "id": "a49682",
+   "alsatId": "49682",
+   "category": "ست » راحتی",
+   "priceUnit": "piece",
+   "stock": 10,
+   "images": [
+    "images/products/alsat-49682-0-047c5490.jpg",
+    "images/products/alsat-49682-1-7d4633b0.jpg",
+    "images/products/alsat-49682-2-042c8a13.jpg",
+    "images/products/alsat-49682-3-9f8f05af.jpg",
+    "images/products/alsat-49682-4-5122a34a.jpg",
+    "images/products/alsat-49682-5-3e2a4abc.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T05:50:00Z",
+   "name": "ست سه تیکه",
+   "price": 2850000,
+   "pack": "۴",
+   "colors": "۴",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس حوله ای درجه ۱",
+   "code": "rx560000239289",
+   "desc": "ست سه تیکه — برند آراکس| ARAX"
+  },
+  {
+   "id": "a49680",
+   "alsatId": "49680",
+   "category": "ست » راحتی",
+   "priceUnit": "piece",
+   "stock": 10,
+   "images": [
+    "images/products/alsat-49680-0-7d5a205e.jpg",
+    "images/products/alsat-49680-1-2f318b04.jpg",
+    "images/products/alsat-49680-2-8a0efeae.jpg",
+    "images/products/alsat-49680-3-56095946.jpg",
+    "images/products/alsat-49680-4-1d610947.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T05:55:00Z",
+   "name": "ست نیویورک",
+   "price": 2320000,
+   "pack": "۴",
+   "colors": "۴",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس حوله ای داخل کرک با کیفیت",
+   "code": "rx560000239288",
+   "desc": "ست نیویورک — برند آراکس| ARAX"
+  },
+  {
+   "id": "a49678",
+   "alsatId": "49678",
+   "category": "بالاتنه » هودی و دورس",
+   "priceUnit": "piece",
+   "stock": 10,
+   "images": [
+    "images/products/alsat-49678-0-90a518ae.jpg",
+    "images/products/alsat-49678-1-f04e6c7d.jpg",
+    "images/products/alsat-49678-2-b4e3e42e.jpg",
+    "images/products/alsat-49678-3-e1fb8853.jpg",
+    "images/products/alsat-49678-4-4bce1957.jpg",
+    "images/products/alsat-49678-5-0cbbc562.jpg",
+    "images/products/alsat-49678-6-cac107f2.jpg",
+    "images/products/alsat-49678-7-be204fe6.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T06:11:00Z",
+   "name": "دورس یقه گرد CHICAGO",
+   "price": 1110000,
+   "pack": "۷",
+   "colors": "۷",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "دورس حوله ای ویتکس با کیفیت",
+   "code": "rx560000239287",
+   "desc": "دورس یقه گرد CHICAGO — برند آراکس| ARAX"
+  },
+  {
+   "id": "a49662",
+   "alsatId": "49662",
+   "category": "بالاتنه » بافت",
+   "priceUnit": "piece",
+   "stock": 0,
+   "images": [
+    "images/products/alsat-49662-0-1122080a.jpg",
+    "images/products/alsat-49662-1-8bf5f8d4.jpg",
+    "images/products/alsat-49662-2-b0e59c72.jpg",
+    "images/products/alsat-49662-3-69882536.jpg"
+   ],
+   "created": 1795858380818,
+   "updated": "2026-11-28T09:03:00Z",
+   "name": "بافت لوزی اکریل",
+   "price": 2100000,
+   "pack": "۶",
+   "colors": "۳",
+   "sizing": "فری سایز",
+   "height": "",
+   "material": "اکریل ترک",
+   "code": "rx560000239286",
+   "desc": "بافت لوزی اکریل — برند آراکس| ARAX"
+  },
   {
    "id": "pmwwj168s",
    "name": "کراپ هودی چاپی",
