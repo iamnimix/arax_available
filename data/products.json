@@ -1,7 +1,10 @@
 {
  "settings": {
   "gc": "arax",
-  "updated": "2026-11-28T09:34:23Z"
+  "updated": "2026-11-28T12:01:37.146Z",
+  "alsatIgnore": [
+   "49694"
+  ]
  },
  "categories": [
   "محصولات جین",
@@ -24,29 +27,6 @@
   "بالاتنه » بافت"
  ],
  "products": [
-  {
-   "id": "a49694",
-   "alsatId": "49694",
-   "category": "بالاتنه » شومیز‌",
-   "priceUnit": "piece",
-   "stock": 10,
-   "images": [
-    "images/products/alsat-49694-0-21985b81.jpg",
-    "images/products/alsat-49694-1-24ba4c78.jpg",
-    "images/products/alsat-49694-2-666d2534.jpg"
-   ],
-   "created": 1795858380818,
-   "updated": "2026-11-28T05:52:00Z",
-   "name": "شومیز تک ابی مکمل استایل",
-   "price": 1070000,
-   "pack": "۶",
-   "colors": "۱",
-   "sizing": "فری سایز",
-   "height": "",
-   "material": "",
-   "code": "rx560000239292",
-   "desc": "جهت استایل کردن زیر دورس و بافت"
-  },
   {
    "id": "a49692",
    "alsatId": "49692",
